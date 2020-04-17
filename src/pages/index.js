@@ -8,8 +8,7 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -48,14 +47,14 @@ class HomeIndex extends React.Component {
                                 <h3>Mission</h3>
                                 <p>Lorem etiam nullam</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/mission" className="link primary"></Link>
                         </article>
                         <article style={{ backgroundImage: `url(${pic04})` }}>
                             <header className="major">
                                 <h3>About</h3>
                                 <p>Nisl sed aliquam</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/about" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
