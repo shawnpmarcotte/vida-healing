@@ -43,7 +43,7 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <Link to="/generic" className="image">
                         <img src={pic09} alt="" />
                     </Link>
@@ -58,8 +58,8 @@ const Landing = (props) => (
                             </ul>
                         </div>
                     </div>
-                </section>
-                <section>
+                </section> */}
+                {/* <section>
                     <Link to="/generic" className="image">
                         <img src={pic10} alt="" />
                     </Link>
@@ -74,7 +74,7 @@ const Landing = (props) => (
                             </ul>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </section>
         </div>
 
