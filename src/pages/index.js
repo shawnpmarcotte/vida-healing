@@ -60,7 +60,7 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h3>GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS.LIVE THE LIFE YOU HAVE IMAGINED.</h3>
+                                <h3>GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS. LIVE THE LIFE YOU HAVE IMAGINED</h3>
                             </header>
                             <h4> - HENRY DAVID THOREAU</h4>
                             <ul className="actions">
