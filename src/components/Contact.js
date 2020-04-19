@@ -13,6 +13,14 @@ const Contact = (props) => (
                         <label htmlFor="email">Email</label>
                         <input type="text" name="email" id="email" />
                     </div>
+                    <div className="field half first">
+                        <label htmlFor="name">Subject</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div className="field half">
+                        <label htmlFor="email">Phone Number</label>
+                        <input type="text" name="email" id="email" />
+                    </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
                         <textarea name="message" id="message" rows="6"></textarea>
