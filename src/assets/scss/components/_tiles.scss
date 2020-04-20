@@ -69,13 +69,13 @@
     }
 
     &:before {
-      @include vendor('transition', 'opacity 0.5s ease');
+      @include vendor('transition', 'opacity 2s ease');
       bottom: 0;
       content: '';
       display: block;
       height: 100%;
       left: 0;
-      opacity: 0.85;
+      opacity: 0.75;
       position: absolute;
       width: 100%;
       z-index: 2;
@@ -142,7 +142,7 @@
 
     &:nth-child(6n) {
       &:before {
-        background-color: _palette(accent6);
+        background-color: _palette(accent8);
       }
     }
   }
