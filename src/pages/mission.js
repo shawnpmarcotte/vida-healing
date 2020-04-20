@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerMission'
 
-import pic08 from '../assets/images/pic08.jpg'
+import pic04 from '../assets/images/pic04.jpg'
 
 const Landing = props => (
   <Layout>
@@ -18,7 +18,7 @@ const Landing = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={pic08} alt="" />
+          <img src={pic04} alt="" />
           <div className="content">
             <div className="inner">
               {/* <header className="major">
