@@ -34,8 +34,7 @@ const Family = props => (
                 assist. Our goal is to establish strong communication skills and
                 create a stronger and healthier family.
                 <br />
-                If you are dealing with any of the issues above, please {''}
-                <a href="#">Contact Us</a> today for an appointment.
+                If you are dealing with any of the issues above, please contact us below for an appointment
               </h4>
             </div>
           </div>

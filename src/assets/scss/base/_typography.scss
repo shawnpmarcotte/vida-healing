@@ -38,11 +38,11 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent7) !important;
+			color: _palette(accent9) !important;
 		}
 
 		&:active {
-			color: desaturate(darken(_palette(accent7), 15), 5) !important;
+			color: desaturate(darken(_palette(accent9), 15), 5) !important;
 		}
 	}
 

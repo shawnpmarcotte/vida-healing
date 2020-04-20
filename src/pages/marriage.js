@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerMarriage from '../components/BannerMarriage'
 
-import pic08 from '../assets/images/pic08.jpg'
+import pic01 from '../assets/images/pic01.jpg'
 
 const Marriage = props => (
   <Layout>
@@ -18,7 +18,7 @@ const Marriage = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={pic08} alt="" />
+          <img src={pic01} alt="" />
           <div className="content">
             <div className="inner">
               <h4>
@@ -34,20 +34,27 @@ const Marriage = props => (
                 There are times when a relationship seems hopeless and there is
                 no help in sight. But, we believe with a little insight, the
                 bond between two individuals can be strengthened and a
-                successful relationship is possible. <br />
-                <strong> Warning Signs of a Troubled Relationship</strong>{' '}
-                <ul>
-                  <li>Loneliness </li>
-                  <li>Isolation</li>
-                  <li>Infidelity</li>
-                  <li>Disconnectedness</li>
-                  <li>Loss of passion or romance</li>
-                  <li>Financial Issues</li>
-                  <li>Communication difficulties</li>
-                </ul>
-                If you are looking for a caring, compassionate, and professional
-                marriage or couples therapist <a href="#">Contact Us</a> today.
+                successful relationship is possible.
               </h4>
+              <h5>
+                Warning Signs of a Troubled Relationship
+              </h5>
+              <ul>
+                <li>Loneliness </li>
+                <li>Isolation</li>
+                <li>Infidelity</li>
+                <li>Disconnectedness</li>
+                <li>Loss of passion or romance</li>
+                <li>Financial Issues</li>
+                <li>Communication difficulties</li>
+              </ul>
+              <h3>
+                If you are looking for a caring, compassionate, and professional
+                marriage or couples therapist please contact us today
+              </h3>
+              <div>
+
+              </div>
             </div>
           </div>
         </section>

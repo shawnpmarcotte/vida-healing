@@ -30,11 +30,13 @@ const Aba = props => (
                 motivation from Behavior Analysis, and the procedures and
                 technology derived from those principles, to the solution of
                 problems of social significance. Many decades of research have
-                validated treatments based on ABA. <br />
-                <a href="#">Contact Us</a> at Vida Healing today if you have a
-                child or family member that you think will benefit from these
-                services.
+                validated treatments based on ABA.
               </h4>
+              <h3>
+                Contact Us at Vida Healing today if you have a
+                child or family member that you think will benefit from these
+                services
+              </h3>
             </div>
           </div>
         </section>
