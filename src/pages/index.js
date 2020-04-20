@@ -34,21 +34,21 @@ class HomeIndex extends React.Component {
               <Link to="/individual" className="link primary" />
             </article>
             {/******************************************
-              This is the ABS article 
+              This is the ABA article 
               ******************************************/}
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>Applied Behavior Analysis (ABS)</h3>
+                <h3>Applied Behavior Analysis (ABA)</h3>
                 <p>feugiat amet tempus</p>
               </header>
-              <Link to="/abs" className="link primary" />
+              <Link to="/aba" className="link primary" />
             </article>
             {/********************************************** 
             This is the MARRIAGE AND COUPLES THERAPY article 
             ************************************************/}
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>Marriage and couples therapy</h3>
+                <h3>Marriage And Couples Therapy</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/marriage" className="link primary" />

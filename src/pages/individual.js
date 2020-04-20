@@ -23,7 +23,19 @@ const Individual = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              <h4>Individual</h4>
+              <h4>
+                You don’t have to face your issues alone. We provide individual
+                therapy and we believe that this is a joint process between a
+                therapist and the person in therapy. Depression and anxiety are
+                two of the most common mental health issues in America. At Vida
+                Healing, we can assist you in learning how to deal with your
+                depression or anxiety through therapy. We will work with you in
+                developing helpful strategies for dealing with these issues and
+                create an environment where you feel safe to work with us.
+                <br />
+                <a href="#">Contact Us</a> at Vida Healing for an appointment
+                today if you need assistance.
+              </h4>
             </div>
           </div>
         </section>
