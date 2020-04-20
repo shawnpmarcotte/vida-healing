@@ -1,19 +1,19 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from '../../components/layout'
-import AboutLanding from '../../components/AboutLanding'
+import Layout from '../components/layout'
+import BannerAbout from '../components/BannerAbout'
 
-import pic08 from '../../assets/images/pic08.jpg'
+import pic08 from '../assets/images/pic08.jpg'
 
-const Landing = props => (
+const About = props => (
   <Layout>
     <Helmet>
       <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Landing Page" />
+      <meta name="description" content="About Page" />
     </Helmet>
 
-    <AboutLanding />
+    <BannerAbout />
 
     <div id="main">
       <section id="two" className="spotlights">
@@ -88,4 +88,4 @@ const Landing = props => (
   </Layout>
 )
 
-export default Landing
+export default About

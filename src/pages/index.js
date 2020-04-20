@@ -33,7 +33,7 @@ class HomeIndex extends React.Component {
                 <h3>Individual Therapy</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/individual" className="link primary" />
             </article>
             {/******************************************
               This is the ABS article 
@@ -43,7 +43,7 @@ class HomeIndex extends React.Component {
                 <h3>Applied Behavior Analysis (ABS)</h3>
                 <p>feugiat amet tempus</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/abs" className="link primary" />
             </article>
             {/********************************************** 
             This is the MARRIAGE AND COUPLES THERAPY article 
@@ -53,7 +53,7 @@ class HomeIndex extends React.Component {
                 <h3>Marriage and couples therapy</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/marriage" className="link primary" />
             </article>
             {/****************************************
              This is the FAMILY THERAPY article 
@@ -63,7 +63,7 @@ class HomeIndex extends React.Component {
                 <h3>Family Therapy</h3>
                 <p>feugiat amet tempus</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/family" className="link primary" />
             </article>
             {/*****************************************
              This is the MISSION article 
