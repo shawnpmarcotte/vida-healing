@@ -95,8 +95,8 @@
 		}
 
 		&:focus {
-			border-color: _palette(highlight);
-			box-shadow: 0 0 0 2px _palette(highlight);
+			border-color: _palette(accent7);
+			box-shadow: 0 0 0 2px _palette(accent7);
 		}
 	}
 
@@ -176,7 +176,7 @@
 		&:checked + label {
 			&:before {
 				background: _palette(fg-bold);
-				border-color: _palette(highlight);
+				border-color: _palette(accent7);
 				content: '\f00c';
 				color: _palette(bg);
 			}
@@ -184,7 +184,7 @@
 
 		&:focus + label {
 			&:before {
-				box-shadow: 0 0 0 2px _palette(highlight);
+				box-shadow: 0 0 0 2px _palette(accent7);
 			}
 		}
 	}
