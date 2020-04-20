@@ -18,9 +18,7 @@ const About = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
-          </Link>
+          <img src={pic08} alt="" />
           <div className="content">
             <div className="inner">
               {/* <header className="major">

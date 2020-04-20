@@ -18,9 +18,7 @@ const Individual = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
-          </Link>
+          <img src={pic08} alt="" />
           <div className="content">
             <div className="inner">
               <h4>
@@ -32,10 +30,9 @@ const Individual = props => (
                 depression or anxiety through therapy. We will work with you in
                 developing helpful strategies for dealing with these issues and
                 create an environment where you feel safe to work with us.
-                <br />
-                <a href="#">Contact Us</a> at Vida Healing for an appointment
-                today if you need assistance.
               </h4>
+              <h3>Please contact us at Vida Healing for an appointment
+                today if you need assistance</h3>
             </div>
           </div>
         </section>
