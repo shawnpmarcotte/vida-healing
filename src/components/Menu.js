@@ -23,10 +23,9 @@ const Menu = (props) => (
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
     </nav>
-)
 
 Menu.propTypes = {
-    onToggleMenu: PropTypes.func
+  onToggleMenu: PropTypes.func,
 }
 
 export default Menu
