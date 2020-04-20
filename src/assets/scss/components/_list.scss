@@ -163,12 +163,12 @@
 						color: _palette(bg);
 
 						&:hover {
-							background-color: _palette(highlight);
+							background-color: _palette(accent7);
 							color: _palette(bg) !important;
 						}
 
 						&:active {
-							background-color: desaturate(darken(_palette(highlight), 15), 5);
+							background-color: desaturate(darken(_palette(accent7), 15), 5);
 						}
 					}
 				}
