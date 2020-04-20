@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerIndividual from '../components/BannerIndividual'
 
-import pic08 from '../assets/images/pic08.jpg'
+import pic09 from '../assets/images/pic09.jpg'
 
 const Individual = props => (
   <Layout>
@@ -18,7 +18,7 @@ const Individual = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={pic08} alt="" />
+          <img src={pic09} alt="" />
           <div className="content">
             <div className="inner">
               <h4>

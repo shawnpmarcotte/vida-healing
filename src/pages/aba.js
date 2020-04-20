@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAbs from '../components/BannerAba'
 
-import pic08 from '../assets/images/pic08.jpg'
+import pic10 from '../assets/images/pic10.jpg'
 
 const Aba = props => (
   <Layout>
@@ -18,7 +18,7 @@ const Aba = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={pic08} alt="" />
+          <img src={pic10} alt="" />
           <div className="content">
             <div className="inner">
               <h4>

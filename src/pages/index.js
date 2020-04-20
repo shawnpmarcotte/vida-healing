@@ -93,13 +93,6 @@ class HomeIndex extends React.Component {
                 </h3>
               </header>
               <h4> - HENRY DAVID THOREAU</h4>
-              <ul className="actions">
-                <li>
-                  <Link to="/landing" className="button next">
-                    Get Started
-                  </Link>
-                </li>
-              </ul>
             </div>
           </section>
         </div>

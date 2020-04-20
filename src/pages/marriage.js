@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerMarriage from '../components/BannerMarriage'
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic09 from '../assets/images/pic09.jpg'
 
 const Marriage = props => (
   <Layout>
@@ -18,7 +18,7 @@ const Marriage = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={pic01} alt="" />
+          <img src={pic09} alt="" />
           <div className="content">
             <div className="inner">
               <h4>
