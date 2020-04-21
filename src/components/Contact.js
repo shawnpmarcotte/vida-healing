@@ -5,22 +5,37 @@ const Contact = props => (
     <div className="inner">
       <section>
         <form method="post" action="#">
+          {/************************************
+           * NAME
+           *************************************/}
           <div className="field half first">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" />
           </div>
+          {/************************************
+           * EMAIL
+           *************************************/}
           <div className="field half">
             <label htmlFor="email">Email</label>
             <input type="text" name="email" id="email" />
           </div>
+          {/************************************
+           * SUBJECT
+           *************************************/}
           <div className="field half first">
             <label htmlFor="name">Subject</label>
             <input type="text" name="name" id="name" />
           </div>
+          {/************************************
+           * PHONE NUMBER
+           *************************************/}
           <div className="field half">
             <label htmlFor="email">Phone Number</label>
             <input type="text" name="email" id="email" />
           </div>
+          {/************************************
+           * MESSAGE
+           *************************************/}
           <div className="field">
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message" rows="6"></textarea>
@@ -66,7 +81,6 @@ const Contact = props => (
             <footer id="footer">
               <div className="inner">
                 <ul className="icons">
-                  {/* <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li> */}
                   <li>
                     <a
                       href="https://www.facebook.com/VidaHealingLLC/"
@@ -85,7 +99,6 @@ const Contact = props => (
                       <span className="label">Instagram</span>
                     </a>
                   </li>
-                  {/* <li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li> */}
                   <li>
                     <a
                       href="https://www.linkedin.com/in/nely-henderson-43a19a92/"
