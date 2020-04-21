@@ -6,54 +6,51 @@
 
 /* Icon */
 
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
 
-.icon {
-  @include icon;
-  border-bottom: none;
-  position: relative;
+		> .label {
+			display: none;
+		}
 
-  > .label {
-    display: none;
+		&.alt {
+			&:before {
+				background-color: _palette(fg-bold);
+				border-radius: 100%;
+				color: _palette(bg);
+				display: inline-block;
+				height: 2em;
+				line-height: 2em;
+				text-align: center;
+				width: 2em;
+			}
+		}
+  }
+  
+  ul.icons {
+    display: flex;
+    justify-content: space-between;
   }
 
-  &.alt {
-    &:before {
-      background-color: _palette(fg-bold);
-      border-radius: 100%;
-      color: _palette(bg);
-      display: inline-block;
-      height: 2em;
-      line-height: 2em;
-      text-align: center;
-      width: 2em;
-    }
-  }
-}
+	a.icon {
+		&.alt {
+			&:before {
+				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+			}
 
-ul.icons {
-  display: flex;
-  justify-content: space-between;
-}
+			&:hover {
+				&:before {
+					background-color: _palette(accent9);
+				}
+			}
 
-a.icon {
-  &.alt {
-    &:before {
-      @include vendor(
-        'transition',
-        'background-color #{_duration(transition)} ease-in-out'
-      );
-    }
+			&:active {
+				&:before {
+					background-color: desaturate(darken(_palette(accent9), 15), 5);
+				}
+			}
+		}
+	}
 
-    &:hover {
-      &:before {
-        background-color: _palette(accent1);
-      }
-    }
-
-    &:active {
-      &:before {
-        background-color: desaturate(darken(_palette(accent1), 15), 5);
-      }
-    }
-  }
-}
