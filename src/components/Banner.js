@@ -7,12 +7,11 @@ const Banner = props => (
         <h1>Welcome to Vida Healing!</h1>
       </header>
       <div className="content">
-        <p>
-          At Vida Healing we specialize in Applied Behavior Analysis (ABA)
-          <br />
-          Contact us if you have a child or family member that you think will
+        <h4>
+          At Vida Healing we specialize in Applied Behavior Analysis (ABA).
+          Contact us if <br />you have a child or family member that you think will
           benefit from these services
-        </p>
+        </h4>
         <ul className="actions">
           <li>
             <a href="#one" className="button next scrolly">

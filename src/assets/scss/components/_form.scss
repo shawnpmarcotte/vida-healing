@@ -95,8 +95,8 @@
 		}
 
 		&:focus {
-			border-color: _palette(accent9);
-			box-shadow: 0 0 0 2px _palette(accent9);
+			border-color: _palette(fg-bold);
+			box-shadow: 0 0 0 2px _palette(fg-bold);
 		}
 	}
 
@@ -106,7 +106,7 @@
 		position: relative;
 
 		&:before {
-			color: _palette(border);
+			color: _palette(fg-bold);
 			content: '\f078';
 			display: block;
 			height: _size(element-height);
@@ -150,7 +150,7 @@
 
 		& + label {
 			@include icon;
-			color: _palette(fg);
+			color: _palette(fg-bold);
 			cursor: pointer;
 			display: inline-block;
 			font-weight: _font(weight);
@@ -159,7 +159,7 @@
 			position: relative;
 
 			&:before {
-				background: _palette(border-bg);
+				background: _palette(fg-bold);
 				content: '';
 				display: inline-block;
 				height: (_size(element-height) * 0.6);
@@ -176,15 +176,15 @@
 		&:checked + label {
 			&:before {
 				background: _palette(fg-bold);
-				border-color: _palette(accent9);
+				border-color: _palette(fg-bold);
 				content: '\f00c';
-				color: _palette(bg);
+				color: _palette(fg-bold);
 			}
 		}
 
 		&:focus + label {
 			&:before {
-				box-shadow: 0 0 0 2px _palette(accent9);
+				box-shadow: 0 0 0 2px _palette(fg-bold);
 			}
 		}
 	}
@@ -205,26 +205,26 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-bold) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-bold) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-bold) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-bold) !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-bold) !important;
 		opacity: 1.0;
 	}
