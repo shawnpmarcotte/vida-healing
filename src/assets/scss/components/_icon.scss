@@ -27,7 +27,12 @@
 				width: 2em;
 			}
 		}
-	}
+  }
+  
+  ul.icons {
+    display: flex;
+    justify-content: space-between;
+  }
 
 	a.icon {
 		&.alt {
