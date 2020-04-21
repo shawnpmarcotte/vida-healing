@@ -6,45 +6,54 @@
 
 /* Icon */
 
-	.icon {
-		@include icon;
-		border-bottom: none;
-		position: relative;
 
-		> .label {
-			display: none;
-		}
+.icon {
+  @include icon;
+  border-bottom: none;
+  position: relative;
 
-		&.alt {
-			&:before {
-				background-color: _palette(fg-bold);
-				border-radius: 100%;
-				color: _palette(bg);
-				display: inline-block;
-				height: 2em;
-				line-height: 2em;
-				text-align: center;
-				width: 2em;
-			}
-		}
-	}
+  > .label {
+    display: none;
+  }
 
-	a.icon {
-		&.alt {
-			&:before {
-				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
-			}
+  &.alt {
+    &:before {
+      background-color: _palette(fg-bold);
+      border-radius: 100%;
+      color: _palette(bg);
+      display: inline-block;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      width: 2em;
+    }
+  }
+}
 
-			&:hover {
-				&:before {
-					background-color: _palette(accent9);
-				}
-			}
+ul.icons {
+  display: flex;
+  justify-content: space-between;
+}
 
-			&:active {
-				&:before {
-					background-color: desaturate(darken(_palette(accent9), 15), 5);
-				}
-			}
-		}
-	}
+a.icon {
+  &.alt {
+    &:before {
+      @include vendor(
+        'transition',
+        'background-color #{_duration(transition)} ease-in-out'
+      );
+    }
+
+    &:hover {
+      &:before {
+        background-color: _palette(accent1);
+      }
+    }
+
+    &:active {
+      &:before {
+        background-color: desaturate(darken(_palette(accent1), 15), 5);
+      }
+    }
+  }
+}
