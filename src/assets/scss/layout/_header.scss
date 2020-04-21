@@ -13,7 +13,7 @@
 
 	#header {
 		@include vendor('display', 'flex');
-		background-color: _palette(accent6);
+		background-color: _palette(a);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
@@ -130,8 +130,10 @@
 		}
 
 		&.alt {
-			@include vendor('transition', 'opacity #{_duration(accent6)} ease');
-			@include vendor('transition-delay', '0.75s');
+			@include vendor('transition', 
+			('opacity #{_duration(accent6)} 1.5s ease',
+			));
+			@include vendor('transition-delay', '.75s');
 			@include vendor('animation', 'none');
 			background-color: transparent;
 			box-shadow: none;
