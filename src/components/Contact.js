@@ -26,6 +26,11 @@ const Contact = props => {
       <div className="inner">
         <section>
           <form method="post" action="#" onSubmit={handleSubmit}>
+
+            {/************************************
+             * NAME
+             *************************************/}
+
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input
@@ -37,6 +42,11 @@ const Contact = props => {
               />
               {errors.name && <p>{errors.name}</p>}
             </div>
+
+            {/************************************
+             * EMAIL
+             *************************************/}
+
             <div className="field half">
               <label htmlFor="email">Email</label>
               <input
@@ -48,6 +58,11 @@ const Contact = props => {
               />
               {errors.email && <p>{errors.email}</p>}
             </div>
+
+            {/************************************
+             * SUBJECT
+             *************************************/}
+
             <div className="field half first">
               <label htmlFor="subject">Subject</label>
               <input
@@ -59,6 +74,11 @@ const Contact = props => {
               />
               {errors.subject && <p>{errors.subject}</p>}
             </div>
+
+            {/************************************
+             * PHONE NUMBER
+             *************************************/}
+
             <div className="field half">
               <label htmlFor="number">Phone Number</label>
               <input
@@ -70,6 +90,11 @@ const Contact = props => {
               />
               {errors.number && <p>{errors.number}</p>}
             </div>
+
+            {/************************************
+             * MESSAGE
+             *************************************/}
+
             <div className="field">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="6"></textarea>
@@ -83,6 +108,11 @@ const Contact = props => {
               </li>
             </ul>
           </form>
+
+          {/*************************************** 
+          END OF THE FORM 
+          *****************************************/}
+
         </section>
         <section className="split">
           <section>
