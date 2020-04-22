@@ -20,6 +20,7 @@ const Contact = props => {
   const handleSubmit = event => {
     event.preventDefault()
     setErrors(validators(formData))
+    setFormData(INITIAL_STATE)
   }
   return (
     <section id="contact">
