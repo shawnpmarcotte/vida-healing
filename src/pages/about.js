@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAbout from '../components/BannerAbout'
 
-import pic08 from '../assets/images/pic08.jpg'
+import aboutSecondary from '../assets/images/about-secondary.jpg'
 
 const About = props => (
   <Layout>
@@ -18,7 +18,7 @@ const About = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={pic08} alt="" />
+          <img src={aboutSecondary} alt="" />
           <div className="content">
             <div className="inner">
               {/* <header className="major">

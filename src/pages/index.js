@@ -4,10 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import individualCover from '../assets/images/individual-cover.jpg'
+import abaCover from '../assets/images/aba-cover.jpg'
+import marriageCover from '../assets/images/marriage-cover.jpg'
+import familyCover from '../assets/images/family-cover.jpg'
+import missionCover from '../assets/images/mission-cover.jpg'
+import aboutCover from '../assets/images/about-cover.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -26,7 +28,7 @@ class HomeIndex extends React.Component {
             {/******************************************
              This is the INDIVIDUAL THERAPY article 
             ******************************************/}
-            <article style={{ backgroundImage: `url(${pic01})` }}>
+            <article style={{ backgroundImage: `url(${individualCover})` }}>
               <header className="major">
                 <h3>Individual Therapy</h3>
                 <p>Ipsum dolor sit amet</p>
@@ -36,7 +38,7 @@ class HomeIndex extends React.Component {
             {/******************************************
               This is the ABA article 
               ******************************************/}
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${abaCover})` }}>
               <header className="major">
                 <h3>Applied Behavior Analysis (ABA)</h3>
                 <p>feugiat amet tempus</p>
@@ -46,7 +48,7 @@ class HomeIndex extends React.Component {
             {/********************************************** 
             This is the MARRIAGE AND COUPLES THERAPY article 
             ************************************************/}
-            <article style={{ backgroundImage: `url(${pic01})` }}>
+            <article style={{ backgroundImage: `url(${marriageCover})` }}>
               <header className="major">
                 <h3>Marriage And Couples Therapy</h3>
                 <p>Ipsum dolor sit amet</p>
@@ -56,7 +58,7 @@ class HomeIndex extends React.Component {
             {/****************************************
              This is the FAMILY THERAPY article 
             ******************************************/}
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${familyCover})` }}>
               <header className="major">
                 <h3>Family Therapy</h3>
                 <p>feugiat amet tempus</p>
@@ -66,7 +68,7 @@ class HomeIndex extends React.Component {
             {/*****************************************
              This is the MISSION article 
              ******************************************/}
-            <article style={{ backgroundImage: `url(${pic03})` }}>
+            <article style={{ backgroundImage: `url(${missionCover})` }}>
               <header className="major">
                 <h3>Mission</h3>
                 <p>Lorem etiam nullam</p>
@@ -76,7 +78,7 @@ class HomeIndex extends React.Component {
             {/******************************************
               This is the ABOUT article 
               ******************************************/}
-            <article style={{ backgroundImage: `url(${pic04})` }}>
+            <article style={{ backgroundImage: `url(${aboutCover})` }}>
               <header className="major">
                 <h3>About</h3>
                 <p>Nisl sed aliquam</p>
