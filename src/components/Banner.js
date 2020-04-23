@@ -4,13 +4,11 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>Welcome to Vida Healing!</h1>
+        <h1>Autism: The Symptoms and Signs to Look For</h1>
       </header>
       <div className="content">
         <h4>
-          At Vida Healing we specialize in Applied Behavior Analysis (ABA).
-          Contact us if <br />you have a child or family member that you think will
-          benefit from these services
+          It is vital for you as the parent/caregiver to know what early signs of autism are and to familiarize yourself with the developmental milestones the child needs to be reaching at particular ages and stages of childhood
         </h4>
         <ul className="actions">
           <li>
