@@ -31,8 +31,10 @@ const Individual = props => (
                 developing helpful strategies for dealing with these issues and
                 create an environment where you feel safe to work with us.
               </h4>
-              <h3>Please contact us at Vida Healing for an appointment
-                today if you need assistance</h3>
+              <h3>
+                Please contact us at Vida Healing for an appointment today if
+                you need assistance
+              </h3>
             </div>
           </div>
         </section>
