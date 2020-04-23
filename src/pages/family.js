@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerFamily from '../components/BannerFamily'
 
-import pic10 from '../assets/images/pic10.jpg'
+import familysecondary from '../assets/images/family-secondary.jpg'
 
 const Family = props => (
   <Layout>
@@ -18,7 +18,7 @@ const Family = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={pic10} alt="" />
+          <img src={familysecondary} alt="" />
           <div className="content">
             <div className="inner">
               <h4>
