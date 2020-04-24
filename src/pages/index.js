@@ -46,24 +46,31 @@ class HomeIndex extends React.Component {
               <Link to="/aba" className="link primary" />
             </article>
             {/********************************************** 
-            This is the MARRIAGE AND COUPLES THERAPY article 
+            This is the AUTISM: WHAT ARE THE CAUSES? article 
             ************************************************/}
             <article style={{ backgroundImage: `url(${marriageCover})` }}>
               <header className="major">
-                <h3>Marriage And Couples Therapy</h3>
+                <h3>Autism: What are the Causes?</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/marriage" className="link primary" />
             </article>
             {/****************************************
-             This is the FAMILY THERAPY article 
+             This is the ASBERGERS SYNDROME article 
             ******************************************/}
             <article style={{ backgroundImage: `url(${familyCover})` }}>
               <header className="major">
-                <h3>Family Therapy</h3>
+                <h3>Asperger's Syndrome:<br /> What is it?</h3>
                 <p>feugiat amet tempus</p>
               </header>
               <Link to="/family" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${marriageCover})` }}>
+              <header className="major">
+                <h3>Autism: Facts and Statistics</h3>
+                <p>Ipsum dolor sit amet</p>
+              </header>
+              <Link to="/marriage" className="link primary" />
             </article>
             {/*****************************************
              This is the MISSION article 
