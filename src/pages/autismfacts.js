@@ -48,7 +48,7 @@ const Generic = (props) => (
                             <div className="inner">
                                 <h2>Autism: Intervention and Supports</h2>
                                 <ul className="actions">
-                                    <h4> • Limited smiling/joyful and engaging expressions</h4>
+                                    <h4> •  Early treatment boosts interaction, social skills, and learning. It also supports underlying brain development</h4>
                                     <h4> • Applied behavior analysis is based upon concepts that are explored and commonly used in autism behavioral interventions</h4>
                                     <h4> • Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy.</h4>
                                     <h4> • Developmental ability regression (like community interests and language) affects about 20% of kids that are later identified as on the autism spectrum; this usually occurs between ages one and three</h4>
@@ -119,20 +119,6 @@ const Generic = (props) => (
                     <h4>Of the nearly 18,000 individuals with autism that utilize state-funded vocational rehabilitation programs in 2014, only about 60% of them completed the program. Of the ones that did, 80% earned around $160/week, earnings that guarantee they're way below the poverty line</h4>
                     <h4>Nearly ½ of those aged 25 with autism have never had a paying job.</h4>
                     <h4>Research has shown that jobs/job tasks that emphasize independence help to reduce and mitigate autism symptoms as well as increase everyday living skills</h4>
-                </div>
-            </section>
-        </div>
-        <div id="main" className="alt">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                    </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <h1>Autism in Teens and Young Adults: The Signs</h1>
-                    <h4>Do you think there are signs you or an adult/teen individual you know has autism? Many people have milder autism, which goes unnoticed and undiagnosed until adulthood. You can learn more in our guide: "Is it Autism and If So, What Next?"</h4>
-                    <h4>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h4>
-                    <h2>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h2>
-                    <h2>Please contact us at Vida Healing for an appointment today ifyou need assistance</h2>
                 </div>
             </section>
         </div>
