@@ -10,6 +10,7 @@ import marriageCover from '../assets/images/marriage-cover.jpg'
 import familyCover from '../assets/images/family-cover.jpg'
 import missionCover from '../assets/images/mission-cover.jpg'
 import aboutCover from '../assets/images/about-cover.jpg'
+import pic07 from '../assets/images/pic07.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -72,6 +73,19 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/marriage" className="link primary" />
             </article>
+            <article style={{ backgroundImage: `url(${pic07})` }}>
+              <h3>NEED TO FIGURE OUT WHAT TO DO WITH THIS SPACE</h3>
+            </article>
+            {/* <section>
+              <div>
+                <header className="major">
+                  <h3>
+                    IT DOES NOT MATTER HOW SLOWLY YOU GO, AS LONG AS YOU DO NOT STOP
+                </h3>
+                </header>
+                <h4> - CONFUCIOUS</h4>
+              </div>
+            </section> */}
             {/*****************************************
              This is the MISSION article 
              ******************************************/}
