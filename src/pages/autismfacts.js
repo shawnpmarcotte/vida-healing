@@ -72,51 +72,33 @@ const Generic = (props) => (
                             </div>
                         </div>
                     </section>
-                    <section>
-                        <img className="image" src={pic09} alt="" />
-                        <div className="content">
+                    <div id="main" className="alt">
+                        <section id="one">
                             <div className="inner">
-                                <h2>The Challenges</h2>
-                                <ul className="actions">
-                                    <h4> • Limited smiling/joyful and engaging expressions</h4>
-                                    <h4> • Applied behavior analysis is based upon concepts that are explored and commonly used in autism behavioral interventions</h4>
-                                    <h4> • Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy.</h4>
-                                    <h4> • Developmental ability regression (like community interests and language) affects about 20% of kids that are later identified as on the autism spectrum; this usually occurs between ages one and three</h4>
-                                </ul>
+                                <header className="major">
+                                </header>
+                                <span className="image main"><img src={pic11} alt="" /></span>
+                                <h1>Associated Medical and Mental Health Conditions</h1>
+                                <h4> • Autism affects the entire body and can change the body as well</h4>
+                                <h4> • Over 50% of kids with autism have sleeping problems</h4>
+                                <h4> • Up to 40% of autistic kids and teens have suffered from anxiety disorders</h4>
+                                <h4> • Up to about 25% of adults with autism suffer from depression</h4>
+                                <h4> • Kids that have autism are up to 8 times more likely to suffer from chronic and long-term gastrointestinal problems and disorders</h4>
+                                <h4> • Up to 1/3 of kids with autism also have epilepsy/seizure disorders</h4>
+                                <h4> • Up to 35% of adults with autism have schizophrenia. Schizophrenia affects about 1.1 % of the population overall</h4>
+                                <h4> •  Health issues linked to autism extend across an individual's entire life - from little kids to senior citizens. Nearly 1/3 of kids ages 2-5 with autism have obesity problems, and about 15% are obese. To compare, less than 25% of kids age 2-5 in the overall public are obese, and only 10% are medically obese</h4>
+                                <h4> • Aripiprazole and Risperidone have been linked with irritability and agitation. These are the only FDA-approved medicines for treating autism.</h4>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                     <section>
                         <img className="image" src={pic09} alt="" />
                         <div className="content">
                             <div className="inner">
-                                <h3>By twelve months:</h3>
+                                <h3>Caregivers and Families </h3>
                                 <ul className="actions">
-                                    <li> • Little to no attempts to talk/babbling</li>
-                                    <li> • Little to no hand gestures with others, such as waving and pointing</li>
-                                    <li> • Little to no reaction to their name being said</li>
-                                    <h3>By sixteen months:</h3>
-                                    <li> • Few to no spoken words</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <img className="image" src={pic09} alt="" />
-                        <div className="content">
-                            <div className="inner">
-                                <h3>By twenty-four months:</h3>
-                                <ul className="actions">
-                                    <li> • Few to no two-word phrases (or attempts to say these phrases)</li>
-                                    <li> • Loss of prior speech and communication skills</li>
-                                    <li> • Avoiding eye contact with other people</li>
-                                    <li> • Having trouble understanding others' feelings</li>
-                                    <li> • Stalled development of language</li>
-                                    <li> • Repeating certain words repeatedly (echolalia)</li>
-                                    <li> • Resisting small changes in the situation and surrounding</li>
-                                    <li> • A restriction of interests </li>
-                                    <li> • Repetitious actions and behaviors (like rocking and flapping)</li>
-                                    <li> • Abnormal and intense reaction to sensations, sounds, etc.</li>
+                                    <li> • The typical autistic individual requires nearly $60,000 of medical spending a year throughout their youth; much of this cost is spent on special services, and this includes lost wages of the parents as they deal with the autistic children. The costs go up with an intellectual disability</li>
+                                    <li> • Moms of kids that have ASD are less likely to work outside the home, as they must spend time working with the children and their problems linked to autism. They work fewer hours a week and earn over 50% less than mothers without children with autism. They earn 35% less than moms with kids of other disorders and disabilities</li>
                                 </ul>
                             </div>
                         </div>
@@ -130,7 +112,23 @@ const Generic = (props) => (
                     <header className="major">
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
-                    <h1>Autism in Teens and Adults: The Signs</h1>
+                    <h1>Autism for Adults</h1>
+                    <h4> Over the past decade, over 110,000 kids per year will enter age and adulthood out of school-based autism services</h4>
+                    <h4>Teenagers with autism receive healthcare transition services about half as much as individuals that have other specific medical needs. (Younger kids with medical issues linked with autism are less prone to get transition support)</h4>
+                    <h4>Over half of young adults with autism don't enroll in higher education more than two years after completing high school. This is less of an issue for young adults with autism, as it is with speech impediments and various other disorders.</h4>
+                    <h4>Of the nearly 18,000 individuals with autism that utilize state-funded vocational rehabilitation programs in 2014, only about 60% of them completed the program. Of the ones that did, 80% earned around $160/week, earnings that guarantee they're way below the poverty line</h4>
+                    <h4>Nearly ½ of those aged 25 with autism have never had a paying job.</h4>
+                    <h4>Research has shown that jobs/job tasks that emphasize independence help to reduce and mitigate autism symptoms as well as increase everyday living skills</h4>
+                </div>
+            </section>
+        </div>
+        <div id="main" className="alt">
+            <section id="one">
+                <div className="inner">
+                    <header className="major">
+                    </header>
+                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <h1>Autism in Teens and Young Adults: The Signs</h1>
                     <h4>Do you think there are signs you or an adult/teen individual you know has autism? Many people have milder autism, which goes unnoticed and undiagnosed until adulthood. You can learn more in our guide: "Is it Autism and If So, What Next?"</h4>
                     <h4>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h4>
                     <h2>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h2>

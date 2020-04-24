@@ -89,10 +89,8 @@ By twelve months</li>
               <div className="inner">
                 <header className="major">
                 </header>
-                <span className="image main"><img src={pic11} alt="" /></span>
-                <h1>Autism in Teens and Adults: The Signs</h1>
-                <h4>Do you think there are signs you or an adult/teen individual you know has autism? Many people have milder autism, which goes unnoticed and undiagnosed until adulthood. You can learn more in our guide: "Is it Autism and If So, What Next?"</h4>
                 <h4>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h4>
+                <span className="image main"><img src={pic11} alt="" /></span>
                 <h2>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h2>
                 <h2>Please contact us at Vida Healing for an appointment today ifyou need assistance</h2>
               </div>
