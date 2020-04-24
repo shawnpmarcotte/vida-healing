@@ -21,9 +21,9 @@ const Aba = props => (
           <img className="image" src={pic10} alt="" />
           <div className="content">
             <div className="inner">
-              <h3>Specialized healthcare providers make autism diagnoses via a condition checklist that overlap the core symptoms above. They also use an autism symptom severity scale. Autism's severity scale will show the amount of support a person with autism needs. The needs will often vary per person.</h3>
-              <h3>Many people with autism have sensory problems. These may include sensitivity to smells, sounds, touch, tastes, lights, pain, and touch along with other stimuli.</h3>
-              <h3>Autism is also connected to many mental and physical health issues.</h3>
+              <h3>Specialized healthcare providers make autism diagnoses via a condition checklist that overlap the core symptoms above. They also use an autism symptom severity scale. Autism's severity scale will show the amount of support a person with autism needs. The needs will often vary per person</h3>
+              <h3>Many people with autism have sensory problems. These may include sensitivity to smells, sounds, touch, tastes, lights, pain, and touch along with other stimuli</h3>
+              <h3>Autism is also connected to many mental and physical health issues</h3>
             </div>
           </div>
         </section>

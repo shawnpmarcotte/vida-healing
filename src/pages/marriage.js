@@ -39,8 +39,8 @@ The best studies on the topic suggest autism comes from a mix of genetic and non
             <div className="inner">
               <h1>Autism: The Genetic Risk Factors</h1>
               <ul>
-                <li> • The research tells us that autism tends to work in families. Some gene alterations raise the chance that a kid will develop autism. If one of the parents has one or more of the genes in question, there's a likelihood they'll get transferred to a kid (even if the parent doesn't have autism). Sometimes, these genetic changes occur in embryos spontaneously. Most of the genes don't guarantee autism, but they do increase the risk.</li>
-                <li> • Just 1 out of 144 females stated they had autism</li>
+                <h4> • The research tells us that autism tends to work in families. Some gene alterations raise the chance that a kid will develop autism. If one of the parents has one or more of the genes in question, there's a likelihood they'll get transferred to a kid (even if the parent doesn't have autism). Sometimes, these genetic changes occur in embryos spontaneously. Most of the genes don't guarantee autism, but they do increase the risk.</h4>
+                <h4> • Just 1 out of 144 females stated they had autism</h4>
               </ul>
               <div>
               </div>
@@ -90,7 +90,8 @@ The best studies on the topic suggest autism comes from a mix of genetic and non
               <h1>Differing Brain Biology and their Impact on Autism Risk</h1>
               <h3>How can these nongenetic and genetic influences give rise to autism?</h3>
               <ul>
-                <li> • Most people seem to influence the essential elements of early brain development. A few seem to influence how brain nerve cells, or maybe neurons, speak with one another. Others seem to influence how entire areas of the human brain speak with one another. Investigation continues to check out these differences with a watch to improving treatments as well as supports, which will enhance the quality of life.</li>
+                <li> • Most people seem to influence the essential elements of early brain development. A few seem to influence how brain nerve cells, or maybe neurons, speak with one another. </li>
+                <li> • Others seem to influence how entire areas of the human brain speak with one another. Investigation continues to check out these differences with a watch to improving treatments as well as supports, which will enhance the quality of life.</li>
               </ul>
             </div>
           </div>

@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import BannerIndividual from '../components/BannerIndividual'
 
 import pic09 from '../assets/images/pic09.jpg'
+import pic11 from '../assets/images/pic11.jpg'
 
 const Individual = props => (
   <Layout>
@@ -80,20 +81,22 @@ By twelve months</li>
             </div>
           </div>
         </section>
-        <section>
-          <div>
-            <div className="inner">
-              <h3>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h3>
-              <h3>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h3>
-              <h4>Autism in Teens and Adults: The Signs</h4>
-              <h5>Do you think there are signs you or an adult/teen individual you know has autism? Many people have milder autism, which goes unnoticed and undiagnosed until adulthood. You can learn more in our guide: "Is it Autism and If So, What Next?"</h5>
-              <h3>
-                Please contact us at Vida Healing for an appointment today if
-                you need assistance
-              </h3>
-            </div>
+      </section>
+      <section>
+        <div>
+          <div id="main" className="alt">
+            <section id="one">
+              <div className="inner">
+                <header className="major">
+                </header>
+                <h4>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h4>
+                <span className="image main"><img src={pic11} alt="" /></span>
+                <h2>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h2>
+                <h2>Please contact us at Vida Healing for an appointment today ifyou need assistance</h2>
+              </div>
+            </section>
           </div>
-        </section>
+        </div>
       </section>
     </div>
   </Layout>
