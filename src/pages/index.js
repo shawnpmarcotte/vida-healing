@@ -26,7 +26,7 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one" className="tiles">
             {/******************************************
-             This is the INDIVIDUAL THERAPY article 
+             This is the SIGNS OF AUTISM article 
             ******************************************/}
             <article style={{ backgroundImage: `url(${individualCover})` }}>
               <header className="major">
@@ -36,11 +36,11 @@ class HomeIndex extends React.Component {
               <Link to="/individual" className="link primary" />
             </article>
             {/******************************************
-              This is the ABA article 
+              This is the CORE SYMTPOMS OF AUTISM article 
               ******************************************/}
             <article style={{ backgroundImage: `url(${abaCover})` }}>
               <header className="major">
-                <h3>Applied Behavior Analysis (ABA)</h3>
+                <h3>The Core Symptoms of Autism</h3>
                 <p>feugiat amet tempus</p>
               </header>
               <Link to="/aba" className="link primary" />
