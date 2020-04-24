@@ -46,9 +46,13 @@ const Generic = (props) => (
                         <img className="image" src={pic09} alt="" />
                         <div className="content">
                             <div className="inner">
-                                <h2>
-                                    The following may indicate your child is at risk for an autism spectrum disorder. If your child exhibits any of the following, ask your pediatrician or family doctor for an evaluation right away:
-                </h2>
+                                <h2>Autism: Intervention and Supports</h2>
+                                <ul className="actions">
+                                    <h4> • Limited smiling/joyful and engaging expressions</h4>
+                                    <h4> • Applied behavior analysis is based upon concepts that are explored and commonly used in autism behavioral interventions</h4>
+                                    <h4> • Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy.</h4>
+                                    <h4> • Developmental ability regression (like community interests and language) affects about 20% of kids that are later identified as on the autism spectrum; this usually occurs between ages one and three</h4>
+                                </ul>
                             </div>
                         </div>
                     </section>
@@ -56,16 +60,28 @@ const Generic = (props) => (
                         <img className="image" src={pic09} alt="" />
                         <div className="content">
                             <div className="inner">
-                                <h3>By six months:</h3>
+                                <h2>The Challenges</h2>
                                 <ul className="actions">
-                                    <li> • Limited smiling/joyful and engaging expressions</li>
-                                    <li> • Limited to no eye contact</li>
-                                    <h3>By nine months:</h3>
-                                    <li> • Little to no smiling, sharing expressions, and other happy facial expressions
-By twelve months</li>
-                                    <li> • Little to no attempts to talk/babbling</li>
-                                    <li> • Little to no hand gestures with others, such as waving and pointing</li>
-                                    <li> • Little to no reaction to their name being said</li>
+                                    <li> • About 1/3 of autistic kids are nonverbal and cannot speak</li>
+                                    <li> • Over 30% of kids with ASD have at least one intellectual disability (under 70 IQ), about ¼ of kids are in the borderline range (IQ between 71 and 85), and about 45% have a typical-to-above-average (>85)</li>
+                                    <li> • About half of people with autism run and wander into unsafe situations</li>
+                                    <li> • Nearly 66% of kids between the ages of six and fifteen have experienced bullying</li>
+                                    <li> • About 30% of 8-year-olds that have ASD have self-injured before. Arm biting, skin scratching, and headbanging are among the most common manifestations of this</li>
+                                    <li> • For kids with autism ages 14 and under, drowning remains a large cause of death, resulting in up to 90% of physical deaths from autism</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <img className="image" src={pic09} alt="" />
+                        <div className="content">
+                            <div className="inner">
+                                <h2>The Challenges</h2>
+                                <ul className="actions">
+                                    <h4> • Limited smiling/joyful and engaging expressions</h4>
+                                    <h4> • Applied behavior analysis is based upon concepts that are explored and commonly used in autism behavioral interventions</h4>
+                                    <h4> • Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy.</h4>
+                                    <h4> • Developmental ability regression (like community interests and language) affects about 20% of kids that are later identified as on the autism spectrum; this usually occurs between ages one and three</h4>
                                 </ul>
                             </div>
                         </div>
