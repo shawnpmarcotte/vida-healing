@@ -71,7 +71,7 @@ class HomeIndex extends React.Component {
                 <h3>Autism: Facts and Statistics</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
-              <Link to="/marriage" className="link primary" />
+              <Link to="/autismfacts" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic07})` }}>
               <h3>NEED TO FIGURE OUT WHAT TO DO WITH THIS SPACE</h3>
