@@ -1,105 +1,128 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerAutismFacts from '../components/BannerAutismFacts'
 
-import marriagecover from '../assets/images/marriage-cover.jpg'
+import pic11 from '../assets/images/pic11.jpg'
+import pic09 from '../assets/images/pic09.jpg'
 
-const Marriage = props => (
+const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Marriage Page" />
+            <title>Generic - Forty by HTML5 UP</title>
+            <meta name="description" content="Generic Page" />
         </Helmet>
 
-        <BannerAutismFacts />
-
-        <div id="main">
-            <section id="two" className="spotlights">
-                <section>
-                    <img src={marriagecover} alt="" />
-                    <div className="content">
-                        <div className="inner">
-                            <h3>The information listed below is not meant to diagnose autism for you or a loved one. Please consult your physician so they can make a proper diagnosis</h3>
-                            <ul>
-                                <li> • A common question that comes after an autism diagnosis is, "What's the root cause of autism?"
-The best studies on the topic suggest autism comes from a mix of genetic and nongenetic/environmental factors. </li>
-                                <li> • These mentioned influences seem to increase the likelihood that a child will develop autism.
-                It is vital, however, to remember that just because there's a risk doesn't mean it's the cause. For example, several gene changes associated with autism may also be in individuals who do not have the disorder. Likewise, not everybody exposed to an environmental risk factor for autism is going to develop the disorder. Many won't.</li>
-                            </ul>
-                            <div>
+        <div id="main" className="alt">
+            <section id="one">
+                <div className="inner">
+                    <header className="major">
+                        <h1>Autism: Facts and Statistics</h1>
+                    </header>
+                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <h1>The Prevalence of Autism</h1>
+                    <ul className="actions">
+                        <h3> • In 2020, the CDC found that around 2% of kids surveyed in the United States were identified as having Autism Spectrum Disorder</h3  >
+                        <h3> • 3% of boys surveyed stated they had autism.</h3 >
+                        <h3> • Just 1 out of 144 females stated they had autism. </h3>
+                        <h3> • There is a 4x increased likelihood of a boy being diagnosed with autism than a girl</h3>
+                        <h3> • Most kids were diagnosed after the age of 4 (though autism can be reliably diagnosed by age 2)</h3>
+                        <h3> • Over 30% of kids with ASD have at least one intellectual disability (under 70 IQ), about ¼ of kids are in the borderline range (IQ between 71 and 85), and about 45% have a typical-to-above-average (>85)</h3>
+                        <h3> • Autism affects people from all ethnicities and social classes</h3>
+                        <h3> • Minorities groups are often diagnosed much later.</h3>
+                        <h3> • The earlier it is diagnosed, the better the management and treatment can be, and the better the quality of life will be later</h3>
+                        <h3> • There are no health-related detections for autism</h3>
+                        <h1>Autism: What Brings it About?</h1>
+                        <h3> • Extensive research has suggested that the genes are active in most autism instances</h3>
+                        <h3> • Children who were born to much-older parents have a higher likelihood of autism</h3>
+                        <h3> • Parents who had a child with ASD have a between 2-18% chance of having a second affected kid</h3>
+                        <h3> • Studies show if identical twins have one twin with ASD, there is a thirty-six to ninety-five-percent change of it occurring in the other twin. In non-identical twins, if one has ASD, then the other twin has a thirty-one-percent chance</h3>
+                        <h3> • There have been many studies in the last two years, which explored the possibility of a link between autism and vaccines during childhood. The outcomes have clearly shown that vaccines do not result in autism</h3>
+                    </ul>
+                </div>
+            </section>
+            <div id="main">
+                <section id="two" className="spotlights">
+                    <section>
+                        <img className="image" src={pic09} alt="" />
+                        <div className="content">
+                            <div className="inner">
+                                <h2>
+                                    The following may indicate your child is at risk for an autism spectrum disorder. If your child exhibits any of the following, ask your pediatrician or family doctor for an evaluation right away:
+                </h2>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section>
-                    <img src={marriagecover} alt="" />
-                    <div className="content">
-                        <div className="inner">
-                            <h1>Autism: The Genetic Risk Factors</h1>
-                            <ul>
-                                <li> • The research tells us that autism tends to work in families. Some gene alterations raise the chance that a kid will develop autism. If one of the parents has one or more of the genes in question, there's a likelihood they'll get transferred to a kid (even if the parent doesn't have autism). Sometimes, these genetic changes occur in embryos spontaneously. Most of the genes don't guarantee autism, but they do increase the risk.</li>
-                                <li> • Just 1 out of 144 females stated they had autism</li>
-                            </ul>
-                            <div>
+                    </section>
+                    <section>
+                        <img className="image" src={pic09} alt="" />
+                        <div className="content">
+                            <div className="inner">
+                                <h3>By six months:</h3>
+                                <ul className="actions">
+                                    <li> • Limited smiling/joyful and engaging expressions</li>
+                                    <li> • Limited to no eye contact</li>
+                                    <h3>By nine months:</h3>
+                                    <li> • Little to no smiling, sharing expressions, and other happy facial expressions
+By twelve months</li>
+                                    <li> • Little to no attempts to talk/babbling</li>
+                                    <li> • Little to no hand gestures with others, such as waving and pointing</li>
+                                    <li> • Little to no reaction to their name being said</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section>
-                    <img src={marriagecover} alt="" />
-                    <div className="content">
-                        <div className="inner">
-                            <h1>Autism's Environmental Risk Factors</h1>
-                            <h4>Research even shows that some environmental influences might additionally increase - or even reduce - autism risk in individuals that are genetically susceptible to the disorder. Importantly, the expansion or maybe reduction in danger seems to be little for only one of those risk factors:</h4>
-                            <ul>
-                                <h3>The Increased Risks Associated with Autism:</h3>
-                                <li> • A parent that is much older than the typical parent (either parent)</li>
-                                <li> • Complications during pregnancy (example: prematurity less than 26 weeks, low birth weight, multiple pregnancies at once (triplets, twins, etc.)</li>
-                                <li> • Pregnancies that are spaced less than a season apart</li>
-                            </ul>
-                            <div>
+                    </section>
+                    <section>
+                        <img className="image" src={pic09} alt="" />
+                        <div className="content">
+                            <div className="inner">
+                                <h3>By twelve months:</h3>
+                                <ul className="actions">
+                                    <li> • Little to no attempts to talk/babbling</li>
+                                    <li> • Little to no hand gestures with others, such as waving and pointing</li>
+                                    <li> • Little to no reaction to their name being said</li>
+                                    <h3>By sixteen months:</h3>
+                                    <li> • Few to no spoken words</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section>
-                    <img src={marriagecover} alt="" />
-                    <div className="content">
-                        <div className="inner">
-                            <h1>Reducing the Risk of Autism</h1>
-                            <h3>Possible autism risk:</h3>
-                            <ul>
-                                <li> • Prenatal vitamins that contain folic acid, before and during conception / throughout pregnancy</li>
-                                <li> • Complications during pregnancy (example: prematurity less than 26 weeks, low birth weight, multiple pregnancies at once (triplets, twins, etc.)</li>
-                                <li> • Pregnancies that are spaced less than a season apart</li>
-                            </ul>
-                            <h3>No impact on risk:</h3>
-                            <ul>
-                                <li> • Vaccines. Every family has a unique situation with their autism diagnose(es); for some, it corresponds with their child's vaccine timing. Researchers have done a lot of research over the past few years to determine whether there's some link between childhood vaccinations and autism</li>
-                                <li> • The outcomes have shown that autism isn't caused by vaccines. The American Academy of Pediatrics has assembled a thorough list of their analysis on this topic</li>
-                            </ul>
+                    </section>
+                    <section>
+                        <img className="image" src={pic09} alt="" />
+                        <div className="content">
+                            <div className="inner">
+                                <h3>By twenty-four months:</h3>
+                                <ul className="actions">
+                                    <li> • Few to no two-word phrases (or attempts to say these phrases)</li>
+                                    <li> • Loss of prior speech and communication skills</li>
+                                    <li> • Avoiding eye contact with other people</li>
+                                    <li> • Having trouble understanding others' feelings</li>
+                                    <li> • Stalled development of language</li>
+                                    <li> • Repeating certain words repeatedly (echolalia)</li>
+                                    <li> • Resisting small changes in the situation and surrounding</li>
+                                    <li> • A restriction of interests </li>
+                                    <li> • Repetitious actions and behaviors (like rocking and flapping)</li>
+                                    <li> • Abnormal and intense reaction to sensations, sounds, etc.</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
+                    </section>
                 </section>
-                <section>
-                    <img src={marriagecover} alt="" />
-                    <div className="content">
-                        <div className="inner">
-                            <h1>Differing Brain Biology and their Impact on Autism Risk</h1>
-                            <h3>How can these nongenetic and genetic influences give rise to autism?</h3>
-                            <ul>
-                                <li> • Most people seem to influence the essential elements of early brain development. A few seem to influence how brain nerve cells, or maybe neurons, speak with one another. Others seem to influence how entire areas of the human brain speak with one another. Investigation continues to check out these differences with a watch to improving treatments as well as supports, which will enhance the quality of life.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+            </div>
+        </div>
+        <div id="main" className="alt">
+            <section id="one">
+                <div className="inner">
+                    <header className="major">
+                    </header>
+                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <h1>Autism in Teens and Adults: The Signs</h1>
+                    <h4>Do you think there are signs you or an adult/teen individual you know has autism? Many people have milder autism, which goes unnoticed and undiagnosed until adulthood. You can learn more in our guide: "Is it Autism and If So, What Next?"</h4>
+                    <h4>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h4>
+                    <h2>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h2>
+                    <h2>Please contact us at Vida Healing for an appointment today ifyou need assistance</h2>
+                </div>
             </section>
         </div>
-    </Layout >
+    </Layout>
 )
 
-export default Marriage
-
-{/* <h3>If you are looking for a caring, compassionate, and professionalmarriage or couples therapist please contact us today</h3> */ }
+export default Generic
