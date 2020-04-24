@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import BannerFamily from '../components/BannerFamily'
 
 import familysecondary from '../assets/images/family-secondary.jpg'
+import pic11 from '../assets/images/pic11.jpg'
 
 const Family = props => (
   <Layout>
@@ -97,6 +98,26 @@ const Family = props => (
             </div>
           </div>
         </section>
+      </section>
+      <section>
+        <div>
+          <div id="main" className="alt">
+            <section id="one">
+              <div className="inner">
+                <header className="major">
+                  <h2>The Understanding of Asperger's Syndrome Over the Years</h2>
+                </header>
+                <span className="image main"><img src={pic11} alt="" /></span>
+                <ul className="actions">
+                  <h4> • 1944: Hans Asperger, a pediatrician from Austria, did a study on four young children. They all had remarkably high intelligence and a very narrow set of interests, despite lacking social abilities. All of them were also very clumsy</h4>
+                  <h4> • 1981: British psychiatrist Lorna Wing had a series of remarkably similar case studies. Within these studies, she coined the term "Asperger's Syndrome."</h4>
+                  <h4> • 1994: The DSM-IV adds Asperger's Syndrome to its print manual pages</h4>
+                  <h4> • 2013: The DSM-V puts Asperger's Syndrome and some other individualized autism diagnoses within an extensive umbrella diagnosis of "Autism Spectrum Disorder."</h4>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
       </section>
     </div>
   </Layout>
