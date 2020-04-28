@@ -4,7 +4,7 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>Autism: The Symptoms and Signs to Look For</h1>
+        <h1>Applied Behavior Analysis</h1>
       </header>
       <div className="content">
         <h4>
