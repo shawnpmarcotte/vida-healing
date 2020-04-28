@@ -31,8 +31,7 @@ class HomeIndex extends React.Component {
             ******************************************/}
             <article style={{ backgroundImage: `url(${individualCover})` }}>
               <header className="major">
-                <h3>The Signs Autism</h3>
-                <p>Ipsum dolor sit amet</p>
+                <h3>Individual Therapy</h3>
               </header>
               <Link to="/individual" className="link primary" />
             </article>
@@ -41,8 +40,7 @@ class HomeIndex extends React.Component {
               ******************************************/}
             <article style={{ backgroundImage: `url(${abaCover})` }}>
               <header className="major">
-                <h3>The Core Symptoms of Autism</h3>
-                <p>feugiat amet tempus</p>
+                <h3>Applied Behavior Analysis (ABA Therapy)</h3>
               </header>
               <Link to="/aba" className="link primary" />
             </article>
@@ -51,7 +49,7 @@ class HomeIndex extends React.Component {
             ************************************************/}
             <article style={{ backgroundImage: `url(${marriageCover})` }}>
               <header className="major">
-                <h3>Autism: What are the Causes?</h3>
+                <h3>Marriage and Couples Therapy</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/marriage" className="link primary" />
@@ -61,7 +59,7 @@ class HomeIndex extends React.Component {
             ******************************************/}
             <article style={{ backgroundImage: `url(${familyCover})` }}>
               <header className="major">
-                <h3>Asperger's Syndrome:<br /> What is it?</h3>
+                <h3>Family Therapy</h3>
                 <p>feugiat amet tempus</p>
               </header>
               <Link to="/family" className="link primary" />
@@ -72,9 +70,6 @@ class HomeIndex extends React.Component {
                 <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/autismfacts" className="link primary" />
-            </article>
-            <article style={{ backgroundImage: `url(${pic07})` }}>
-              <h3>NEED TO FIGURE OUT WHAT TO DO WITH THIS SPACE</h3>
             </article>
             {/* <section>
               <div>
