@@ -71,9 +71,6 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/autismfacts" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic07})` }}>
-              <h3>NEED TO FIGURE OUT WHAT TO DO WITH THIS SPACE</h3>
-            </article>
             {/* <section>
               <div>
                 <header className="major">
