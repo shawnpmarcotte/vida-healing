@@ -148,6 +148,15 @@ const Contact = props => {
                   <ul className="icons">
                     <li>
                       <a
+                        href="https://api.whatsapp.com/send?phone=13053893224&text=&source=&data=&app_absent="
+                        className="icon alt fa-whatsapp"
+                        target="blank"
+                      >
+                        <span className="label">LinkedIn</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
                         href="https://www.facebook.com/VidaHealingLLC/"
                         className="icon alt fa-facebook"
                         target="blank"
@@ -164,7 +173,7 @@ const Contact = props => {
                         <span className="label">Instagram</span>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="https://www.linkedin.com/in/nely-henderson-43a19a92/"
                         className="icon alt fa-linkedin"
@@ -172,7 +181,7 @@ const Contact = props => {
                       >
                         <span className="label">LinkedIn</span>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </footer>

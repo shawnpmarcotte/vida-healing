@@ -5,30 +5,30 @@ const Footer = props => (
   <footer id="footer">
     <div className="inner">
       <ul className="icons">
-        <h4>
+        <h5>
           <a
             href="/jointeam"
             target="blank"
           >
             <span className="label">JOIN OUR TEAM</span>
           </a>
-        </h4>
-        <h4>
+        </h5>
+        <h5>
           <a
             href="/mission"
             target="blank"
           >
             <span className="label">MISSION</span>
           </a>
-        </h4>
-        <h4>
+        </h5>
+        <h5>
           <a
             href="/about"
             target="blank"
           >
             <span className="label">ABOUT</span>
           </a>
-        </h4>
+        </h5>
       </ul>
       <ul className="copyright">
         <li>&copy; Copyright © 2018 Vida Healing, LLC</li>
