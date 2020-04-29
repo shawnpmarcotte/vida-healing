@@ -7,11 +7,11 @@ const AutismResources = (props) => (
         <div className="inner">
             <ul className="links">
                 <li><Link onClick={props.toggleMenu} to="/">Home</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/individual">The Signs of Autism</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/aba">Core Symptoms of Austim</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/marriage">Austism | Causes</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/family">Asperger's Syndrome</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/autismfacts">Austims: Facts and Stats</Link></li>
+                <li><Link onClick={props.toggleMenu} to="/signsofautism">The Signs of Autism</Link></li>
+                <li><Link onClick={props.toggleMenu} to="/coresymptoms">Core Symptoms of Autism</Link></li>
+                <li><Link onClick={props.toggleMenu} to="/autismcauses">Autism | Causes</Link></li>
+                <li><Link onClick={props.toggleMenu} to="/aspergers">Asperger's Syndrome</Link></li>
+                <li><Link onClick={props.toggleMenu} to="/autismfacts">Autism: Facts and Stats</Link></li>
             </ul>
             {/* <ul className="actions vertical">
                 <li><a href="#" className="button special fit">Get in Touch</a></li>

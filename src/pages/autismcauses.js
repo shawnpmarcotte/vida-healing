@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerMarriage from '../components/BannerMarriage'
+import BannerAutismCauses from '../components/BannerAutismCauses'
 
 import marriagecover from '../assets/images/marriage-cover.jpg'
 
@@ -13,7 +13,7 @@ const Marriage = props => (
             <meta name="description" content="Marriage Page" />
         </Helmet>
 
-        <BannerMarriage />
+        <BannerAutismCauses />
 
         <div id="main">
             <section id="two" className="spotlights">
