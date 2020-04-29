@@ -174,9 +174,6 @@ const Contact = props => {
                       </a>
                     </li>
                   </ul>
-                  <ul className="copyright">
-                    <li>&copy; Copyright © 2018 Vida Healing, LLC</li>
-                  </ul>
                 </div>
               </footer>
             </section>

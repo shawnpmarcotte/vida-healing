@@ -30,6 +30,9 @@ const Footer = props => (
           </a>
         </h4>
       </ul>
+      <ul className="copyright">
+        <li>&copy; Copyright © 2018 Vida Healing, LLC</li>
+      </ul>
     </div>
   </footer>
 )
