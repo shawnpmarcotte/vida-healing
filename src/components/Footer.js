@@ -7,7 +7,7 @@ const Footer = props => (
       <ul className="icons">
         <h4>
           <a
-            href="/contact"
+            href="/jointeam"
             target="blank"
           >
             <span className="label">JOIN OUR TEAM</span>
