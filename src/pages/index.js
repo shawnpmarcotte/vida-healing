@@ -50,7 +50,6 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${marriageCover})` }}>
               <header className="major">
                 <h3>Marriage and Couples Therapy</h3>
-                <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/marriage" className="link primary" />
             </article>
@@ -60,17 +59,16 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${familyCover})` }}>
               <header className="major">
                 <h3>Family Therapy</h3>
-                <p>feugiat amet tempus</p>
               </header>
               <Link to="/family" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${marriageCover})` }}>
+            {/* <article style={{ backgroundImage: `url(${marriageCover})` }}>
               <header className="major">
                 <h3>Autism: Facts and Statistics</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/autismfacts" className="link primary" />
-            </article>
+            </article> */}
             {/* <section>
               <div>
                 <header className="major">
@@ -84,29 +82,29 @@ class HomeIndex extends React.Component {
             {/*****************************************
              This is the MISSION article 
              ******************************************/}
-            <article style={{ backgroundImage: `url(${missionCover})` }}>
+            {/* <article style={{ backgroundImage: `url(${missionCover})` }}>
               <header className="major">
                 <h3>Mission</h3>
                 <p>Lorem etiam nullam</p>
               </header>
               <Link to="/mission" className="link primary" />
-            </article>
+            </article> */}
             {/******************************************
               This is the ABOUT article 
               ******************************************/}
-            <article style={{ backgroundImage: `url(${aboutCover})` }}>
+            {/* <article style={{ backgroundImage: `url(${aboutCover})` }}>
               <header className="major">
                 <h3>About</h3>
                 <p>Nisl sed aliquam</p>
               </header>
               <Link to="/about" className="link primary" />
-            </article>
+            </article> */}
           </section>
           <section id="two">
             <div className="inner">
               <header className="major">
                 <h3>
-                  GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS.LIVE THE LIFE
+                  GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS. LIVE THE LIFE
                   YOU HAVE IMAGINED.
                 </h3>
               </header>

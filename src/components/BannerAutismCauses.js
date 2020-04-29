@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BannerMarriage = props => (
+const BannerAutismCauses = props => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
@@ -11,4 +11,4 @@ const BannerMarriage = props => (
     </section>
 )
 
-export default BannerMarriage
+export default BannerAutismCauses

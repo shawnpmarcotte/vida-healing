@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerFamily from '../components/BannerFamily'
+import BannerAspergers from '../components/BannerAspergers'
 
 import familysecondary from '../assets/images/family-secondary.jpg'
 import pic11 from '../assets/images/pic11.jpg'
@@ -13,7 +13,7 @@ const Family = props => (
             <meta name="description" content="Family Page" />
         </Helmet>
 
-        <BannerFamily />
+        <BannerAspergers />
 
         <div id="main">
             <section id="two" className="spotlights">

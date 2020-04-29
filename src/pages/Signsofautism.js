@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerIndividual from '../components/BannerIndividual'
+import BannerSignsOfAutism from '../components/BannerSignsOfAutism'
 
 import pic09 from '../assets/images/pic09.jpg'
 import pic11 from '../assets/images/pic11.jpg'
@@ -11,10 +10,10 @@ const Individual = props => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Individual Page" />
+            <meta name="description" content="Signs Of Autism" />
         </Helmet>
 
-        <BannerIndividual />
+        <BannerSignsOfAutism />
 
         <div id="main">
             <section id="two" className="spotlights">

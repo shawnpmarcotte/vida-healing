@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BannerFamily = props => (
+const BannerAspergers = props => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
@@ -13,4 +13,4 @@ const BannerFamily = props => (
     </section>
 )
 
-export default BannerFamily
+export default BannerAspergers
