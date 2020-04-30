@@ -33,7 +33,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field half first">
-              <label htmlFor="name">Name</label>
+              <h4 htmlFor="name">NAME</h4>
               <input
                 type="text"
                 name="name"
@@ -49,7 +49,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field half">
-              <label htmlFor="email">Email</label>
+              <h4 htmlFor="email">EMAIL</h4>
               <input
                 type="text"
                 name="email"
@@ -65,7 +65,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field half first">
-              <label htmlFor="subject">Subject</label>
+              <h4 htmlFor="subject">SUBJECT</h4>
               <input
                 type="text"
                 name="subject"
@@ -81,7 +81,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field half">
-              <label htmlFor="number">Phone Number</label>
+              <h4 htmlFor="number">PHONE NUMBER</h4>
               <input
                 type="text"
                 name="number"
@@ -97,7 +97,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field">
-              <label htmlFor="message">Message</label>
+              <h4 htmlFor="message">MESSAGE</h4>
               <textarea name="message" id="message" rows="6"></textarea>
             </div>
             <ul className="actions">
@@ -119,28 +119,30 @@ const Contact = props => {
           <section>
             <div className="contact-method">
               <span className="icon alt fa-envelope"></span>
-              <h3>Email</h3>
-              <a href="#">vidahealingllc@gmail.com</a>
+              <h3>EMAIL</h3>
+              <h4><a href="#">vidahealingllc@gmail.com</a></h4>
             </div>
           </section>
           <section>
             <div className="contact-method">
               <span className="icon alt fa-phone"></span>
-              <h3>Phone</h3>
-              <span>(305) 389-3224</span>
+              <h3>PHONE</h3>
+              <h4><span>(305) 389-3224</span></h4>
             </div>
           </section>
           <section>
             <div className="contact-method">
               <span className="icon alt fa-home"></span>
-              <h3>Address</h3>
-              <span>
-                2701 W. Oakland Park Blvd Suite 410-9
+              <h3>ADDRESS</h3>
+              <h4>
+                <span>
+                  2701 W. Oakland Park Blvd Suite 410-9
                 <br />
                 Oakland Park, FL 33311
                 <br />
                 United States of America
               </span>
+              </h4>
             </div>
             <section>
               <footer id="footer">

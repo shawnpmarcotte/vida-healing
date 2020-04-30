@@ -79,7 +79,7 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(border-bg);
+		background: _palette(fg);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -89,6 +89,7 @@
 		text-decoration: none;
 		width: 100%;
 		resize: vertical;
+		opacity: 50%;
 
 		&:invalid {
 			box-shadow: none;
