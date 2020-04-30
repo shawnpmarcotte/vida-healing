@@ -3,8 +3,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerSignsOfAutism from '../components/BannerSignsOfAutism'
 
-import pic09 from '../assets/images/pic09.jpg'
-import pic11 from '../assets/images/pic11.jpg'
+import autismtwo from '../assets/images/autismtwo.jpg'
+import pic10 from '../assets/images/pic10.jpg'
+import autismthree from '../assets/images/autismthree.jpg'
+import autismfour from '../assets/images/autismfour.jpg'
+import aboutcover from '../assets/images/about-cover.jpg'
+
 
 const Individual = props => (
     <Layout>
@@ -18,7 +22,7 @@ const Individual = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img className="image" src={pic09} alt="" />
+                    <img className="image" src={pic10} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h2>
@@ -28,7 +32,7 @@ const Individual = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={pic09} alt="" />
+                    <img className="image" src={autismtwo} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h3>By six months:</h3>
@@ -46,7 +50,7 @@ By twelve months</li>
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={pic09} alt="" />
+                    <img className="image" src={autismthree} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h3>By twelve months:</h3>
@@ -61,7 +65,7 @@ By twelve months</li>
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={pic09} alt="" />
+                    <img className="image" src={autismfour} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h3>By twenty-four months:</h3>
@@ -89,7 +93,7 @@ By twelve months</li>
                                 <header className="major">
                                 </header>
                                 <h4>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h4>
-                                <span className="image main"><img src={pic11} alt="" /></span>
+                                <span className="image main"><img src={aboutcover} alt="" /></span>
                                 <h2>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h2>
                                 <h2>Please contact us at Vida Healing for an appointment today ifyou need assistance</h2>
                             </div>
