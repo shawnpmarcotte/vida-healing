@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import BannerAbs from '../components/BannerAba'
 
 import pic10 from '../assets/images/pic10.jpg'
+import aboutcover from '../assets/images/about-cover.jpg'
 
 const Aba = props => (
   <Layout>
@@ -18,7 +19,7 @@ const Aba = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" src={pic10} alt="" />
+          <img className="image" src={aboutcover} alt="" />
           <div className="content">
             <div className="inner">
               <h3>

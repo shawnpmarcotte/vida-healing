@@ -4,6 +4,9 @@ import Layout from '../components/layout'
 import BannerCoreSymptoms from '../components/BannerCoreSymptoms'
 
 import pic10 from '../assets/images/pic10.jpg'
+import missionsecondary from '../assets/images/mission-secondary.jpg'
+import autismthree from '../assets/images/autismthree.jpg'
+import individualcover from '../assets/images/individual-cover.jpg'
 
 const Aba = props => (
     <Layout>
@@ -17,7 +20,7 @@ const Aba = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img className="image" src={pic10} alt="" />
+                    <img className="image" src={missionsecondary} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h3>Specialized healthcare providers make autism diagnoses via a condition checklist that overlap the core symptoms above. They also use an autism symptom severity scale. Autism's severity scale will show the amount of support a person with autism needs. The needs will often vary per person</h3>
@@ -27,7 +30,7 @@ const Aba = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={pic10} alt="" />
+                    <img className="image" src={autismthree} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h1>Social communication issues</h1>
@@ -45,7 +48,7 @@ const Aba = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={pic10} alt="" />
+                    <img className="image" src={individualcover} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h1>Additional social challenges can include difficulty with:</h1>

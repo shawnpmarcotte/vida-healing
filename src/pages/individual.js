@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import BannerIndividual from '../components/BannerIndividual'
 
 import pic09 from '../assets/images/pic09.jpg'
-import pic11 from '../assets/images/pic11.jpg'
+
 
 const Individual = props => (
   <Layout>
