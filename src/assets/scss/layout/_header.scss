@@ -126,12 +126,12 @@
 		}
 
 		&.reveal {
-			@include vendor('animation', 'reveal-header 1s ease');
+			@include vendor('animation', 'reveal-header .35s ease');
 		}
 
 		&.alt {
 			@include vendor('transition', 
-			('opacity #{_duration(accent6)} 1s ease',
+			('opacity #{_duration(accent6)} 2s ease',
 			));
 			@include vendor('transition-delay', '0s');
 			@include vendor('animation', 'none');

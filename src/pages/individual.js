@@ -18,7 +18,7 @@ const Individual = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" src={pic09} alt="" />
+          <img className="image" className="fade-in-right" src={pic09} alt="" />
           <div className="content">
             <div className="fade-in-right">
               <h3>
@@ -32,7 +32,7 @@ const Individual = props => (
         <div className="inner">
           <header>
             <div className="pulsate-fwd">
-              <h3>Contact us at Vida Healing for an appointment today if you need assistance</h3>
+              <h2>Please contact us at Vida Healing for an appointment today if you need assistance</h2>
             </div>
           </header>
         </div>
