@@ -11,6 +11,8 @@ import familyCover from '../assets/images/family-cover.jpg'
 import missionCover from '../assets/images/mission-cover.jpg'
 import aboutCover from '../assets/images/about-cover.jpg'
 import pic07 from '../assets/images/pic07.jpg'
+import pic09 from '../assets/images/pic09.jpg'
+import familytwo from '../assets/images/familytwo.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -29,7 +31,7 @@ class HomeIndex extends React.Component {
             {/******************************************
              This is the SIGNS OF AUTISM article 
             ******************************************/}
-            <article style={{ backgroundImage: `url(${individualCover})` }}>
+            <article style={{ backgroundImage: `url(${pic09})` }}>
               <header className="major">
                 <h3>Individual Therapy</h3>
               </header>
@@ -56,7 +58,7 @@ class HomeIndex extends React.Component {
             {/****************************************
              This is the ASBERGERS SYNDROME article 
             ******************************************/}
-            <article style={{ backgroundImage: `url(${familyCover})` }}>
+            <article style={{ backgroundImage: `url(${familytwo})` }}>
               <header className="major">
                 <h3>Family Therapy</h3>
               </header>
