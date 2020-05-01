@@ -13,7 +13,7 @@ import aboutcover from '../assets/images/about-cover.jpg'
 const Individual = props => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>Signs of Autism</title>
             <meta name="description" content="Signs Of Autism" />
         </Helmet>
 
