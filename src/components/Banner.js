@@ -8,12 +8,12 @@ const Banner = props => (
       </header>
       <div className="content">
         <h4>
-          It is vital for you as the parent/caregiver to know what early signs of autism are and to familiarize yourself with the developmental milestones the child needs to be reaching at particular ages and stages of childhood
+          It is vital for you as the parent or caregiver to know what early signs of autism are <br />and to familiarize yourself with the developmental milestones the child needs to <br />be reaching at particular ages and stages of childhood
         </h4>
         <ul className="actions">
           <li>
             <a href="#one" className="button next scrolly">
-              Learn More
+              Learn How We Can Help
             </a>
           </li>
         </ul>
