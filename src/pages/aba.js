@@ -20,7 +20,7 @@ const Aba = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={abaCover} alt="" />
+          <img className="image" className="fade-in-right" src={aboutcover} alt="" />
           <div className="content">
             <div className="fade-in-right">
               <h3>
