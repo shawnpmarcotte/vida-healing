@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerFamily from '../components/BannerFamily'
 import familysecondary from '../assets/images/family-secondary.jpg'
+import familytwo from '../assets/images/familytwo.jpg'
 
 const Family = props => (
   <Layout>
@@ -16,7 +17,7 @@ const Family = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={familysecondary} alt="" />
+          <img className="image" className="fade-in-right" src={familytwo} alt="" />
           <div className="content">
             <div className="fade-in-right">
               <h3>

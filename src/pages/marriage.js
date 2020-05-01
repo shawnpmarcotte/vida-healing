@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import BannerMarriage from '../components/BannerMarriage'
 
 import marriagecover from '../assets/images/marriage-cover.jpg'
+import marriagetwo from '../assets/images/marriagetwo.jpg'
 
 const Marriage = props => (
   <Layout>
@@ -28,7 +29,7 @@ const Marriage = props => (
           </div>
         </section>
         <section>
-          <img className="image" src={marriagecover} alt="" />
+          <img className="image" src={marriagetwo} alt="" />
           <div className="content">
             <div className="inner">
               <h2>Warning Signs of a Troubled Relationship</h2>

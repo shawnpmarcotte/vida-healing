@@ -6,6 +6,7 @@ import BannerAbs from '../components/BannerAba'
 
 import pic10 from '../assets/images/pic10.jpg'
 import aboutcover from '../assets/images/about-cover.jpg'
+import abaCover from '../assets/images/aba-cover.jpg'
 
 const Aba = props => (
   <Layout>
@@ -19,7 +20,7 @@ const Aba = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={aboutcover} alt="" />
+          <img className="image" className="fade-in-right" src={abaCover} alt="" />
           <div className="content">
             <div className="fade-in-right">
               <h3>

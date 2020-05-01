@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import BannerIndividual from '../components/BannerIndividual'
 
 import pic09 from '../assets/images/pic09.jpg'
+import individualcover from '../assets/images/individual-cover.jpg'
 
 
 const Individual = props => (
