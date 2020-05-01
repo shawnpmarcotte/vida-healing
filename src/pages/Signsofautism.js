@@ -22,9 +22,9 @@ const Individual = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img className="image" src={pic10} alt="" />
+                    <img className="image" className="fade-in-right" src={pic10} alt="" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="fade-in-right">
                             <h2>
                                 The following may indicate your child is at risk for an autism spectrum disorder. If your child exhibits any of the following, ask your pediatrician or family doctor for an evaluation right away:
                 </h2>
@@ -32,9 +32,9 @@ const Individual = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={autismtwo} alt="" />
+                    <img className="image" src={autismtwo} className="fade-in-right" alt="" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="inner" className="fade-in-right">
                             <h3>By six months:</h3>
                             <ul className="actions">
                                 <li> • Limited smiling/joyful and engaging expressions</li>
@@ -50,9 +50,9 @@ By twelve months</li>
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={autismthree} alt="" />
+                    <img className="image" src={autismthree} className="fade-in-right" alt="" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="inner" className="fade-in-right">
                             <h3>By twelve months:</h3>
                             <ul className="actions">
                                 <li> • Little to no attempts to talk/babbling</li>
@@ -65,9 +65,9 @@ By twelve months</li>
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={autismfour} alt="" />
+                    <img className="image" className="fade-in-right" src={autismfour} alt="" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="inner" className="fade-in-right">
                             <h3>By twenty-four months:</h3>
                             <ul className="actions">
                                 <li> • Few to no two-word phrases (or attempts to say these phrases)</li>
@@ -88,19 +88,21 @@ By twelve months</li>
             <section>
                 <div>
                     <div id="main" className="alt">
-                        <section id="one">
-                            <div className="inner">
-                                <header className="major">
-                                </header>
-                                <h4>This online screen, which is offered on our website, will only require a couple of minutes to fill out. If the answers show a substantial likelihood of autism, please talk to your pediatrician. Similarly, don't wait to ask if you have any other questions. Talk to healthcare provider today about getting a screening done.</h4>
-                                <span className="image main"><img src={aboutcover} alt="" /></span>
-                                <h2>If your child has any of the above issues, please investigate having your child screened and contact your healthcare provider. The M-CHAT (Modified Checklist for Autism in Toddlers™) can help you determine if a specialist is necessary to assess your kid. </h2>
-                                <h2>Please contact us at Vida Healing for an appointment today ifyou need assistance</h2>
-                            </div>
-                        </section>
+
                     </div>
                 </div>
             </section>
+            <div id="main" className="alt">
+                <section id="one">
+                    <div className="inner">
+                        <header>
+                            <div className="pulsate-fwd">
+                                <h2>Please contact us at Vida Healing for an appointment today if you need assistance</h2>
+                            </div>
+                        </header>
+                    </div>
+                </section>
+            </div>
         </div>
     </Layout>
 )
