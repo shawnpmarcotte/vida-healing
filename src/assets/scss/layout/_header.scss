@@ -51,13 +51,13 @@
 
 			&:hover {
 				strong {
-					background-color: _palette(accent11);
+					background-color: _palette(fg);
 				}
 			}
 
 			&:active {
 				strong {
-					background-color: desaturate(darken(_palette(accent11), 15), 5);
+					background-color: desaturate(darken(_palette(bg), 15), 5);
 				}
 			}
 		}
