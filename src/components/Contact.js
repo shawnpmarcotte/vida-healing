@@ -7,6 +7,7 @@ const Contact = props => {
     email: '',
     subject: '',
     number: '',
+    message: '',
   }
 
   const [formData, setFormData] = useState(INITIAL_STATE)
@@ -20,14 +21,21 @@ const Contact = props => {
   const handleSubmit = event => {
     event.preventDefault()
     setErrors(validators(formData))
-    setFormData(INITIAL_STATE)
+    const tempErrors = validators(formData)
+    setErrors(tempErrors)
+    formData &&
+      !tempErrors.name &&
+      !tempErrors.email &&
+      !tempErrors.subject &&
+      !tempErrors.number &&
+      !tempErrors.message &&
+      setFormData(INITIAL_STATE)
   }
   return (
     <section id="contact">
       <div className="inner">
         <section>
           <form method="post" action="#" onSubmit={handleSubmit}>
-
             {/************************************
              * NAME
              *************************************/}
@@ -98,7 +106,14 @@ const Contact = props => {
 
             <div className="field">
               <h4 htmlFor="message">MESSAGE</h4>
-              <textarea name="message" id="message" rows="6"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                rows="6"
+                value={formData.message}
+                onChange={handleInputChange}
+              />
+              {errors.message && <p>{errors.message}</p>}
             </div>
             <ul className="actions">
               <li>
@@ -113,21 +128,24 @@ const Contact = props => {
           {/*************************************** 
           END OF THE FORM 
           *****************************************/}
-
         </section>
         <section className="split">
           <section>
             <div className="contact-method">
               <span className="icon alt fa-envelope"></span>
               <h3>EMAIL</h3>
-              <h4><a href="#">vidahealingllc@gmail.com</a></h4>
+              <h4>
+                <a href="#">vidahealingllc@gmail.com</a>
+              </h4>
             </div>
           </section>
           <section>
             <div className="contact-method">
               <span className="icon alt fa-phone"></span>
               <h3>PHONE</h3>
-              <h4><span>(305) 389-3224</span></h4>
+              <h4>
+                <span>(305) 389-3224</span>
+              </h4>
             </div>
           </section>
           <section>
@@ -137,11 +155,11 @@ const Contact = props => {
               <h4>
                 <span>
                   2701 W. Oakland Park Blvd Suite 410-9
-                <br />
-                Oakland Park, FL 33311
-                <br />
-                United States of America
-              </span>
+                  <br />
+                  Oakland Park, FL 33311
+                  <br />
+                  United States of America
+                </span>
               </h4>
             </div>
             <section>
