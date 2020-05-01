@@ -19,15 +19,15 @@ const JoinTeam = props => (
             </section>
             <section>
                 <div>
-                    <div id="main" className="alt">
-                        <section id="one">
+                    <div className="fade-in-right" id="main" className="alt">
+                        <section className="fade-in-right" id="one">
                             <div className="inner">
                                 <header className="major">
                                 </header>
                                 <h3>
                                     As a Vida Healing employee, you will play a vital role in shaping the lives and future of our clients. For this reason, we are dedicated to creating an inspiring culture and a working environment that attracts the most passionate people in the ABA field.  You will be considered for both full-time and part-time employment. Our ideal candidates will demonstrate a commitment to learning and excellence in the profession of Applied Behavior analysis. We welcome applicants with the relevant credentials in any area relevant to ABA
                                     </h3>
-                                <span className="image main"><img src={jointeam} alt="" /></span>
+                                <span className="fade-in-right" className="image main"><img src={jointeam} alt="" /></span>
                                 <h3>
                                     Vida Healing currently has openings for potential employees with the appropriate credentials and training:
                                 </h3>
@@ -59,6 +59,17 @@ const JoinTeam = props => (
                     </div>
                 </div>
             </section>
+            <div id="main" className="alt">
+                <section id="one">
+                    <div className="inner">
+                        <header>
+                            <div className="pulsate-fwd">
+                                <h2>To inquire about open positions please contact us below</h2>
+                            </div>
+                        </header>
+                    </div>
+                </section>
+            </div>
         </div>
     </Layout>
 )
