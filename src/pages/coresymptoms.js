@@ -11,7 +11,7 @@ import individualcover from '../assets/images/individual-cover.jpg'
 const Aba = props => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>Autism Symptoms</title>
             <meta name="description" content="Aba Page" />
         </Helmet>
 

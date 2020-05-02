@@ -1,17 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAbs from '../components/BannerAba'
 
-import pic10 from '../assets/images/pic10.jpg'
 import aboutcover from '../assets/images/about-cover.jpg'
 
-const Aba = props => (
+const Aba = () => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Aba Page" />
+      <title>Advanced Behavior Analysis</title>
+      <meta name="description" content="Advanced Behavior Analysis" />
     </Helmet>
 
     <BannerAbs />
