@@ -7,7 +7,7 @@ import BannerAutismCauses from '../components/BannerAutismCauses'
 import autismcauses1 from '../assets/images/autismcauses1.jpg'
 import autismcauses2 from '../assets/images/autismcauses2.jpg'
 import autismcauses3 from '../assets/images/autismcauses3.jpg'
-import autismcausesmain from '../assets/images/autismcausesmain.jpg'
+import autismcauses4 from '../assets/images/autismcauses4.jpg'
 
 
 const Marriage = props => (
@@ -23,7 +23,7 @@ const Marriage = props => (
             <section id="one" className="fade-in-right">
                 <div className="inner">
                     <h1 className="signsheader">The Genetic Risk Factors</h1>
-                    <span className="image main"><img src={autismcausesmain} alt="" /></span>
+                    <span className="image main"><img src={autismcauses4} alt="" /></span>
                     <h3 className="pagesmain">The research tells us that autism tends to work in families. Some gene alterations raise the chance that a kid will develop autism. If one of the parents has one or more of the genes in question, there's a likelihood they'll get transferred to a kid (even if the parent doesn't have autism). Sometimes, these genetic changes occur in embryos spontaneously. Most of the genes don't guarantee autism, but they do increase the risk.</h3>
                     <ul>
                     </ul>

@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerMarriage from '../components/BannerMarriage'
+import marriagecovertwo from '../assets/images/marriage-cover-two.jpg'
+
 
 import marriagecover from '../assets/images/marriage-cover.jpg'
 
@@ -18,7 +19,7 @@ const Marriage = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={marriagecover} alt="" />
+          <img className="image" className="fade-in-right" src={marriagecovertwo} alt="" />
           <div className="content">
             <div className="fade-in-right">
               <h4>

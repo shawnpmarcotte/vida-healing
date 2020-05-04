@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAbs from '../components/BannerAba'
 
-import aboutcover from '../assets/images/about-cover.jpg'
+import abaCover from '../assets/images/aba-cover.jpg'
 
 const Aba = () => (
   <Layout>
@@ -17,7 +17,7 @@ const Aba = () => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={aboutcover} alt="" />
+          <img className="image" className="fade-in-right" src={abaCover} alt="" />
           <div className="content">
             <div className="fade-in-right">
               <h3>
