@@ -25,7 +25,7 @@ const Individual = props => (
                     <img className="image" className="fade-in-right" src={pic10} alt="" />
                     <div className="content">
                         <div className="fade-in-right">
-                            <h2 className="signsblock">
+                            <h2 className="pagesmain">
                                 The following may indicate your child is at risk for an Autism Spectrum Disorder. If your child exhibits any of the following symptoms, please ask your pediatrician or family doctor for an evaluation right away:
                             </h2>
                         </div>
