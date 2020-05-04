@@ -21,7 +21,7 @@ const Family = props => (
           <img className="image" className="fade-in-right" src={familycover} alt="" />
           <div className="content">
             <div className="fade-in-right">
-              <h3>
+              <h3 className="pagesmain">
                 Family Therapy is a type of counseling that can help family members improve communication and resolve conflicts. At times, family
                 therapy is necessary to address family struggles and heal a family’s wounds. At Vida Healing, we strive to offer families a way to do this
                 in a safe, comfortable, and professional environment. We will assist in developing a plan for maintaining a healthy, functional family
@@ -33,7 +33,7 @@ const Family = props => (
           <img className="image" className="fade-in-right" src={familysecondary} alt="" />
           <div className="content">
             <div className="fade-in-right">
-              <h3>
+              <h3 className="pagesmain">
                 Whether you are new parents, recently separated or divorced, and/or trying to manage the curve balls that come with raising a teenager, we are here to assist. Our goal is to establish strong communication skills and create a stronger and healthier family
               </h3>
               <ul className="actions">
