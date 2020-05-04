@@ -24,8 +24,8 @@ const Aba = props => (
                     <img className="image" className="fade-in-right" src={missionsecondary} alt="" />
                     <div className="content">
                         <div className="inner" className="fade-in-right">
-                            <h3>Specialized healthcare providers make autism diagnoses via a condition checklist that overlap the core symptoms above. They also use an autism symptom severity scale. Autism's severity scale will show the amount of support a person with autism needs. The needs will often vary per person</h3>
-                            <h3>Many people with autism have sensory problems. These may include sensitivity to smells, sounds, touch, tastes, lights, pain, and touch along with other stimuli</h3>
+                            <h3 className="signsblock">Specialized healthcare providers make autism diagnoses via a condition checklist that overlap the core symptoms above. They also use an autism symptom severity scale. Autism's severity scale will show the amount of support a person with autism needs. The needs will often vary per person</h3>
+                            <h3 className="signsblock">Many people with autism have sensory problems. These may include sensitivity to smells, sounds, touch, tastes, lights, pain, and touch along with other stimuli</h3>
                         </div>
                     </div>
                 </section>
@@ -33,16 +33,15 @@ const Aba = props => (
                     <img className="image" className="fade-in-right" src={autismthree} alt="" />
                     <div className="content">
                         <div className="inner" className="fade-in-right">
-                            <h2>Social Communication Issues</h2>
+                            <h1 className="signsheader">COMMUINCATION ISSUES - Symptoms may include:</h1>
                             <ul className="actions">
-                                <h4>Both children and adults with autism have strong difficulties with non-verbal and verbal communication</h4>
-                                <h3>Many may not effectively use:</h3>
-                                <li> • Speaking and verbal language (1/3 of individuals with autism cannot speak)</li>
-                                <li> • Euphemisms and things not meant to be taken literally</li>
-                                <li> • Physical or hand gestures</li>
-                                <li> • Making eye contact</li>
-                                <li> • Making expressions with your face</li>
-                                <li> • The tone of one's voice</li>
+                                <h3></h3>
+                                <h5> • Speaking and verbal language (1/3 of autism cases cannot speak)</h5>
+                                <h5> • Euphemisms and things not meant to be taken literally</h5>
+                                <h5> • Physical or hand gestures</h5>
+                                <h5> • Making eye contact</h5>
+                                <h5> • Making expressions with your face</h5>
+                                <h5> • The tone of one's voice</h5>
                             </ul>
                         </div>
                     </div>
@@ -51,16 +50,16 @@ const Aba = props => (
                     <img className="image" src={individualcover} alt="" />
                     <div className="content">
                         <div className="inner">
-                            <h1>Additional social challenges can include difficulty with:</h1>
+                            <h1 className="signsheader">Additional social challenges can include difficulty with:</h1>
                             <ul className="actions">
-                                <li> • Recognizing the emotions and the intention of others</li>
-                                <li> • Recognizing their own emotions</li>
-                                <li> • Ability to express their emotions</li>
-                                <li> • Looking for emotional comfort from other people</li>
-                                <li> • Feelings of being overwhelmed in social situations</li>
-                                <li> • The ability to take turns properly in social situations</li>
-                                <li> • Maintaining proper personal space in social situations</li>
-                                <li> • Repetitive and restrictive behaviors </li>
+                                <h5> • Recognizing the emotions and the intention of others</h5>
+                                <h5> • Recognizing their own emotions</h5>
+                                <h5> • Ability to express their emotions</h5>
+                                <h5> • Looking for emotional comfort from other people</h5>
+                                <h5> • Feelings of being overwhelmed in social situations</h5>
+                                <h5> • The ability to take turns properly in social situations</h5>
+                                <h5> • Maintaining proper personal space in social situations</h5>
+                                <h5> • Repetitive and restrictive behaviors </h5>
                             </ul>
                         </div>
                     </div>
@@ -69,14 +68,14 @@ const Aba = props => (
                     <img className="image" src={aboutcover} alt="" />
                     <div className="content">
                         <div className="inner">
-                            <h3>Restricted and repetitive behaviors will likely vary across the spectrum. These may include:</h3>
+                            <h1 className="signsheader">Rsepetitive behaviors will likely vary - These may include:</h1>
                             <ul className="actions">
-                                <li> • Repetitive body movements (for example: spinning, rocking, etc.)</li>
-                                <li> • Repetitive motions using an object(s) (example: shaking objects and sticks)</li>
-                                <li> • Staring at lighting effects or even spinning objects</li>
-                                <li> • Ritualistic behaviors (e.g., lining up objects, frequently touching items in a set order)</li>
-                                <li> • Obsessive interest in a few (often niche and specialized) topics </li>
-                                <li> • Need for a steady routine (example: the same clothes, the same schedule, etc.)</li>
+                                <h5> • Repetitive body movements (for example: spinning, rocking, etc.)</h5>
+                                <h5> • Repetitive motions using an object(s) (example: shaking objects and sticks)</h5>
+                                <h5> • Staring at lighting effects or even spinning objects</h5>
+                                <h5> • Ritualistic behaviors (e.g., lining up objects, frequently touching items in a set order)</h5>
+                                <h5> • Obsessive interest in a few (often niche and specialized) topics </h5>
+                                <h5> • Need for a steady routine (example: the same clothes, the same schedule, etc.)</h5>
                             </ul>
                         </div>
                     </div>
