@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerCoreSymptoms from '../components/BannerCoreSymptoms'
 
-import pic10 from '../assets/images/pic10.jpg'
+import coresymptomsthree from '../assets/images/coresymptomsthree.jpg'
 import missionsecondary from '../assets/images/mission-secondary.jpg'
 import autismthree from '../assets/images/autismthree.jpg'
 import individualcover from '../assets/images/individual-cover.jpg'
@@ -51,7 +51,7 @@ const Aba = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={individualcover} alt="" />
+                    <img className="image" src={coresymptomsthree} alt="" />
                     <div className="content">
                         <div className="inner">
                             <h2 className="signsheader">Additional Social Challenges May Include:</h2>
