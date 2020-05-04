@@ -61,7 +61,14 @@
 			  transform: scale(1);
 	}
   }
-  
+
+  .signsheader {
+	font-style: italic;
+  }
+
+  .signsblock {
+text-align: center;
+  }
 
 .fade-in-right {
 	-webkit-animation: fade-in-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

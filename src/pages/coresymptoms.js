@@ -7,6 +7,7 @@ import pic10 from '../assets/images/pic10.jpg'
 import missionsecondary from '../assets/images/mission-secondary.jpg'
 import autismthree from '../assets/images/autismthree.jpg'
 import individualcover from '../assets/images/individual-cover.jpg'
+import aboutcover from '../assets/images/about-cover.jpg'
 
 const Aba = props => (
     <Layout>
@@ -20,20 +21,19 @@ const Aba = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img className="image" src={missionsecondary} alt="" />
+                    <img className="image" className="fade-in-right" src={missionsecondary} alt="" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="inner" className="fade-in-right">
                             <h3>Specialized healthcare providers make autism diagnoses via a condition checklist that overlap the core symptoms above. They also use an autism symptom severity scale. Autism's severity scale will show the amount of support a person with autism needs. The needs will often vary per person</h3>
                             <h3>Many people with autism have sensory problems. These may include sensitivity to smells, sounds, touch, tastes, lights, pain, and touch along with other stimuli</h3>
-                            <h3>Autism is also connected to many mental and physical health issues</h3>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={autismthree} alt="" />
+                    <img className="image" className="fade-in-right" src={autismthree} alt="" />
                     <div className="content">
-                        <div className="inner">
-                            <h1>Social communication issues</h1>
+                        <div className="inner" className="fade-in-right">
+                            <h2>Social Communication Issues</h2>
                             <ul className="actions">
                                 <h4>Both children and adults with autism have strong difficulties with non-verbal and verbal communication</h4>
                                 <h3>Many may not effectively use:</h3>
@@ -66,10 +66,10 @@ const Aba = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={pic10} alt="" />
+                    <img className="image" src={aboutcover} alt="" />
                     <div className="content">
                         <div className="inner">
-                            <h1>Restricted and repetitive behaviors will likely vary across the spectrum. These may include:</h1>
+                            <h3>Restricted and repetitive behaviors will likely vary across the spectrum. These may include:</h3>
                             <ul className="actions">
                                 <li> • Repetitive body movements (for example: spinning, rocking, etc.)</li>
                                 <li> • Repetitive motions using an object(s) (example: shaking objects and sticks)</li>
@@ -82,6 +82,15 @@ const Aba = props => (
                     </div>
                 </section>
             </section>
+            <div id="main" className="alt">
+                <div className="inner">
+                    <header>
+                        <div className="pulsate-fwd">
+                            <h2>Please contact us at Vida Healing for an appointment today if you need assistance</h2>
+                        </div>
+                    </header>
+                </div>
+            </div>
         </div>
     </Layout>
 )
