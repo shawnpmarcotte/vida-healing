@@ -62,53 +62,16 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/family" className="link primary" />
             </article>
-            {/* <article style={{ backgroundImage: `url(${marriageCover})` }}>
-              <header className="major">
-                <h3>Autism: Facts and Statistics</h3>
-                <p>Ipsum dolor sit amet</p>
-              </header>
-              <Link to="/autismfacts" className="link primary" />
-            </article> */}
-            {/* <section>
-              <div>
-                <header className="major">
-                  <h3>
-                    IT DOES NOT MATTER HOW SLOWLY YOU GO, AS LONG AS YOU DO NOT STOP
-                </h3>
-                </header>
-                <h4> - CONFUCIOUS</h4>
-              </div>
-            </section> */}
-            {/*****************************************
-             This is the MISSION article 
-             ******************************************/}
-            {/* <article style={{ backgroundImage: `url(${missionCover})` }}>
-              <header className="major">
-                <h3>Mission</h3>
-                <p>Lorem etiam nullam</p>
-              </header>
-              <Link to="/mission" className="link primary" />
-            </article> */}
-            {/******************************************
-              This is the ABOUT article 
-              ******************************************/}
-            {/* <article style={{ backgroundImage: `url(${aboutCover})` }}>
-              <header className="major">
-                <h3>About</h3>
-                <p>Nisl sed aliquam</p>
-              </header>
-              <Link to="/about" className="link primary" />
-            </article> */}
           </section>
           <section id="two">
             <div className="inner">
-              <header className="major">
+              <header className="major" className="pulsate-fwd">
                 <h3>
-                  GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS. LIVE THE LIFE
-                  YOU HAVE IMAGINED.
+                  "GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS. LIVE THE LIFE
+                  YOU HAVE IMAGINED"
                 </h3>
               </header>
-              <h4> - HENRY DAVID THOREAU</h4>
+              <h4 className="pulsate-fwd"> - HENRY DAVID THOREAU</h4>
             </div>
           </section>
         </div>
