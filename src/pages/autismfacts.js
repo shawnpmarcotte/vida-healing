@@ -16,8 +16,8 @@ const Generic = (props) => (
             <meta name="description" content="Generic Page" />
         </Helmet>
 
-        <div id="main" className="alt">
-            <section id="one">
+        <div id="main" className="alt" >
+            <section id="one" className="fade-in-right">
                 <div className="inner">
                     <header className="major">
                         <h1>Autism: Facts and Statistics</h1>
@@ -50,7 +50,7 @@ const Generic = (props) => (
                         <img className="image" src={factsandstats1} alt="" />
                         <div className="content">
                             <div className="inner">
-                                <h2 className="signsblock">AUTISM: INTERVENTION AND SUPPORT</h2>
+                                <h1 className="signsblock">INTERVENTION AND SUPPORT</h1>
                                 <ul className="actions">
                                     <h4> •  Early treatment boosts interaction, social skills, and learning. It also supports underlying brain development</h4>
                                     <h4> • Applied behavior analysis is based upon concepts that are explored and commonly used in autism behavioral interventions</h4>
@@ -91,7 +91,7 @@ const Generic = (props) => (
                                 <h3 className="signsblock"> • Up to 1/3 of kids with autism also have epilepsy/seizure disorders</h3>
                                 <h3 className="signsblock"> • Up to 35% of adults with autism have schizophrenia. Schizophrenia affects about 1.1 % of the population</h3>
                                 <h3 className="signsblock"> • Health issues linked to autism extend across an individual's entire life - from little kids to senior citizens. Nearly 1/3 of kids ages 2-5 with autism have obesity problems, and about 15% are obese. To compare, less than 25% of kids age 2-5 in the overall public are obese, and only 10% are medically obese</h3>
-                                <h3 className="signsblock"> • Aripiprazole and Risperidone have been linked with irritability and agitation. These are the only FDA-approved medicines for treating autism.</h3>
+                                <h3 className="signsblock"> • Aripiprazole and Risperidone have been linked with irritability and agitation. These are the only FDA-approved medicines for treating autism</h3>
                             </div>
                         </section>
                     </div>
@@ -117,12 +117,12 @@ const Generic = (props) => (
                     </header>
                     <h1 className="signsblock">Autism for Adults</h1>
                     <span className="image main"><img src={factsandstats5} alt="" /></span>
-                    <h4> Over the past decade, over 110,000 kids per year will enter age and adulthood out of school-based autism services</h4>
-                    <h4>Teenagers with autism receive healthcare transition services about half as much as individuals that have other specific medical needs. (Younger kids with medical issues linked with autism are less prone to get transition support)</h4>
-                    <h4>Over half of young adults with autism don't enroll in higher education more than two years after completing high school. This is less of an issue for young adults with autism, as it is with speech impediments and various other disorders.</h4>
-                    <h4>Of the nearly 18,000 individuals with autism that utilize state-funded vocational rehabilitation programs in 2014, only about 60% of them completed the program. Of the ones that did, 80% earned around $160/week, earnings that guarantee they're way below the poverty line</h4>
-                    <h4>Nearly ½ of those aged 25 with autism have never had a paying job.</h4>
-                    <h4>Research has shown that jobs/job tasks that emphasize independence help to reduce and mitigate autism symptoms as well as increase everyday living skills</h4>
+                    <h4 className="signsblock"> Over the past decade, over 110,000 kids per year will enter age and adulthood out of school-based autism services</h4>
+                    <h4 className="signsblock">Teenagers with autism receive healthcare transition services about half as much as individuals that have other specific medical needs. (Younger kids with medical issues linked with autism are less prone to get transition support)</h4>
+                    <h4 className="signsblock">Over half of young adults with autism don't enroll in higher education more than two years after completing high school. This is less of an issue for young adults with autism, as it is with speech impediments and various other disorders</h4>
+                    <h4 className="signsblock">Of the nearly 18,000 individuals with autism that utilize state-funded vocational rehabilitation programs in 2014, only about 60% of them completed the program. Of the ones that did, 80% earned around $160/week, earnings that guarantee they're way below the poverty line</h4>
+                    <h4 className="signsblock">Nearly ½ of those aged 25 with autism have never had a paying job</h4>
+                    <h4 className="signsblock">Research has shown that jobs/job tasks that emphasize independence help to reduce and mitigate autism symptoms as well as increase everyday living skills</h4>
                 </div>
             </section>
             <div id="main" className="alt">

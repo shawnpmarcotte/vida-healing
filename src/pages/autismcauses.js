@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAutismCauses from '../components/BannerAutismCauses'
 
-import marriagecover from '../assets/images/marriage-cover.jpg'
+import autismcauses1 from '../assets/images/autismcauses1.jpg'
 
 const Marriage = props => (
     <Layout>
@@ -18,7 +18,7 @@ const Marriage = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img className="fade-in-right" src={marriagecover} alt="" />
+                    <img className="fade-in-right" src={autismcauses1} alt="" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h3 className="signsblock">
@@ -35,7 +35,7 @@ const Marriage = props => (
                     </div>
                 </section>
                 <section>
-                    <img src={marriagecover} className="fade-in-right" alt="" />
+                    <img src={autismcauses1} className="fade-in-right" alt="" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h1 className="signsheader">Autism: The Genetic Risk Factors</h1>
@@ -49,7 +49,7 @@ const Marriage = props => (
                     </div>
                 </section>
                 <section>
-                    <img src={marriagecover} className="fade-in-right" alt="" />
+                    <img src={autismcauses1} className="fade-in-right" alt="" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h1 className="signsheader">Autism's Environmental Risk Factors</h1>
@@ -66,7 +66,7 @@ const Marriage = props => (
                     </div>
                 </section>
                 <section>
-                    <img src={marriagecover} className="fade-in-right" alt="" />
+                    <img src={autismcauses1} className="fade-in-right" alt="" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h1 className="signsheader">Reducing the Risk of Autism</h1>
@@ -85,7 +85,7 @@ const Marriage = props => (
                     </div>
                 </section>
                 <section>
-                    <img src={marriagecover} className="fade-in-right" alt="" />
+                    <img src={autismcauses1} className="fade-in-right" alt="" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h1>Differing Brain Biology and their Impact on Autism Risk</h1>

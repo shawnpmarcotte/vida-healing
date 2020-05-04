@@ -33,7 +33,7 @@ const Aba = props => (
                     <img className="image" className="fade-in-right" src={autismthree} alt="" />
                     <div className="content">
                         <div className="inner" className="fade-in-right">
-                            <h1 className="signsheader">COMMUINCATION ISSUES - Symptoms may include:</h1>
+                            <h1 className="signsheader">COMMUINCATION ISSUES - Symptoms May Include:</h1>
                             <ul className="actions">
                                 <h3></h3>
                                 <h5> • Speaking and verbal language (1/3 of autism cases cannot speak)</h5>
@@ -50,7 +50,7 @@ const Aba = props => (
                     <img className="image" src={individualcover} alt="" />
                     <div className="content">
                         <div className="inner">
-                            <h1 className="signsheader">Additional social challenges can include difficulty with:</h1>
+                            <h1 className="signsheader">Additional Social Challenges Can Include Difficulty With:</h1>
                             <ul className="actions">
                                 <h5> • Recognizing the emotions and the intention of others</h5>
                                 <h5> • Recognizing their own emotions</h5>
@@ -68,7 +68,7 @@ const Aba = props => (
                     <img className="image" src={aboutcover} alt="" />
                     <div className="content">
                         <div className="inner">
-                            <h1 className="signsheader">Rsepetitive behaviors will likely vary - These may include:</h1>
+                            <h1 className="signsheader">Repetitive Behaviors Will Likely Vary - These May Include:</h1>
                             <ul className="actions">
                                 <h5> • Repetitive body movements (for example: spinning, rocking, etc.)</h5>
                                 <h5> • Repetitive motions using an object(s) (example: shaking objects and sticks)</h5>
