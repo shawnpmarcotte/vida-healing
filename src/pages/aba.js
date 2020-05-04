@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAbs from '../components/BannerAba'
 
-import aboutcover from '../assets/images/about-cover.jpg'
+import abaCover from '../assets/images/aba-cover.jpg'
 
 const Aba = () => (
   <Layout>
@@ -17,10 +17,10 @@ const Aba = () => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={aboutcover} alt="" />
+          <img className="image" className="fade-in-right" src={abaCover} alt="" />
           <div className="content">
             <div className="fade-in-right">
-              <h3>
+              <h3 className="pagesmain">
                 Applied Behavior Analysis (ABA) is provided to assist individuals in learning new functionality equivalent replacement skills for identified challenging behaviors. Behavior Analysis is the scientific study of behavior. Applied Behavior Analysis (ABA) is the application of the principles of learning and motivation from Behavior Analysis, and the procedures and technology derived from those principles, to the solution of problems of social significance. Many decades of research have validated treatments based on ABA
             </h3>
             </div>
