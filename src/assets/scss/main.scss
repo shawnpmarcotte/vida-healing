@@ -64,6 +64,14 @@
 
   .signsheader {
 	font-style: italic;
+	text-align: center;
+
+  }
+
+  .pagesmain {
+	box-shadow: inset 0 0 0 2px _palette(fg-bold);
+	padding: 20px;
+	text-align: center;
   }
 
   .signsblock {
