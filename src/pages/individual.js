@@ -28,13 +28,15 @@ const Individual = props => (
         </section>
       </section>
       <div id="main" className="alt">
-        <div className="inner">
-          <header>
-            <div className="pulsate-fwd">
-              <h2>Please contact us at Vida Healing for an appointment today if you need assistance</h2>
-            </div>
-          </header>
-        </div>
+        <section id="one">
+          <div className="inner">
+            <header>
+              <div className="pulsate-fwd">
+                <h2>Please Contact Us At Vida Healing For An Appointment Today If You Need Assistance</h2>
+              </div>
+            </header>
+          </div>
+        </section>
       </div>
     </div>
   </Layout>
