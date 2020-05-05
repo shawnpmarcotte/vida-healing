@@ -2,10 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerJoinTeam from '../components/BannerJoinTeam'
-import familysecondary from '../assets/images/family-secondary.jpg'
 import jointeam from '../assets/images/jointeam.jpg'
 
-const JoinTeam = props => (
+const JoinTeam = () => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
@@ -15,11 +14,9 @@ const JoinTeam = props => (
         <BannerJoinTeam />
 
         <div id="main">
-            <section id="two" className="spotlights">
-            </section>
             <section>
                 <div>
-                    <div id="main" className="alt">
+                    <div id="main" className="fade-in-right">
                         <section id="one">
                             <div className="inner">
                                 <header className="major">

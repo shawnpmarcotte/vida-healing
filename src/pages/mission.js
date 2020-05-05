@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerMission'
+import mission3 from '../assets/images/mission3.jpg'
 
-import missionsecondary from '../assets/images/mission-secondary.jpg'
-
-const Landing = props => (
+const Landing = () => (
   <Layout>
     <Helmet>
       <title>Landing - Forty by HTML5 UP</title>
@@ -18,14 +16,11 @@ const Landing = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img src={missionsecondary} alt="" />
+          <img className="image" className="fade-in-right" src={mission3} alt="" />
           <div className="content">
-            <div className="inner">
-              {/* <header className="major">
-                                <h3>Orci maecenas</h3>
-                            </header> */}
-              <h3>
-                We to create an environment where our clients, children, and
+            <div className="fade-in-right">
+              <h3 className="pagesmain">
+                We aim to create an environment where our clients, children, and
                 families feel that we are making a positive difference in their
                 lives. We strive to do this by providing a team of highly
                 trained personnel that are caring and thorough. It is our goal

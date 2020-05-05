@@ -10,7 +10,6 @@ const BannerSignsOfAutism = props => (
                 These symptoms below may indicate that your child is on the spectrum for autism.
               </h3>
             </header>
-            <div className="content"></div>
         </div>
     </section>
 )
