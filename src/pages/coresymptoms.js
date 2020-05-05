@@ -26,9 +26,10 @@ const Aba = props => (
                         <div className="inner" className="fade-in-right">
                             <ul className="actions">
                                 <div className="pagesmain">
-
-                                    <h4>Specialized healthcare providers make autism diagnoses via a condition checklist that overlap the core symptoms above. They also use an autism symptom severity scale. Autism's severity scale will show the amount of support a person with autism needs. The needs will often vary per person</h4>
-                                    <h4>Many people with autism have sensory problems. These may include sensitivity to smells, sounds, touch, tastes, lights, pain, and touch along with other stimuli</h4>
+                                    <h4 className="pagesmain">Difficulty communicating with others</h4>
+                                    <h4 className="pagesmain">Repetitive and restricted behavior and actions</h4>
+                                    <h4 className="pagesmain">Persistant interferance with regular living</h4>
+                                    <h4 className="pagesmain">Can start early on in childhood (and may go unnoticed and unrecognized)</h4>
                                 </div>
                             </ul>
                         </div>
@@ -42,8 +43,7 @@ const Aba = props => (
                             <ul className="actions">
                                 <h5 className="pagesmain">Speaking and verbal language (1/3 of autism cases cannot speak)</h5>
                                 <h5 className="pagesmain">Euphemisms and things not meant to be taken literally</h5>
-                                <h5 className="pagesmain">Physical or hand gestures</h5>
-                                <h5 className="pagesmain">Making eye contact</h5>
+                                <h5 className="pagesmain">Physical or hand gestures / lack of eye contact</h5>
                                 <h5 className="pagesmain">Making expressions with your face</h5>
                                 <h5 className="pagesmain">The tone of one's voice</h5>
                             </ul>
@@ -56,8 +56,7 @@ const Aba = props => (
                         <div className="inner">
                             <h2 className="signsheader">Additional Social Challenges May Include:</h2>
                             <ul className="actions">
-                                <h5 className="pagesmain">Recognizing the emotions and the intention of others</h5>
-                                <h5 className="pagesmain">Ability to express their emotions</h5>
+                                <h5 className="pagesmain">Ability to express emotions/recognizing emotions and the intention of others</h5>
                                 <h5 className="pagesmain">Feelings of being overwhelmed in social situations</h5>
                                 <h5 className="pagesmain">The ability to take turns properly in social situations</h5>
                                 <h5 className="pagesmain">Maintaining proper personal space in social situations</h5>
@@ -72,8 +71,7 @@ const Aba = props => (
                         <div className="inner">
                             <h2 className="signsheader">Repetitive Behaviors May Include:</h2>
                             <ul className="actions">
-                                <h5 className="pagesmain">Repetitive body movements (ex. rocking)</h5>
-                                <h5 className="pagesmain">Repetitive motions using an object(s) (ex: shaking objects/sticks)</h5>
+                                <h5 className="pagesmain">Repetitive movements like rocking/motions using objects (ex. shaking sticks)</h5>
                                 <h5 className="pagesmain">Ritualistic behaviors (e.g., lining up objects, frequently touching items in a set order)</h5>
                                 <h5 className="pagesmain">Obsessive interest in a few (often niche and specialized) topics </h5>
                                 <h5 className="pagesmain">Need for a steady routine (example: the same clothes, the same schedule, etc.)</h5>
