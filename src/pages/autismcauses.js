@@ -24,7 +24,7 @@ const Marriage = props => (
                 <div className="inner">
                     <h1 className="signsheader">The Genetic Risk Factors</h1>
                     <span className="image main"><img src={autismcauses4} alt="" /></span>
-                    <h3 className="pagesmain">The research tells us that autism tends to work in families. Some gene alterations raise the chance that a kid will develop autism. If one of the parents has one or more of the genes in question, there's a likelihood they'll get transferred to a kid (even if the parent doesn't have autism). Sometimes, these genetic changes occur in embryos spontaneously. Most of the genes don't guarantee autism, but they do increase the risk.</h3>
+                    <h2 className="pagesmain">The research tells us that autism tends to work in families. Some gene alterations raise the chance that a kid will develop autism. If one of the parents has one or more of the genes in question, there's a likelihood they'll get transferred to a kid (even if the parent doesn't have autism). Sometimes, these genetic changes occur in embryos spontaneously. Most of the genes don't guarantee autism, but they do increase the risk</h2>
                     <ul>
                     </ul>
                 </div>
@@ -51,11 +51,10 @@ const Marriage = props => (
                     <section id="one">
                         <div className="inner">
                             <h1 className="signsheader">Possible Autism Risk:</h1>
-                            <h4 className="pagesmain">Prenatal vitamins that contain folic acid, before and during conception / throughout pregnancy</h4>
+                            <h3 className="pagesmain">Prenatal vitamins that contain folic acid, before and during conception / throughout pregnancy</h3>
                             <span className="image main"><img src={autismcauses2} alt="" /></span>
                             <h1 className="signsheader">No Impact on Risk:</h1>
-                            <h4 className="pagesmain">Vaccines. Every family has a unique situation with their autism diagnose(es); for some, it corresponds with their child's vaccine timing. Researchers have done a lot of research over the past few years to determine whether there's some link between childhood vaccinations and autism</h4>
-                            <h4 className="pagesmain">The outcomes have shown that autism isn't caused by vaccines. The American Academy of Pediatrics has assembled a thorough list of their analysis on this topic</h4>
+                            <h3 className="pagesmain">Vaccines. Every family has its own unique circumstances with their autism diagnose(es); for some, it corresponds with their child's vaccine timing. Researchers have done a lot of research over the past few years to determine whether there's some link between childhood vaccinations and autism. <br />The outcomes have shown that autism isn't caused by vaccines. The American Academy of Pediatrics has assembled a thorough list of their analysis on this topic </h3>
 
                         </div>
                     </section>
@@ -67,8 +66,8 @@ const Marriage = props => (
                             <h1>Differing Brain Biology and their Impact on Autism Risk</h1>
                             <h3>How can these nongenetic and genetic influences give rise to autism?</h3>
                             <ul>
-                                <h4 className="pagesmain">Most people seem to influence the essential elements of early brain development. A few seem to influence how brain nerve cells, or maybe neurons, speak with one another. </h4>
-                                <h4 className="pagesmain">Others seem to influence how entire areas of the human brain speak with one another. Investigation continues to check out these differences with a watch to improving treatments as well as supports, which will enhance the quality of life.</h4>
+                                <h4 className="pagesmain">Most people seem to influence the essential elements of early brain development. A few seem to influence how brain nerve cells, or maybe neurons, speak with one another</h4>
+                                <h4 className="pagesmain">Others seem to influence how entire areas of the human brain speak with one another. Investigation continues to check out these differences with a watch to improving treatments as well as supports, which will enhance the quality of life</h4>
                             </ul>
                         </div>
                     </div>
@@ -78,9 +77,9 @@ const Marriage = props => (
                 <div className="inner">
                     <header>
                         <h5>
-                            <h5 className="signsblock">
-                                The information listed above is not meant to diagnose autism for you or a loved one. Please consult your physician so they can make a proper diagnosis
-                            </h5>
+                            <h3 className="signsblock">
+                                The information listed above is not meant to diagnose autism for you or a loved one
+                            </h3>
                         </h5>
                         <div className="pulsate-fwd">
                             <h2>Please Contact Us At Vida Healing Today To Learn How We can Help</h2>
