@@ -86,7 +86,7 @@ const Aba = props => (
                 <div className="inner">
                     <header>
                         <div className="pulsate-fwd">
-                            <h2>Please contact us at Vida Healing for an appointment today if you need assistance</h2>
+                            <h2>Please Contact Us At Vida Healing Today To Learn How We can Help</h2>
                         </div>
                     </header>
                 </div>
