@@ -20,9 +20,9 @@ const Aba = () => (
           <img className="image" className="fade-in-right" src={abaCover} alt="" />
           <div className="content">
             <div className="fade-in-right">
-              <h3 className="pagesmain">
-                Applied Behavior Analysis (ABA) is provided to assist individuals in learning new functionality equivalent replacement skills for identified challenging behaviors. Behavior Analysis is the scientific study of behavior. Applied Behavior Analysis (ABA) is the application of the principles of learning and motivation from Behavior Analysis, and the procedures and technology derived from those principles, to the solution of problems of social significance. Many decades of research have validated treatments based on ABA
-            </h3>
+              <h2 className="pagesmain">
+                Applied Behavior Analysis (ABA) is provided to assist individuals in learning new functionality equivalent replacement skills for identified challenging behaviors. Many decades of research have validated treatments based on ABA
+            </h2>
             </div>
           </div>
         </section>
