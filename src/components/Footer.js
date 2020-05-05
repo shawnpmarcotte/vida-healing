@@ -8,7 +8,6 @@ const Footer = props => (
         <h4>
           <a
             href="/jointeam"
-            target="blank"
           >
             <span className="label">JOIN OUR TEAM</span>
           </a>
@@ -16,7 +15,6 @@ const Footer = props => (
         <h4>
           <a
             href="/mission"
-            target="blank"
           >
             <span className="label">MISSION</span>
           </a>
@@ -24,7 +22,6 @@ const Footer = props => (
         <h4>
           <a
             href="/about"
-            target="blank"
           >
             <span className="label">ABOUT</span>
           </a>

@@ -2,10 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerJoinTeam from '../components/BannerJoinTeam'
-import familysecondary from '../assets/images/family-secondary.jpg'
 import jointeam from '../assets/images/jointeam.jpg'
 
-const JoinTeam = props => (
+const JoinTeam = () => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
@@ -15,48 +14,53 @@ const JoinTeam = props => (
         <BannerJoinTeam />
 
         <div id="main">
-            <section id="two" className="spotlights">
-            </section>
             <section>
                 <div>
-                    <div id="main" className="alt">
+                    <div id="main" className="fade-in-right">
                         <section id="one">
                             <div className="inner">
-                                <header className="major">
-                                </header>
-                                <h3>
-                                    As a Vida Healing employee, you will play a vital role in shaping the lives and future of our clients. For this reason, we are dedicated to creating an inspiring culture and a working environment that attracts the most passionate people in the ABA field.  You will be considered for both full-time and part-time employment. Our ideal candidates will demonstrate a commitment to learning and excellence in the profession of Applied Behavior analysis. We welcome applicants with the relevant credentials in any area relevant to ABA
-                                    </h3>
-                                <span className="image main"><img src={jointeam} alt="" /></span>
-                                <h3>
-                                    Vida Healing currently has openings for potential employees with the appropriate credentials and training:
-                                </h3>
-                                <ul>
-                                    <li> •  BCBA - Board Certified Behavior Analyst</li>
-                                    <li> •  LMHC -Licensed Mental Health Counselors</li>
-                                    <li> •  RBT - Registered Behavior Technicians</li>
-                                </ul>
-                                <h3>
+                                <h2 className="signsblock">
                                     We are dedicated to living our adopted values as a driving force:
-                                </h3>
-                                <ul>
-                                    <li> •  Client Care</li>
-                                    <li> •  Integrity</li>
-                                    <li> •  Accountability</li>
-                                    <li> •  Education and Training</li>
-                                    <li> •  Administrative support</li>
+                                </h2>
+                                <ul className="pagesmainthree">
+                                    <li className="pagesmainthree">Client Care</li>
+                                    <li className="pagesmainthree">Integrity</li>
+                                    <li className="pagesmainthree">Accountability</li>
+                                    <li className="pagesmainthree">Education and Training</li>
+                                    <li className="pagesmainthree">Administrative Support</li><br />
                                 </ul>
-                            </div>
-                            <div className="inner">
-                                <h4>
-                                    PREFERRED QUALIFICATION: It is incumbent on all candidates applying to work with Vida Healing to have all the necessary qualifications for their position. Whether you’re interested in being an RBT, Behavior Analyst or Licensed Mental Health Counselor, we have information about what it’s like to work in our company and how to proceed
-                                </h4>
-                                <h4>
-                                    PREREQUISITE FOR HIRE: Background screening, First aid & CPR, HIPPA, Intro to Developmental Disabilities and Zero Tolerance
-                                </h4>
+                                <span className="image main"><img src={jointeam} alt="" /></span>
+                                <h1 className="signsblock">
+                                    Vida Healing currently has openings for potential employees with the appropriate credentials and training:
+                                </h1>
+                                <ul>
+                                    <h3 className="pagesmain"> •  BCBA - Board Certified Behavior Analyst</h3>
+                                    <h3 className="pagesmain"> •  LMHC -Licensed Mental Health Counselors</h3>
+                                    <h3 className="pagesmain"> •  RBT - Registered Behavior Technicians</h3>
+                                </ul>
+                                <h3 className="signsblock">
+                                    PREFERRED QUALIFICATION: It is incumbent on all applicants to work with Vida Healing to have all the necessary qualifications for their position. Whether you’re interested in being an RBT, Behavior Analyst or Licensed Mental Health Counselor, we have information about our company culture and how to proceed
+                                </h3>
+                                <h3 className="signsblock" className="pagesmain">
+                                    PREREQUISITE FOR HIRE
+                                </h3>
+                                <h1 className="signsblock">
+                                    Background screening, First aid & CPR, HIPPA, Intro to Developmental Disabilities and Zero Tolerance
+                                </h1>
                             </div>
                         </section>
                     </div>
+                </div>
+            </section>
+        </div>
+        <div id="main" className="alt">
+            <section id="one">
+                <div className="inner">
+                    <header>
+                        <div className="pulsate-fwd">
+                            <h2>Please Contact Us Below To Inquire About Our Open Positions</h2>
+                        </div>
+                    </header>
                 </div>
             </section>
         </div>
