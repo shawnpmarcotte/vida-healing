@@ -20,15 +20,8 @@ const About = () => (
           <img src={aboutSecondary} className="fade-in-right" alt="" />
           <div className="content">
             <div className="fade-in-right">
-              <h4 className="pagesmain">
-                Licensed Mental Health Counselor (LMHC) and certified
-                Dialectical Behavior Therapy treatment provider offering
-                bilingual counseling services. Populations
-                of interest are children, adolescents, adults, and families.
-                Theoretical orientation consists of an eclectic approach, or a
-                combination of treatment modalities, in an effort to help
-                clients reach their mental health goals. Experience in crisis
-                counseling, depressive disorders, anxiety, adjustment issues,
+              <h3 className="pagesmain">
+                Experience in crisis counseling, depressive disorders, anxiety, adjustment issues,
                 multicultural counseling, Schizophrenia, Bipolar Disorder, group
                 facilitation, victims of domestic violence, adult survivors of
                 childhood sexual abuse, Attention Deficit Disorder (ADD) and
@@ -37,7 +30,7 @@ const About = () => (
                 special interest in young women who struggle with individuating
                 from their family of origin and trying to solidify their
                 individual identities
-              </h4>
+              </h3>
               <ul className="actions">
               </ul>
             </div>
@@ -50,7 +43,7 @@ const About = () => (
         <div className="inner">
           <header>
             <div className="pulsate-fwd">
-              <h2>Please Contact Us At Vida Healing For An Appointment Today If You Need Assistance</h2>
+              <h2>Please Contact Us At Vida Healing Today To Learn How We can Help</h2>
             </div>
           </header>
         </div>

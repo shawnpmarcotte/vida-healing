@@ -28,13 +28,13 @@ const Generic = (props) => (
                     <h1 className="signsblock">The Prevalence of Autism</h1>
                     <ul className="actions">
                         <h3 className="pagesmain">In 2020, the CDC found that around 2% of kids surveyed in the United States were identified as having Autism Spectrum Disorder</h3  >
-                        <h3 className="pagesmain">3% of boys surveyed stated they had autism.</h3 >
-                        <h3 className="pagesmain">Just 1 out of 144 females stated they had autism. </h3>
+                        <h3 className="pagesmain">3% of boys surveyed stated they had autism</h3 >
+                        <h3 className="pagesmain">Just 1 out of 144 females stated they had autism</h3>
                         <h3 className="pagesmain">There is a 4x increased likelihood of a boy being diagnosed with autism than a girl</h3>
                         <h3 className="pagesmain">Most kids were diagnosed after the age of 4 (though autism can be reliably diagnosed by age 2)</h3>
                         <h3 className="pagesmain">Over 30% of kids with ASD have at least one intellectual disability (under 70 IQ), about ¼ of kids are in the borderline range (IQ between 71 and 85), and about 45% have a typical-to-above-average (>85)</h3>
                         <h3 className="pagesmain">Autism affects people from all ethnicities and social classes</h3>
-                        <h3 className="pagesmain">Minorities groups are often diagnosed much later.</h3>
+                        <h3 className="pagesmain">Minorities groups are often diagnosed much later</h3>
                         <h3 className="pagesmain">The earlier it is diagnosed, the better the management and treatment can be, and the better the quality of life will be later</h3>
                         <h3 className="pagesmain">There are no health-related detections for autism</h3>
                         <span className="image main"><img src={factsandstats7} alt="" /></span>
@@ -57,7 +57,7 @@ const Generic = (props) => (
                                 <ul className="actions">
                                     <h4 className="pagesmain">Early treatment boosts interaction, social skills, and learning. It also supports underlying brain development</h4>
                                     <h4 className="pagesmain">Applied behavior analysis is based upon concepts that are explored and commonly used in autism behavioral interventions</h4>
-                                    <h4 className="pagesmain">Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy.</h4>
+                                    <h4 className="pagesmain">Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy</h4>
                                 </ul>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const Generic = (props) => (
                             <div className="inner">
                                 <header className="major">
                                 </header>
-                                <h1 className="signsblock">Associated Medical and Mental Health Conditions</h1>
+                                <h1 className="pulsate-fwd">Associated Medical and Mental Health Conditions</h1>
                                 <span className="image main"><img src={factsandstats3} alt="" /></span>
                                 <h3 className="pagesmain">Autism affects the entire body and can change the body as well</h3>
                                 <h3 className="pagesmain">Over 50% of kids with autism have sleeping problems</h3>
