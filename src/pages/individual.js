@@ -20,9 +20,9 @@ const Individual = props => (
           <img className="image" className="fade-in-right" src={pic09} alt="" />
           <div className="content">
             <div className="fade-in-right">
-              <h3 className="pagesmain">
+              <h2 className="pagesmain">
                 Depression and anxiety are two of the most common mental health issues in America. You don’t have to face your issues alone. We provide Individual Therapy and believe that this is a joint process between a Therapist and the person in therapy
-                </h3>
+                </h2>
             </div>
           </div>
         </section>
