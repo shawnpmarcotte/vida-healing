@@ -79,7 +79,7 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(fg);
+		background: _palette(accent9);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -89,7 +89,7 @@
 		text-decoration: none;
 		width: 100%;
 		resize: vertical;
-		opacity: 50%;
+		opacity: 100%;
 
 		&:invalid {
 			box-shadow: none;
@@ -107,7 +107,7 @@
 		position: relative;
 
 		&:before {
-			color: _palette(fg-bold);
+			color: _palette(bg);
 			content: '\f078';
 			display: block;
 			height: _size(element-height);

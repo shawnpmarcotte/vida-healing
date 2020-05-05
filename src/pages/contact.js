@@ -13,10 +13,10 @@ const Family = () => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img src={pic05} alt="" />
+                    <img className="fade-in-right" src={pic05} alt="" />
                     <div className="content">
-                        <div className="inner">
-                            <h3>We Specialize in Applied Behavior Analysis (ABA), Individual Therapy, Family Therapy, and Marriage and Couples Therapy. Please Reach out to Vida Healing Today to Schedule an Appointment!</h3>
+                        <div className="fade-in-right">
+                            <h2 className="pagesmain">We Specialize in Applied Behavior Analysis (ABA), Individual Therapy, Family Therapy, and Marriage and Couples Therapy. Please Reach out to Vida Healing Today to Schedule an Appointment!</h2>
                         </div>
                     </div>
                 </section>

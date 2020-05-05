@@ -83,7 +83,7 @@ const Marriage = props => (
                             </h5>
                         </h5>
                         <div className="pulsate-fwd">
-                            <h2>Please Contact Us At Vida Healing For An Appointment Today If You Need Assistance</h2>
+                            <h2>Please Contact Us At Vida Healing Today To Learn How We can Help</h2>
                         </div>
                     </header>
                 </div>
