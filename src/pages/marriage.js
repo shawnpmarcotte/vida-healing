@@ -3,11 +3,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerMarriage from '../components/BannerMarriage'
 import marriagecovertwo from '../assets/images/marriage-cover-two.jpg'
-
-
 import marriagecover from '../assets/images/marriage-cover.jpg'
 
-const Marriage = props => (
+const Marriage = () => (
   <Layout>
     <Helmet>
       <title>Landing - Forty by HTML5 UP</title>

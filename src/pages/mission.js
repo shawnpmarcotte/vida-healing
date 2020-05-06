@@ -19,20 +19,28 @@ const Landing = () => (
           <img className="image" className="fade-in-right" src={mission3} alt="" />
           <div className="content">
             <div className="fade-in-right">
-              <h3 className="pagesmain">
-                We aim to create an environment where our clients, children, and
-                families feel that we are making a positive difference in their
-                lives. We strive to do this by providing a team of highly
-                trained personnel that are caring and thorough. It is our goal
+              <h2 className="pagesmain">
+                It is our goal
                 to have a significant impact on the lives of our clients and
                 their families. We aspire to create the optimal healing
                 environment for those we serve in the office or their homes
-              </h3>
+              </h2>
               <ul className="actions">
               </ul>
             </div>
           </div>
         </section>
+      </section>
+    </div>
+    <div id="main" className="alt">
+      <section id="one">
+        <div className="inner">
+          <header>
+            <div className="pulsate-fwd">
+              <h2>Please Contact Us At Vida Healing Today To Learn How We can Help</h2>
+            </div>
+          </header>
+        </div>
       </section>
     </div>
   </Layout>

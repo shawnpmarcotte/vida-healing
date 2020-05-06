@@ -8,16 +8,15 @@ import factsandstats2 from '../assets/images/factsandstats2.jpg'
 import factsandstats3 from '../assets/images/factsandstats3.jpg'
 import factsandstats4 from '../assets/images/factsandstats4.jpg'
 import factsandstats5 from '../assets/images/factsandstats5.jpg'
-import factsandstats7 from '../assets/images/factsandstats7.jpg'
 
 
-const Generic = (props) => (
+
+const AutismFacts = () => (
     <Layout>
         <Helmet>
             <title>Generic - Forty by HTML5 UP</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
-
         <div id="main" className="alt" >
             <section id="one" className="fade-in-right">
                 <div className="inner">
@@ -28,16 +27,16 @@ const Generic = (props) => (
                     <h1 className="signsblock">The Prevalence of Autism</h1>
                     <ul className="actions">
                         <h3 className="pagesmain">In 2020, the CDC found that around 2% of kids surveyed in the United States were identified as having Autism Spectrum Disorder</h3  >
-                        <h3 className="pagesmain">3% of boys surveyed stated they had autism.</h3 >
-                        <h3 className="pagesmain">Just 1 out of 144 females stated they had autism. </h3>
+                        <h3 className="pagesmain">3% of boys surveyed stated they had autism</h3 >
+                        <h3 className="pagesmain">Just 1 out of 144 females stated they had autism</h3>
                         <h3 className="pagesmain">There is a 4x increased likelihood of a boy being diagnosed with autism than a girl</h3>
                         <h3 className="pagesmain">Most kids were diagnosed after the age of 4 (though autism can be reliably diagnosed by age 2)</h3>
                         <h3 className="pagesmain">Over 30% of kids with ASD have at least one intellectual disability (under 70 IQ), about ¼ of kids are in the borderline range (IQ between 71 and 85), and about 45% have a typical-to-above-average (>85)</h3>
                         <h3 className="pagesmain">Autism affects people from all ethnicities and social classes</h3>
-                        <h3 className="pagesmain">Minorities groups are often diagnosed much later.</h3>
+                        <h3 className="pagesmain">Minorities groups are often diagnosed much later</h3>
                         <h3 className="pagesmain">The earlier it is diagnosed, the better the management and treatment can be, and the better the quality of life will be later</h3>
                         <h3 className="pagesmain">There are no health-related detections for autism</h3>
-                        <span className="image main"><img src={factsandstats7} alt="" /></span>
+                        <span className="image main"><img src={factsandstats3} alt="" /></span>
                         <h1 className="signsblock">Autism: What Brings it About?</h1>
                         <h3 className="pagesmain">Extensive research has suggested that the genes are active in most autism instances</h3>
                         <h3 className="pagesmain">Children who were born to much-older parents have a higher likelihood of autism</h3>
@@ -57,7 +56,7 @@ const Generic = (props) => (
                                 <ul className="actions">
                                     <h4 className="pagesmain">Early treatment boosts interaction, social skills, and learning. It also supports underlying brain development</h4>
                                     <h4 className="pagesmain">Applied behavior analysis is based upon concepts that are explored and commonly used in autism behavioral interventions</h4>
-                                    <h4 className="pagesmain">Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy.</h4>
+                                    <h4 className="pagesmain">Many kids that have autism also get a lot of benefit from speech therapy and occupational therapy</h4>
                                 </ul>
                             </div>
                         </div>
@@ -77,25 +76,6 @@ const Generic = (props) => (
                             </div>
                         </div>
                     </section>
-                    <div id="main" className="alt">
-                        <section id="one">
-                            <div className="inner">
-                                <header className="major">
-                                </header>
-                                <h1 className="signsblock">Associated Medical and Mental Health Conditions</h1>
-                                <span className="image main"><img src={factsandstats3} alt="" /></span>
-                                <h3 className="pagesmain">Autism affects the entire body and can change the body as well</h3>
-                                <h3 className="pagesmain">Over 50% of kids with autism have sleeping problems</h3>
-                                <h3 className="pagesmain">Up to 40% of autistic kids and teens have suffered from anxiety disorders</h3>
-                                <h3 className="pagesmain">Up to about 25% of adults with autism suffer from depression</h3>
-                                <h3 className="pagesmain">Kids that have autism are up to 8 times more likely to suffer from chronic and long-term gastrointestinal problems and disorders</h3>
-                                <h3 className="pagesmain">Up to 1/3 of kids with autism also have epilepsy/seizure disorders</h3>
-                                <h3 className="pagesmain">Up to 35% of adults with autism have schizophrenia. Schizophrenia affects about 1.1 % of the population</h3>
-                                <h3 className="pagesmain">Health issues linked to autism extend across an individual's entire life. Nearly 1/3 of kids ages 2-5 with autism have obesity problems. To compare, less than 25% of kids age 2-5 in the overall public are obese</h3>
-                                <h3 className="pagesmain">Aripiprazole and Risperidone have been linked with irritability and agitation. These are the only FDA-approved medicines for treating autism</h3>
-                            </div>
-                        </section>
-                    </div>
                     <section>
                         <img className="image" src={factsandstats4} alt="" />
                         <div className="content">
@@ -139,4 +119,4 @@ const Generic = (props) => (
     </Layout>
 )
 
-export default Generic
+export default AutismFacts

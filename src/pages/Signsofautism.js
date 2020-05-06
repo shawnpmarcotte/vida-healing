@@ -26,7 +26,7 @@ const Individual = props => (
                     <div className="content">
                         <div className="fade-in-right">
                             <h2 className="pagesmain">
-                                The following may indicate your child is at risk for an Autism Spectrum Disorder. If your child exhibits any of the following symptoms, please ask your pediatrician or family doctor for an evaluation right away:
+                                If your child exhibits any of the following symptoms, please ask your pediatrician or family doctor for an evaluation right away:
                             </h2>
                         </div>
                     </div>
@@ -70,7 +70,6 @@ By twelve months</h4>
                         <div className="inner">
                             <h2 className="signsheader">BY TWENTY-FOUR MONTHS</h2>
                             <ul className="actions">
-                                <h4 className="pagesmaintwo">Few to no two-word phrases (or attempts to say these phrases)</h4>
                                 <h4 className="pagesmaintwo">Having trouble understanding others' feelings</h4>
                                 <h4 className="pagesmaintwo">Stalled development of language</h4>
                                 <h4 className="pagesmaintwo">Repeating certain words repeatedly (echolalia)</h4>
