@@ -67,11 +67,13 @@ const AutismFacts = () => (
                             <div className="inner">
                                 <h1 className="signsblock">THE CHALLENGES</h1>
                                 <ul className="actions">
-                                    <h4 className="pagesmain">About 1/3 of autistic kids are nonverbal and cannot speak</h4>
-                                    <h4 className="pagesmain">About half of people with autism run and wander into unsafe situations</h4>
-                                    <h4 className="pagesmain">Nearly 66% of kids between the ages of six and fifteen have experienced bullying</h4>
-                                    <h4 className="pagesmain">About 30% of 8-year-olds that have ASD have self-injured before (ex. arm biting/skin scratching/headbanging)</h4>
-                                    <h4 className="pagesmain">Drowning accounts for about 90% of physical deaths in kids with autism ages 14 and under</h4>
+                                    <div className="pagesmain">
+                                        <h4>About 1/3 of autistic kids are nonverbal and cannot speak</h4>
+                                        <h4>About half of people with autism run/wander into unsafe situations</h4>
+                                        <h4>66% of kids between ages 6-15 experience bullying</h4>
+                                        <h4>Drowning accounts for about 90% of physical deaths in kids with autism ages 14 and under</h4>
+                                        <h4>About 30% of 8-year-olds that have ASD have self-injured before (ex. arm biting/skin scratching/headbanging)</h4>
+                                    </div>
                                 </ul>
                             </div>
                         </div>
@@ -82,8 +84,8 @@ const AutismFacts = () => (
                             <div className="inner">
                                 <h1 className="signsblock">Caregivers and Families </h1>
                                 <ul className="actions">
-                                    <h4 className="pagesmain">The typical autistic individual requires nearly $60,000 of medical spending a year throughout their youth; much of this cost is spent on special services, and this includes lost wages of the parents as they deal with the autistic children. The costs go up with an intellectual disability</h4>
-                                    <h4 className="pagesmain">Moms of kids that have ASD are less likely to work outside the home, as they must spend time working with the children and their problems linked to autism. They work fewer hours a week and earn over 50% less than mothers without children with autism. They earn 35% less than moms with kids of other disorders and disabilities</h4>
+                                    <h4 className="pagesmain">The typical autistic individual requires nearly $60k for annual medical expenses; Lost wages of the parents as they deal with the autistic children also must be taken into account.<br />
+                                    Moms of kids that have ASD are less likely to work outside the home, as they must spend time working with the children and their problems linked to autism. They work fewer hours a week and earn over 50% less than mothers without children with autism. They earn 35% less than moms with kids of other disorders and disabilities</h4>
                                 </ul>
                             </div>
                         </div>
@@ -92,20 +94,6 @@ const AutismFacts = () => (
             </div>
         </div>
         <div id="main" className="alt">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                    </header>
-                    <h1 className="signsblock">Autism for Adults</h1>
-                    <span className="image main"><img src={factsandstats5} alt="" /></span>
-                    <h3 className="pagesmain">Over the past decade, over 110,000 kids per year will enter age and adulthood out of school-based autism services</h3>
-                    <h3 className="pagesmain">Teenagers with autism receive healthcare transition services about half as much as individuals that have other specific medical needs. (Younger kids with medical issues linked with autism are less prone to get transition support)</h3>
-                    <h3 className="pagesmain">Over half of young adults with autism don't enroll in higher education more than two years after completing high school. This is less of an issue for young adults with autism, as it is with speech impediments and various other disorders</h3>
-                    <h3 className="pagesmain">Of the nearly 18,000 individuals with autism that utilize state-funded vocational rehabilitation programs in 2014, only about 60% of them completed the program. Of the ones that did, 80% earned around $160/week, earnings that guarantee they're way below the poverty line</h3>
-                    <h3 className="pagesmain">Nearly ½ of those aged 25 with autism have never had a paying job</h3>
-                    <h3 className="pagesmain">Research has shown that jobs/job tasks that emphasize independence help to reduce and mitigate autism symptoms as well as increase everyday living skills</h3>
-                </div>
-            </section>
             <div id="main" className="alt">
                 <div className="inner">
                     <header>

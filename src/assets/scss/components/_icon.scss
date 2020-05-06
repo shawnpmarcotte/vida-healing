@@ -17,9 +17,11 @@
 
 		&.alt {
 			&:before {
-				background-color: _palette(fg-bold);
+				//////////// ICON BG COLOR /////////// 
+				background-color: _palette(accent9);
 				border-radius: 100%;
-				color: _palette(bg);
+				//////////// ICON TEXT COLOR /////////// 
+				color: _palette(accent4);
 				display: inline-block;
 				height: 2em;
 				line-height: 2em;
@@ -42,13 +44,16 @@
 
 			&:hover {
 				&:before {
-					background-color: _palette(accent2);
+					//////////// ICON ON HOVER BG COLOR /////////// 
+					background-color: _palette(accent4);
+					//////////// ICON ON HOVER TEXT COLOR /////////// 
+					color: _palette(accent9);
 				}
 			}
 
 			&:active {
 				&:before {
-					background-color: desaturate(darken(_palette(accent9), 15), 5);
+					background-color: desaturate(darken(_palette(accent11), 15), 5);
 				}
 			}
 		}

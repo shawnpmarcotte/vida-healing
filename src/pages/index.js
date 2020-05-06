@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="Vida Healing | Applied Behavior Analysis Therapy"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
