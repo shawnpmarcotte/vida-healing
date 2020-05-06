@@ -35,13 +35,11 @@ const Marriage = props => (
                     <div className="content">
                         <div className="fade-in-right">
                             <h2 className="signsheader">Environmental Risk Factors</h2>
-                            <h4 className="pagesmain">Research even shows that some environmental influences might additionally increase - or even reduce - autism risk in individuals that are genetically susceptible to the disorder</h4>
-                            <h2 className="signsheader">Other Associated Risks with Autism</h2>
-                            <ul className="pagesmain">
-                                <h4>Either parent being much older than the typical parent</h4>
-                                <h4>Complications during pregnancy (ex. prematurity less than 26 weeks, low birth weight, multiple pregnancies at once (triplets, twins, etc.)</h4>
-                                <h4>Pregnancies that are spaced less than a season apart</h4>
-                            </ul>
+                            <h4 className="pagesmain">Research even shows that some environmental influences might additionally increase - or even reduce - autism risk in individuals that are genetically susceptible to the disorder. Importantly, the expansion or maybe reduction in danger seems to be little for only one of those risk factors:</h4>
+                            <h2 className="signsheader">Differing Brain Biology and their Impact on Autism Risk</h2>
+                            <h4 className="pagesmain">
+                                How can these non-genetic and genetic influences give rise to autism? Most people seem to influence the essential elements of early brain development. A few seem to influence how brain nerve cells, or maybe neurons, speak with one another. Others seem to influence how entire areas of the human brain speak with one another. Investigation continues to check out these differences with a watch to improving treatments as well as supports, which will enhance the quality of life
+                            </h4>
                             <div>
                             </div>
                         </div>
@@ -63,11 +61,11 @@ const Marriage = props => (
                     <img src={autismcauses1} className="fade-in-right" alt="" />
                     <div className="content">
                         <div className="fade-in-right">
-                            <h1>Differing Brain Biology and their Impact on Autism Risk</h1>
-                            <h3>How can these nongenetic and genetic influences give rise to autism?</h3>
-                            <ul>
-                                <h4 className="pagesmain">Most people seem to influence the essential elements of early brain development. A few seem to influence how brain nerve cells, or maybe neurons, speak with one another</h4>
-                                <h4 className="pagesmain">Others seem to influence how entire areas of the human brain speak with one another. Investigation continues to check out these differences with a watch to improving treatments as well as supports, which will enhance the quality of life</h4>
+                            <h2 className="signsheader">Other Associated Risks with Autism</h2>
+                            <ul className="pagesmain">
+                                <h4 className="pagesmain">Either parent being much older than the typical parent</h4>
+                                <h4 className="pagesmain">Complications during pregnancy (ex. prematurity less than 26 weeks, low birth weight, multiple pregnancies at once (triplets, twins, etc.)</h4>
+                                <h4 className="pagesmain">Pregnancies that are spaced less than a season apart</h4>
                             </ul>
                         </div>
                     </div>
