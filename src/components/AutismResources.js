@@ -11,6 +11,7 @@ const AutismResources = (props) => (
                 <li><Link onClick={props.toggleMenu} to="/coresymptoms">Core Symptoms of Autism</Link></li>
                 <li><Link onClick={props.toggleMenu} to="/autismcauses">Autism | Causes</Link></li>
                 <li><Link onClick={props.toggleMenu} to="/autismfacts">Autism: Facts and Stats</Link></li>
+                <li><Link onClick={props.toggleMenu} to="/associatedmedical">Associated Medical Info</Link></li>
             </ul>
             {/* <ul className="actions vertical">
                 <li><a href="#" className="button special fit">Get in Touch</a></li>
