@@ -67,11 +67,13 @@ const AutismFacts = () => (
                             <div className="inner">
                                 <h1 className="signsblock">THE CHALLENGES</h1>
                                 <ul className="actions">
-                                    <h4 className="pagesmain">About 1/3 of autistic kids are nonverbal and cannot speak</h4>
-                                    <h4 className="pagesmain">About half of people with autism run and wander into unsafe situations</h4>
-                                    <h4 className="pagesmain">Nearly 66% of kids between the ages of six and fifteen have experienced bullying</h4>
-                                    <h4 className="pagesmain">About 30% of 8-year-olds that have ASD have self-injured before (ex. arm biting/skin scratching/headbanging)</h4>
-                                    <h4 className="pagesmain">Drowning accounts for about 90% of physical deaths in kids with autism ages 14 and under</h4>
+                                    <div className="pagesmain">
+                                        <h4>About 1/3 of autistic kids are nonverbal and cannot speak</h4>
+                                        <h4>About half of people with autism run/wander into unsafe situations</h4>
+                                        <h4>66% of kids between ages 6-15 experience bullying</h4>
+                                        <h4>Drowning accounts for about 90% of physical deaths in kids with autism ages 14 and under</h4>
+                                        <h4>About 30% of 8-year-olds that have ASD have self-injured before (ex. arm biting/skin scratching/headbanging)</h4>
+                                    </div>
                                 </ul>
                             </div>
                         </div>
@@ -82,8 +84,8 @@ const AutismFacts = () => (
                             <div className="inner">
                                 <h1 className="signsblock">Caregivers and Families </h1>
                                 <ul className="actions">
-                                    <h4 className="pagesmain">The typical autistic individual requires nearly $60,000 of medical spending a year throughout their youth; much of this cost is spent on special services, and this includes lost wages of the parents as they deal with the autistic children. The costs go up with an intellectual disability</h4>
-                                    <h4 className="pagesmain">Moms of kids that have ASD are less likely to work outside the home, as they must spend time working with the children and their problems linked to autism. They work fewer hours a week and earn over 50% less than mothers without children with autism. They earn 35% less than moms with kids of other disorders and disabilities</h4>
+                                    <h4 className="pagesmain">The typical autistic individual requires nearly $60k for annual medical expenses; Lost wages of the parents as they deal with the autistic children also must be taken into account.<br />
+                                    Moms of kids that have ASD are less likely to work outside the home, as they must spend time working with the children and their problems linked to autism. They work fewer hours a week and earn over 50% less than mothers without children with autism. They earn 35% less than moms with kids of other disorders and disabilities</h4>
                                 </ul>
                             </div>
                         </div>
