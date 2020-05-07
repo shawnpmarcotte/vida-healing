@@ -9,8 +9,8 @@ import factsandstats7 from '../assets/images/factsandstats7.jpg'
 const Generic = () => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>Applied Behavior Analysis</title>
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
         <BannerAssociatedMedical />
         <div id="main" className="fade-in-right">
