@@ -8,8 +8,8 @@ import aboutSecondary from '../assets/images/about-secondary.jpg'
 const About = () => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="About Page" />
+      <title>Applied Behavior Analysis</title>
+      <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
     </Helmet>
 
     <BannerAbout />

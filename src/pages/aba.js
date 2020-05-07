@@ -8,8 +8,8 @@ import abaCover from '../assets/images/aba-cover.jpg'
 const Aba = () => (
   <Layout>
     <Helmet>
-      <title>Advanced Behavior Analysis</title>
-      <meta name="Advanced Behavior Analysis" content="Advanced Behavior Analysis" />
+      <title>Applied Behavior Analysis</title>
+      <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
     </Helmet>
 
     <BannerAbs />
