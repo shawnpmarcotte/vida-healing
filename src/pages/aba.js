@@ -9,7 +9,7 @@ const Aba = () => (
   <Layout>
     <Helmet>
       <title>Advanced Behavior Analysis</title>
-      <meta name="description" content="Advanced Behavior Analysis" />
+      <meta name="Advanced Behavior Analysis" content="Advanced Behavior Analysis" />
     </Helmet>
 
     <BannerAbs />
