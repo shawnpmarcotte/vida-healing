@@ -12,7 +12,7 @@ const CoreSymptoms = props => (
     <Layout>
         <Helmet>
             <title>Autism Symptoms</title>
-            <meta name="description" content="Aba Page" />
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
 
         <BannerCoreSymptoms />
