@@ -9,7 +9,7 @@ import factsandstats7 from '../assets/images/factsandstats7.jpg'
 const Generic = () => (
     <Layout>
         <Helmet>
-            <title>Applied Behavior Analysis</title>
+            <title>Associated Medical Information</title>
             <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
         <BannerAssociatedMedical />

@@ -11,8 +11,8 @@ import factsandstats4 from '../assets/images/factsandstats4.jpg'
 const AutismFacts = () => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>Autism Facts</title>
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
         <div id="main" className="alt" >
             <section id="one" className="fade-in-right">
