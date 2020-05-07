@@ -43,9 +43,3 @@ const Aba = () => (
 )
 
 export default Aba
-
-{/* <h3>
-                Contact Us at Vida Healing today if you have a
-                child or family member that you think will benefit from these
-                services
-              </h3> */}
