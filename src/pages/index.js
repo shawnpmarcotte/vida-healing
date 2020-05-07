@@ -19,8 +19,8 @@ class HomeIndex extends React.Component {
         <Helmet
           title="Vida Healing | Applied Behavior Analysis Therapy"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'Applied Behavior Analysis Therapy', content: 'Applied Behavior Analysis Therapy' },
+            { name: 'Applied Behavior Analysis Therapy, Autism, Adults, Kids, Family Therapy, Individual Therapy, Marriage and Couples Therapy, Applied Behavior Analysis Therapy', content: 'Applied Behavior Analysis Therapy' },
           ]}
         ></Helmet>
         <Banner />
