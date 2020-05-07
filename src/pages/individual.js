@@ -8,8 +8,8 @@ import pic09 from '../assets/images/pic09.jpg'
 const Individual = props => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Individual Page" />
+      <title>Individual Therapy</title>
+      <meta name="Individual Therapy" content="Individual Therapy" />
     </Helmet>
 
     <BannerIndividual />

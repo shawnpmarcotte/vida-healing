@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Applied Behavior Analysis",
+    author: "Nelida Henderson",
+    description: "Vida Healing | Applied Behavior Analysis Therapy"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -9,8 +9,8 @@ import familysecondary from '../assets/images/family-secondary.jpg'
 const Family = props => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Family Page" />
+      <title>Family Therapy</title>
+      <meta name="Family Therapy" content="Family Therapy" />
     </Helmet>
 
     <BannerFamily />

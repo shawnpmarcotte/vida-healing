@@ -8,8 +8,8 @@ import marriagecover from '../assets/images/marriage-cover.jpg'
 const Marriage = () => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Marriage Page" />
+      <title>Marriage and Couples Therapy</title>
+      <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
     </Helmet>
 
     <BannerMarriage />
