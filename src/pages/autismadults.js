@@ -10,8 +10,8 @@ import factsandstats5 from '../assets/images/factsandstats5.jpg'
 const AutismAdults = () => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>Autism In Adults</title>
+            <meta name="Autism In Adults" content="Autism In Adults" />
         </Helmet>
         <BannerAutismAdults />
         <div >
