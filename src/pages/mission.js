@@ -7,8 +7,8 @@ import mission3 from '../assets/images/mission3.jpg'
 const Mission = () => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Mission Page" />
+      <title>Mission</title>
+      <meta name="Applied Behavior Analysis" content="MApplied Behavior Analysis" />
     </Helmet>
 
     <BannerLanding />

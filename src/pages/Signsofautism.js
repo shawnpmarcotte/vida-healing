@@ -14,7 +14,7 @@ const SignsOfAutism = props => (
     <Layout>
         <Helmet>
             <title>Signs of Autism</title>
-            <meta name="description" content="Signs Of Autism" />
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
 
         <BannerSignsOfAutism />

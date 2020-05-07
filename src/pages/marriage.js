@@ -9,7 +9,7 @@ const Marriage = () => (
   <Layout>
     <Helmet>
       <title>Marriage and Couples Therapy</title>
-      <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
+      <meta name="Marriage and Couples Therapy" content="Marriage and Couples Therapy" />
     </Helmet>
 
     <BannerMarriage />
