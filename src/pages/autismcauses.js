@@ -12,8 +12,8 @@ import autismcauses4 from '../assets/images/autismcauses4.jpg'
 const AutismCauses = props => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Marriage Page" />
+            <title>Autism Causes</title>
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
 
         <BannerAutismCauses />
