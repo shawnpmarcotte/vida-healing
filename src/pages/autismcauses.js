@@ -90,4 +90,3 @@ const Marriage = props => (
 
 export default Marriage
 
-{/* <h3>If you are looking for a caring, compassionate, and professionalmarriage or couples therapist please contact us today</h3> */ }
