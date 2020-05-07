@@ -7,8 +7,8 @@ import contact from '../assets/images/contact.jpg'
 const Family = () => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Family Page" />
+            <title>Contact</title>
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
         <div id="main">
             <section id="two" className="spotlights">

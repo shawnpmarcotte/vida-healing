@@ -11,7 +11,7 @@ const AutismAdults = () => (
     <Layout>
         <Helmet>
             <title>Autism In Adults</title>
-            <meta name="Autism In Adults" content="Autism In Adults" />
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
         <BannerAutismAdults />
         <div >
