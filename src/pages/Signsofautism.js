@@ -10,7 +10,7 @@ import autismfour from '../assets/images/autismfour.jpg'
 
 
 
-const Individual = props => (
+const SignsOfAutism = props => (
     <Layout>
         <Helmet>
             <title>Signs of Autism</title>
@@ -91,4 +91,4 @@ const Individual = props => (
     </Layout >
 )
 
-export default Individual
+export default SignsOfAutism

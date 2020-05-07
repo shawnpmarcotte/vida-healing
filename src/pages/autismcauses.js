@@ -9,7 +9,7 @@ import autismcauses3 from '../assets/images/autismcauses3.jpg'
 import autismcauses4 from '../assets/images/autismcauses4.jpg'
 
 
-const Marriage = props => (
+const AutismCauses = props => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
@@ -88,6 +88,5 @@ const Marriage = props => (
     </Layout >
 )
 
-export default Marriage
+export default AutismCauses
 
-{/* <h3>If you are looking for a caring, compassionate, and professionalmarriage or couples therapist please contact us today</h3> */ }

@@ -36,7 +36,6 @@ const Generic = () => (
                 </div>
             </div>
         </div>
-
     </Layout >
 )
 

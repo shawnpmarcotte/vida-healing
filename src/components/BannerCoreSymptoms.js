@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BannerAba = props => (
+const BannerCoreSymptoms = props => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
@@ -13,4 +13,4 @@ const BannerAba = props => (
     </section>
 )
 
-export default BannerAba
+export default BannerCoreSymptoms

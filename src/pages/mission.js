@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerMission'
 import mission3 from '../assets/images/mission3.jpg'
 
-const Landing = () => (
+const Mission = () => (
   <Layout>
     <Helmet>
       <title>Landing - Forty by HTML5 UP</title>
@@ -46,4 +46,4 @@ const Landing = () => (
   </Layout>
 )
 
-export default Landing
+export default Mission
