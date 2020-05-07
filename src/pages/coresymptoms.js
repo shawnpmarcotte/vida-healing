@@ -6,10 +6,9 @@ import BannerCoreSymptoms from '../components/BannerCoreSymptoms'
 import coresymptomsthree from '../assets/images/coresymptomsthree.jpg'
 import missionsecondary from '../assets/images/mission-secondary.jpg'
 import autismthree from '../assets/images/autismthree.jpg'
-import individualcover from '../assets/images/individual-cover.jpg'
 import aboutcover from '../assets/images/about-cover.jpg'
 
-const Aba = props => (
+const CoreSymptoms = props => (
     <Layout>
         <Helmet>
             <title>Autism Symptoms</title>
@@ -93,10 +92,4 @@ const Aba = props => (
     </Layout>
 )
 
-export default Aba
-
-{/* <h3>
-                Contact Us at Vida Healing today if you have a
-                child or family member that you think will benefit from these
-                services
-              </h3> */}
+export default CoreSymptoms

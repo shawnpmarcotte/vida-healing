@@ -7,9 +7,6 @@ import factsandstats1 from '../assets/images/factsandstats1.jpg'
 import factsandstats2 from '../assets/images/factsandstats2.jpg'
 import factsandstats3 from '../assets/images/factsandstats3.jpg'
 import factsandstats4 from '../assets/images/factsandstats4.jpg'
-import factsandstats5 from '../assets/images/factsandstats5.jpg'
-
-
 
 const AutismFacts = () => (
     <Layout>
