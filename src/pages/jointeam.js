@@ -7,8 +7,8 @@ import jointeam from '../assets/images/jointeam.jpg'
 const JoinTeam = () => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Family Page" />
+            <title>Join Our Team</title>
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
 
         <BannerJoinTeam />
@@ -29,7 +29,7 @@ const JoinTeam = () => (
                                     <li className="pagesmainthree">Education and Training</li>
                                     <li className="pagesmainthree">Administrative Support</li><br />
                                 </ul>
-                                <span className="image main"><img src={jointeam} alt="" /></span>
+                                <span className="image main"><img src={jointeam} alt="Applied Behavior Analysis" /></span>
                                 <h1 className="signsblock">
                                     Vida Healing currently has openings for potential employees with the appropriate credentials and training:
                                 </h1>

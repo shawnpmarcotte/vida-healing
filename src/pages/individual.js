@@ -8,8 +8,8 @@ import pic09 from '../assets/images/pic09.jpg'
 const Individual = props => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Individual Page" />
+      <title>Individual Therapy</title>
+      <meta name="Individual Therapy" content="Individual Therapy" />
     </Helmet>
 
     <BannerIndividual />
@@ -17,7 +17,7 @@ const Individual = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={pic09} alt="" />
+          <img className="image" className="fade-in-right" src={pic09} alt="Individual Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">

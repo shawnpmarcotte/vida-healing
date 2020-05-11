@@ -8,8 +8,8 @@ import marriagecover from '../assets/images/marriage-cover.jpg'
 const Marriage = () => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Marriage Page" />
+      <title>Marriage and Couples Therapy</title>
+      <meta name="Marriage and Couples Therapy" content="Marriage and Couples Therapy" />
     </Helmet>
 
     <BannerMarriage />
@@ -17,7 +17,7 @@ const Marriage = () => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={marriagecovertwo} alt="" />
+          <img className="image" className="fade-in-right" src={marriagecovertwo} alt="Marriage and Couples Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h3 className="pagesmain">
@@ -27,7 +27,7 @@ const Marriage = () => (
           </div>
         </section>
         <section>
-          <img className="image" src={marriagecover} alt="" />
+          <img className="image" src={marriagecover} alt="Marriage and Couples Therapy" />
           <div className="content">
             <div className="inner">
               <h2 className="signsheader">Warning Signs of a Troubled Relationship</h2>

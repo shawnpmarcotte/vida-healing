@@ -8,8 +8,8 @@ import abaCover from '../assets/images/aba-cover.jpg'
 const Aba = () => (
   <Layout>
     <Helmet>
-      <title>Advanced Behavior Analysis</title>
-      <meta name="description" content="Advanced Behavior Analysis" />
+      <title>Applied Behavior Analysis</title>
+      <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
     </Helmet>
 
     <BannerAbs />
@@ -17,7 +17,7 @@ const Aba = () => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={abaCover} alt="" />
+          <img className="image" className="fade-in-right" src={abaCover} alt="Applied Behavior Analysis" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">

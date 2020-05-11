@@ -9,14 +9,14 @@ import factsandstats7 from '../assets/images/factsandstats7.jpg'
 const Generic = () => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>Associated Medical Information</title>
+            <meta name="Associated Autism Medical Information" content="Associated Autism Medical Information" />
         </Helmet>
         <BannerAssociatedMedical />
         <div id="main" className="fade-in-right">
             <section id="one">
                 <div className="inner">
-                    <span className="image main"><img src={factsandstats7} alt="" /></span>
+                    <span className="image main"><img src={factsandstats7} alt="Associated Autism Medical Information" /></span>
                     <h3 className="pagesmain">Autism affects the entire body and can change the body as well</h3>
                     <h3 className="pagesmain">Over 50% of kids with autism have sleeping problems</h3>
                     <h3 className="pagesmain">Up to 40% of autistic kids and teens have suffered from anxiety disorders</h3>

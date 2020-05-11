@@ -9,8 +9,8 @@ import familysecondary from '../assets/images/family-secondary.jpg'
 const Family = props => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Family Page" />
+      <title>Family Therapy</title>
+      <meta name="Family Therapy" content="Family Therapy" />
     </Helmet>
 
     <BannerFamily />
@@ -18,7 +18,7 @@ const Family = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={familycover} alt="" />
+          <img className="image" className="fade-in-right" src={familycover} alt="Family Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">
@@ -28,7 +28,7 @@ const Family = props => (
           </div>
         </section>
         <section>
-          <img className="image" className="fade-in-right" src={familysecondary} alt="" />
+          <img className="image" className="fade-in-right" src={familysecondary} alt="Family Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">

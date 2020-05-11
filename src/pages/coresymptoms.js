@@ -12,7 +12,7 @@ const CoreSymptoms = props => (
     <Layout>
         <Helmet>
             <title>Autism Symptoms</title>
-            <meta name="description" content="Aba Page" />
+            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
 
         <BannerCoreSymptoms />
@@ -20,7 +20,7 @@ const CoreSymptoms = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img className="image" className="fade-in-right" src={missionsecondary} alt="" />
+                    <img className="image" className="fade-in-right" src={missionsecondary} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner" className="fade-in-right">
                             <ul className="actions">
@@ -35,7 +35,7 @@ const CoreSymptoms = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" className="fade-in-right" src={autismthree} alt="" />
+                    <img className="image" className="fade-in-right" src={autismthree} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner" className="fade-in-right">
                             <h2 className="signsheader">COMMUNICATION ISSUES - Symptoms:</h2>
@@ -50,7 +50,7 @@ const CoreSymptoms = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={coresymptomsthree} alt="" />
+                    <img className="image" src={coresymptomsthree} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner">
                             <h2 className="signsheader">Additional Social Challenges May Include:</h2>
@@ -65,7 +65,7 @@ const CoreSymptoms = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={aboutcover} alt="" />
+                    <img className="image" src={aboutcover} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner">
                             <h2 className="signsheader">Repetitive Behaviors May Include:</h2>
