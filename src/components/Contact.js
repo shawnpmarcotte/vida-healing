@@ -119,9 +119,6 @@ const Contact = props => {
               <li>
                 <input type="submit" value="Send Message" className="special" />
               </li>
-              <li>
-                <input type="reset" value="Clear" />
-              </li>
             </ul>
           </form>
 
