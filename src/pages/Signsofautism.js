@@ -21,20 +21,20 @@ const SignsOfAutism = props => (
 
         <div id="main">
             <section id="two" className="spotlights">
-                <section className="fade-in-right">
-                    <img className="image" src={pic10} alt="Signs of Autism" />
+                <section>
+                    <img className="image" className="fade-in-right" src={pic10} alt="Signs of Autism" />
                     <div className="content">
-                        <div>
+                        <div className="fade-in-right">
                             <h2 className="pagesmain">
                                 If your child exhibits any of the following symptoms, please ask your pediatrician or family doctor for an evaluation right away:
                             </h2>
                         </div>
                     </div>
                 </section>
-                <section className="fade-in-right">
-                    <img className="image" src={autismtwo} alt="Signs of Autism" />
+                <section>
+                    <img className="image" className="fade-in-right" src={autismtwo} alt="Signs of Autism" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="fade-in-right">
                             <h2 className="signsheader">BY SIX MONTHS</h2>
                             <ul className="actions">
                                 <h3 className="pagesmaintwo">Limited smiling/eye contact/joyful and engaging expressions</h3>
@@ -47,10 +47,10 @@ const SignsOfAutism = props => (
                         </div>
                     </div>
                 </section>
-                <section className="fade-in-right">
-                    <img className="image" src={autismthree} alt="Signs of Autism" />
+                <section>
+                    <img className="image" className="fade-in-right" src={autismthree} alt="Signs of Autism" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="inner" className="fade-in-right">
                             <h2 className="signsheader">BY TWELVE MONTHS</h2>
                             <ul className="actions">
                                 <h3 className="pagesmaintwo">Little to no attempts to talk/babbling</h3>
@@ -62,7 +62,7 @@ const SignsOfAutism = props => (
                         </div>
                     </div>
                 </section>
-                <section className="fade-in-right">
+                <section>
                     <img className="image" src={autismfour} alt="Signs of Autism" />
                     <div className="content">
                         <div className="inner">

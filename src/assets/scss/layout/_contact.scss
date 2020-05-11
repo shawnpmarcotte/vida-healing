@@ -7,14 +7,12 @@
 /* Contact */
 
 	#contact {
-		display: flex;
 		border-bottom: solid 1px _palette(fg-low);
 		overflow-x: hidden;
 
 		> .inner {
 			@include vendor('display', 'flex');
 			padding: 0 !important;
-			justify-content: center;
 
 			> :nth-child(2n - 1) {
 				@include padding(4em, 0, (0, 3em, 0, 0));

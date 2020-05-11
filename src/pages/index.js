@@ -63,9 +63,9 @@ class HomeIndex extends React.Component {
               <Link to="/family" className="link primary" />
             </article>
           </section>
-          <section>
+          <section id="two">
             <div className="inner">
-              <header className="pulsate-fwd">
+              <header className="major" className="pulsate-fwd">
                 <h3>
                   "GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS. LIVE THE LIFE
                   YOU HAVE IMAGINED"

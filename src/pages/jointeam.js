@@ -41,7 +41,7 @@ const JoinTeam = () => (
                                 <h3 className="signsblock">
                                     PREFERRED QUALIFICATION: It is incumbent on all applicants to work with Vida Healing to have all the necessary qualifications for their position. Whether you’re interested in being an RBT, Behavior Analyst or Licensed Mental Health Counselor, we have information about our company culture and how to proceed
                                 </h3>
-                                <h3 className="pagesmain">
+                                <h3 className="signsblock" className="pagesmain">
                                     PREREQUISITE FOR HIRE
                                 </h3>
                                 <h1 className="signsblock">
