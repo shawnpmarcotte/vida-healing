@@ -35,9 +35,9 @@ const CoreSymptoms = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" className="fade-in-right" src={autismthree} alt="Autism Symptoms" />
+                    <img className="image" src={autismthree} alt="Autism Symptoms" />
                     <div className="content">
-                        <div className="inner" className="fade-in-right">
+                        <div className="inner">
                             <h2 className="signsheader">COMMUNICATION ISSUES - Symptoms:</h2>
                             <ul className="actions">
                                 <h5 className="pagesmain">Speaking and verbal language (1/3 of autism cases cannot speak)</h5>
