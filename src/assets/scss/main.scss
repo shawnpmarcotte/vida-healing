@@ -63,6 +63,7 @@
   .signsheader {
 	font-style: italic;
 	text-align: center;
+	text-align: center;
 
   }
 
@@ -91,6 +92,7 @@ text-align: center;
   }
 
 .fade-in-right {
+	text-align: center;
 	-webkit-animation: fade-in-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }

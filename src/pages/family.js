@@ -16,21 +16,21 @@ const Family = props => (
     <BannerFamily />
 
     <div id="main">
-      <section id="two" className="spotlights">
-        <section>
-          <img className="image" className="fade-in-right" src={familycover} alt="Family Therapy" />
+      <section className="spotlights">
+        <section className="fade-in-right">
+          <img className="image" src={familycover} alt="Family Therapy" />
           <div className="content">
-            <div className="fade-in-right">
+            <div>
               <h2 className="pagesmain">
                 At times, family therapy is necessary to address family struggles and heal a family’s wounds. We will assist in developing a plan for maintaining a healthy, happy, functional family
             </h2>
             </div>
           </div>
         </section>
-        <section>
-          <img className="image" className="fade-in-right" src={familysecondary} alt="Family Therapy" />
+        <section className="fade-in-right">
+          <img className="image" src={familysecondary} alt="Family Therapy" />
           <div className="content">
-            <div className="fade-in-right">
+            <div>
               <h2 className="pagesmain">
                 Whether you are new parents, recently separated or divorced, and/or trying to manage the curve balls that come with raising a teenager, we are here to assist. Our goal is to establish strong communication skills and create a stronger and healthier family
               </h2>
