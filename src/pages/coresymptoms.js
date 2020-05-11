@@ -34,7 +34,7 @@ const CoreSymptoms = props => (
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className="fade-in-right">
                     <img className="image" src={autismthree} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner">
@@ -49,7 +49,7 @@ const CoreSymptoms = props => (
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className="fade-in-right">
                     <img className="image" src={coresymptomsthree} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner">
