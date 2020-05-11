@@ -19,10 +19,10 @@ const CoreSymptoms = props => (
 
         <div id="main">
             <section id="two" className="spotlights">
-                <section>
-                    <img className="image" className="fade-in-right" src={missionsecondary} alt="Autism Symptoms" />
+                <section className="fade-in-right">
+                    <img className="image" src={missionsecondary} alt="Autism Symptoms" />
                     <div className="content">
-                        <div className="inner" className="fade-in-right">
+                        <div className="inner">
                             <ul className="actions">
                                 <div className="pagesmain">
                                     <h4 className="pagesmain">Difficulty communicating with others</h4>
