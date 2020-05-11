@@ -18,7 +18,7 @@ const Family = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={familycover} alt="" />
+          <img className="image" className="fade-in-right" src={familycover} alt="Family Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">
@@ -28,7 +28,7 @@ const Family = props => (
           </div>
         </section>
         <section>
-          <img className="image" className="fade-in-right" src={familysecondary} alt="" />
+          <img className="image" className="fade-in-right" src={familysecondary} alt="Family Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">

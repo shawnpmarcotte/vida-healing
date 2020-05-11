@@ -20,7 +20,7 @@ const AutismFacts = () => (
                     <header className="major">
                         <h1>Autism: Facts and Statistics</h1>
                     </header>
-                    <span className="image main"><img src={factsandstats} alt="" /></span>
+                    <span className="image main"><img src={factsandstats} alt="Autism: Facts and Statistics" /></span>
                     <h1 className="signsblock">The Prevalence of Autism</h1>
                     <ul className="actions">
                         <h3 className="pagesmain">In 2020, the CDC found that around 2% of kids surveyed in the United States were identified as having Autism Spectrum Disorder</h3  >

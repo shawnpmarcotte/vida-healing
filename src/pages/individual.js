@@ -17,7 +17,7 @@ const Individual = props => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={pic09} alt="" />
+          <img className="image" className="fade-in-right" src={pic09} alt="Individual Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">

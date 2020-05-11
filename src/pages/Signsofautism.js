@@ -22,7 +22,7 @@ const SignsOfAutism = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img className="image" className="fade-in-right" src={pic10} alt="" />
+                    <img className="image" className="fade-in-right" src={pic10} alt="Signs of Autism" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h2 className="pagesmain">
@@ -32,7 +32,7 @@ const SignsOfAutism = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" className="fade-in-right" src={autismtwo} alt="" />
+                    <img className="image" className="fade-in-right" src={autismtwo} alt="Signs of Autism" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h2 className="signsheader">BY SIX MONTHS</h2>
@@ -48,7 +48,7 @@ const SignsOfAutism = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" className="fade-in-right" src={autismthree} alt="" />
+                    <img className="image" className="fade-in-right" src={autismthree} alt="Signs of Autism" />
                     <div className="content">
                         <div className="inner" className="fade-in-right">
                             <h2 className="signsheader">BY TWELVE MONTHS</h2>
@@ -63,7 +63,7 @@ const SignsOfAutism = props => (
                     </div>
                 </section>
                 <section>
-                    <img className="image" src={autismfour} alt="" />
+                    <img className="image" src={autismfour} alt="Signs of Autism" />
                     <div className="content">
                         <div className="inner">
                             <h2 className="signsheader">BY TWENTY-FOUR MONTHS</h2>

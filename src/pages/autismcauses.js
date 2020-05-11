@@ -22,7 +22,7 @@ const AutismCauses = props => (
             <section id="one" className="fade-in-right">
                 <div className="inner">
                     <h1 className="signsheader">The Genetic Risk Factors</h1>
-                    <span className="image main"><img src={autismcauses4} alt="" /></span>
+                    <span className="image main"><img src={autismcauses4} alt="Autism Causes Information" /></span>
                     <h2 className="pagesmain">The research tells us that autism tends to work in families. Some gene alterations raise the chance that a kid will develop autism. If one of the parents has one or more of the genes in question, there's a likelihood they'll get transferred to a kid (even if the parent doesn't have autism). Sometimes, these genetic changes occur in embryos spontaneously. Most of the genes don't guarantee autism, but they do increase the risk</h2>
                     <ul>
                     </ul>

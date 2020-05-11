@@ -27,7 +27,7 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one" className="tiles">
             {/******************************************
-             This is the SIGNS OF AUTISM article 
+             This is the INDIVIDUAL THERAPY article 
             ******************************************/}
             <article style={{ backgroundImage: `url(${pic09})` }}>
               <header className="major">
@@ -36,7 +36,7 @@ class HomeIndex extends React.Component {
               <Link to="/individual" className="link primary" />
             </article>
             {/******************************************
-              This is the CORE SYMTPOMS OF AUTISM article 
+              This is the ABA THERAPY article 
               ******************************************/}
             <article style={{ backgroundImage: `url(${abaCover})` }}>
               <header className="major">
@@ -45,7 +45,7 @@ class HomeIndex extends React.Component {
               <Link to="/aba" className="link primary" />
             </article>
             {/********************************************** 
-            This is the AUTISM: WHAT ARE THE CAUSES? article 
+            This is the MARRIAGE COUPLES THERAPY article 
             ************************************************/}
             <article style={{ backgroundImage: `url(${marriagecovertwo})` }}>
               <header className="major">
@@ -54,7 +54,7 @@ class HomeIndex extends React.Component {
               <Link to="/marriage" className="link primary" />
             </article>
             {/****************************************
-             This is the ASBERGERS SYNDROME article 
+             This is the FAMILY THERAPY article 
             ******************************************/}
             <article style={{ backgroundImage: `url(${familyCover})` }}>
               <header className="major">

@@ -17,7 +17,7 @@ const About = () => (
     <div id="main">
       <section id="one" className="spotlights">
         <section>
-          <img src={aboutSecondary} className="fade-in-right" alt="" />
+          <img src={aboutSecondary} className="fade-in-right" alt="Applied Behavior Analysis Therapy" />
           <div className="content">
             <div className="fade-in-right">
               <h3 className="pagesmain">

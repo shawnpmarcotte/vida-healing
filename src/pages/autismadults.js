@@ -17,7 +17,7 @@ const AutismAdults = () => (
         <div >
             <section className="fade-in-right" id="one">
                 <div className="inner">
-                    <span className="image main"><img src={factsandstats5} alt="" /></span>
+                    <span className="image main"><img src={factsandstats5} alt="Autism In Adults Information" /></span>
                     <h3 className="pagesmain">Over the past decade, over 110,000 kids per year will enter age and adulthood out of school-based autism services</h3>
                     <h3 className="pagesmain">Teenagers with autism receive healthcare transition services about half as much as individuals that have other specific medical needs. (Younger kids with medical issues linked with autism are less prone to get transition support)</h3>
                     <h3 className="pagesmain">Over half of young adults with autism don't enroll in higher education more than two years after completing high school. This is less of an issue for young adults with autism, as it is with speech impediments and various other disorders</h3>

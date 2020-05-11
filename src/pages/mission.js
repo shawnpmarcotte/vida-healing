@@ -8,7 +8,7 @@ const Mission = () => (
   <Layout>
     <Helmet>
       <title>Mission</title>
-      <meta name="Applied Behavior Analysis" content="MApplied Behavior Analysis" />
+      <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
     </Helmet>
 
     <BannerLanding />
@@ -16,7 +16,7 @@ const Mission = () => (
     <div id="main">
       <section id="two" className="spotlights">
         <section>
-          <img className="image" className="fade-in-right" src={mission3} alt="" />
+          <img className="image" className="fade-in-right" src={mission3} alt="Applied Behavior Analysis" />
           <div className="content">
             <div className="fade-in-right">
               <h2 className="pagesmain">
