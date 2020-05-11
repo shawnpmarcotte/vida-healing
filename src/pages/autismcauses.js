@@ -29,10 +29,10 @@ const AutismCauses = props => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section className="fade-in-right">
-                    <img src={autismcauses3} alt="" />
+                <section>
+                    <img src={autismcauses3} className="fade-in-right" alt="" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="fade-in-right">
                             <h2 className="signsheader">Environmental Risk Factors</h2>
                             <h4 className="pagesmain">Research even shows that some environmental influences might additionally increase - or even reduce - autism risk in individuals that are genetically susceptible to the disorder. Importantly, the expansion or maybe reduction in danger seems to be little for only one of those risk factors:</h4>
                             <h2 className="signsheader">Differing Brain Biology and their Impact on Autism Risk</h2>
@@ -56,12 +56,12 @@ const AutismCauses = props => (
                         </div>
                     </section>
                 </div>
-                <section className="fade-in-right">
-                    <img src={autismcauses1} alt="" />
+                <section>
+                    <img src={autismcauses1} className="fade-in-right" alt="" />
                     <div className="content">
-                        <div className="inner">
+                        <div className="fade-in-right">
                             <h2 className="signsheader">Other Associated Risks with Autism</h2>
-                            <ul>
+                            <ul className="pagesmain">
                                 <h4 className="pagesmain">Either parent being much older than the typical parent</h4>
                                 <h4 className="pagesmain">Complications during pregnancy (ex. prematurity less than 26 weeks, low birth weight, multiple pregnancies at once (triplets, twins, etc.)</h4>
                                 <h4 className="pagesmain">Pregnancies that are spaced less than a season apart</h4>
