@@ -65,7 +65,7 @@ class HomeIndex extends React.Component {
           </section>
           <section id="two">
             <div className="inner">
-              <header className="major" className="pulsate-fwd">
+              <header className="pulsate-fwd">
                 <h3>
                   "GO CONFIDENTLY IN THE DIRECTION OF YOUR DREAMS. LIVE THE LIFE
                   YOU HAVE IMAGINED"
