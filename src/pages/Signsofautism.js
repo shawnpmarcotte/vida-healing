@@ -20,9 +20,9 @@ const SignsOfAutism = props => (
         <BannerSignsOfAutism />
 
         <div id="main">
-            <section id="two" className="spotlights">
-                <section>
-                    <img className="image" className="fade-in-right" src={pic10} alt="Signs of Autism" />
+            <section className="spotlights">
+                <section className="fade-in-right">
+                    <img className="image" src={pic10} alt="Signs of Autism" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h2 className="pagesmain">
@@ -31,10 +31,10 @@ const SignsOfAutism = props => (
                         </div>
                     </div>
                 </section>
-                <section>
-                    <img className="image" className="fade-in-right" src={autismtwo} alt="Signs of Autism" />
+                <section className="fade-in-right">
+                    <img className="image" src={autismtwo} alt="Signs of Autism" />
                     <div className="content">
-                        <div className="fade-in-right">
+                        <div className="inner">
                             <h2 className="signsheader">BY SIX MONTHS</h2>
                             <ul className="actions">
                                 <h3 className="pagesmaintwo">Limited smiling/eye contact/joyful and engaging expressions</h3>
@@ -47,10 +47,10 @@ const SignsOfAutism = props => (
                         </div>
                     </div>
                 </section>
-                <section>
-                    <img className="image" className="fade-in-right" src={autismthree} alt="Signs of Autism" />
+                <section className="fade-in-right">
+                    <img className="image" src={autismthree} alt="Signs of Autism" />
                     <div className="content">
-                        <div className="inner" className="fade-in-right">
+                        <div className="inner">
                             <h2 className="signsheader">BY TWELVE MONTHS</h2>
                             <ul className="actions">
                                 <h3 className="pagesmaintwo">Little to no attempts to talk/babbling</h3>
