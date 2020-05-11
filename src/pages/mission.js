@@ -25,8 +25,6 @@ const Mission = () => (
                 their families. We aspire to create the optimal healing
                 environment for those we serve in the office or their homes
               </h2>
-              <ul className="actions">
-              </ul>
             </div>
           </div>
         </section>

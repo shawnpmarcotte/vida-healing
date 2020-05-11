@@ -15,25 +15,21 @@ const About = () => (
     <BannerAbout />
 
     <div id="main">
-      <section id="one" className="spotlights">
-        <section>
-          <img src={aboutSecondary} className="fade-in-right" alt="Applied Behavior Analysis Therapy" />
+      <section id="two" className="spotlights">
+        <section className="fade-in-right">
+          <img className="image" src={aboutSecondary} alt="Applied Behavior Analysis Therapy" />
           <div className="content">
-            <div className="fade-in-right">
-              <h3 className="pagesmain">
-                Experience in crisis counseling, depressive disorders, anxiety, adjustment issues,
-                multicultural counseling, Schizophrenia, Bipolar Disorder, group
-                facilitation, victims of domestic violence, adult survivors of
-                childhood sexual abuse, Attention Deficit Disorder (ADD) and
-                Attention Deficit Hyperactivity Disorder (ADHD), disruptive
-                behaviors, and parent-child relational problems. I have a
-                special interest in young women who struggle with individuating
-                from their family of origin and trying to solidify their
-                individual identities
+            <h3 className="pagesmain">
+              Experience in crisis counseling, depressive disorders, anxiety, adjustment issues,
+              multicultural counseling, Schizophrenia, Bipolar Disorder, group
+              facilitation, victims of domestic violence, adult survivors of
+              childhood sexual abuse, Attention Deficit Disorder (ADD) and
+              Attention Deficit Hyperactivity Disorder (ADHD), disruptive
+              behaviors, and parent-child relational problems. I have a
+              special interest in young women who struggle with individuating
+              from their family of origin and trying to solidify their
+              individual identities
               </h3>
-              <ul className="actions">
-              </ul>
-            </div>
           </div>
         </section>
       </section>
