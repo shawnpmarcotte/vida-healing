@@ -193,15 +193,6 @@ const Contact = props => {
                         <span className="label">Instagram</span>
                       </a>
                     </li>
-                    {/* <li>
-                      <a
-                        href="https://www.linkedin.com/in/nely-henderson-43a19a92/"
-                        className="icon alt fa-linkedin"
-                        target="blank"
-                      >
-                        <span className="label">LinkedIn</span>
-                      </a>
-                    </li> */}
                   </ul>
                 </div>
               </footer>
