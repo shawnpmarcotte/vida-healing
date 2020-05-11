@@ -18,7 +18,7 @@ const AutismResources = (props) => (
                 <li><Link className="button next scrolly" onClick={props.toggleMenu} to="/contact">Contact</Link></li>
             </ul>
         </div>
-        <a className="close" onClick={props.toggleMenu} href="javascript:;">Close</a>
+        <a className="close" onClick={props.toggleMenu} href="/">Close</a>
     </nav>
 )
 AutismResources.propTypes = {

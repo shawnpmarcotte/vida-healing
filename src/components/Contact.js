@@ -132,7 +132,7 @@ const Contact = props => {
               <span className="icon alt fa-envelope"></span>
               <h3>EMAIL</h3>
               <h4>
-                <a href="#">vidahealingllc@gmail.com</a>
+                <a href="mailto:vidahealingllc@gmail.com">vidahealingllc@gmail.com</a>
               </h4>
             </div>
           </section>
