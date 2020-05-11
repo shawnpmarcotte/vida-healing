@@ -15,7 +15,7 @@ const Menu = (props) => (
                 <li><Link className="button next scrolly" onClick={props.onToggleMenu} to="/contact">Contact</Link></li>
             </ul>
         </div>
-        <a className="close" onClick={props.onToggleMenu} href="/">Close</a>
+        <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
     </nav>
 )
 Menu.propTypes = {

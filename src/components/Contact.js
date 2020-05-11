@@ -119,6 +119,9 @@ const Contact = props => {
               <li>
                 <input type="submit" value="Send Message" className="special" />
               </li>
+              <li>
+                <input type="reset" value="Clear" />
+              </li>
             </ul>
           </form>
 
@@ -132,7 +135,7 @@ const Contact = props => {
               <span className="icon alt fa-envelope"></span>
               <h3>EMAIL</h3>
               <h4>
-                <a href="mailto:vidahealingllc@gmail.com">vidahealingllc@gmail.com</a>
+                <a href="#">vidahealingllc@gmail.com</a>
               </h4>
             </div>
           </section>
@@ -190,6 +193,15 @@ const Contact = props => {
                         <span className="label">Instagram</span>
                       </a>
                     </li>
+                    {/* <li>
+                      <a
+                        href="https://www.linkedin.com/in/nely-henderson-43a19a92/"
+                        className="icon alt fa-linkedin"
+                        target="blank"
+                      >
+                        <span className="label">LinkedIn</span>
+                      </a>
+                    </li> */}
                   </ul>
                 </div>
               </footer>
