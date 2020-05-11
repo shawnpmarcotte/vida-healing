@@ -15,11 +15,11 @@ const Aba = () => (
     <BannerAbs />
 
     <div id="main">
-      <section id="two" className="spotlights">
-        <section>
-          <img className="image" className="fade-in-right" src={abaCover} alt="Applied Behavior Analysis" />
+      <section className="spotlights">
+        <section className="fade-in-right">
+          <img className="image" src={abaCover} alt="Applied Behavior Analysis" />
           <div className="content">
-            <div className="fade-in-right">
+            <div>
               <h2 className="pagesmain">
                 Applied Behavior Analysis (ABA) is provided to assist individuals in learning new functionality equivalent replacement skills for identified challenging behaviors. Many decades of research have validated treatments based on ABA
             </h2>
