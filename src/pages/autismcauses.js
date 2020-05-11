@@ -9,17 +9,17 @@ import autismcauses3 from '../assets/images/autismcauses3.jpg'
 import autismcauses4 from '../assets/images/autismcauses4.jpg'
 
 
-const AutismCauses = props => (
+const AutismCauses = () => (
     <Layout>
         <Helmet>
             <title>Autism Causes</title>
-            <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
+            <meta name="Autism Causes" content="Autism Causes" />
         </Helmet>
 
         <BannerAutismCauses />
 
         <div id="main">
-            <section id="one" className="fade-in-right">
+            <section className="fade-in-right">
                 <div className="inner">
                     <h1 className="signsheader">The Genetic Risk Factors</h1>
                     <span className="image main"><img src={autismcauses4} alt="Autism Causes Information" /></span>
@@ -29,8 +29,8 @@ const AutismCauses = props => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section>
-                    <img src={autismcauses3} className="fade-in-right" alt="" />
+                <section className="fade-in-right">
+                    <img src={autismcauses3} alt="" />
                     <div className="content">
                         <div className="fade-in-right">
                             <h2 className="signsheader">Environmental Risk Factors</h2>
@@ -56,10 +56,10 @@ const AutismCauses = props => (
                         </div>
                     </section>
                 </div>
-                <section>
-                    <img src={autismcauses1} className="fade-in-right" alt="" />
+                <section className="fade-in-right">
+                    <img src={autismcauses1} alt="" />
                     <div className="content">
-                        <div className="fade-in-right">
+                        <div>
                             <h2 className="signsheader">Other Associated Risks with Autism</h2>
                             <ul className="pagesmain">
                                 <h4 className="pagesmain">Either parent being much older than the typical parent</h4>
