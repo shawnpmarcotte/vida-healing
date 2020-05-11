@@ -15,11 +15,11 @@ const Individual = props => (
     <BannerIndividual />
 
     <div id="main">
-      <section id="two" className="spotlights">
-        <section>
-          <img className="image" className="fade-in-right" src={pic09} alt="Individual Therapy" />
+      <section className="spotlights">
+        <section className="fade-in-right">
+          <img className="image" src={pic09} alt="Individual Therapy" />
           <div className="content">
-            <div className="fade-in-right">
+            <div>
               <h2 className="pagesmain">
                 Depression and anxiety are two of the most common mental health issues in America. You don’t have to face your issues alone. We provide Individual Therapy and believe that this is a joint process between a Therapist and the person in therapy
                 </h2>

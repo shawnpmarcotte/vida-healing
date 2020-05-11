@@ -15,18 +15,18 @@ const Marriage = () => (
     <BannerMarriage />
 
     <div id="main">
-      <section id="two" className="spotlights">
-        <section>
-          <img className="image" className="fade-in-right" src={marriagecovertwo} alt="Marriage and Couples Therapy" />
+      <section className="spotlights">
+        <section className="fade-in-right">
+          <img className="image" src={marriagecovertwo} alt="Marriage and Couples Therapy" />
           <div className="content">
-            <div className="fade-in-right">
+            <div>
               <h3 className="pagesmain">
                 Often times, we enter into a relationship or marriage thinking that we have all the tools necessary to maintain a healthy life together. As time moves on, we realize that we were ill-equipped and with careers, children, family members, and other factors entering the picture, it becomes necessary to find and implement new strategies if we want to be successful. We believe with a little insight, the bond between two individuals can be strengthened and a successful relationship is possible
             </h3>
             </div>
           </div>
         </section>
-        <section>
+        <section className="fade-in-right">
           <img className="image" src={marriagecover} alt="Marriage and Couples Therapy" />
           <div className="content">
             <div className="inner">

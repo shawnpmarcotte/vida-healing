@@ -119,9 +119,6 @@ const Contact = props => {
               <li>
                 <input type="submit" value="Send Message" className="special" />
               </li>
-              <li>
-                <input type="reset" value="Clear" />
-              </li>
             </ul>
           </form>
 
@@ -135,7 +132,7 @@ const Contact = props => {
               <span className="icon alt fa-envelope"></span>
               <h3>EMAIL</h3>
               <h4>
-                <a href="#">vidahealingllc@gmail.com</a>
+                <a href="mailto:vidahealingllc@gmail.com">vidahealingllc@gmail.com</a>
               </h4>
             </div>
           </section>
@@ -144,7 +141,7 @@ const Contact = props => {
               <span className="icon alt fa-phone"></span>
               <h3>PHONE</h3>
               <h4>
-                <span>(305) 389-3224</span>
+                <a href="tel:[305-562-4279]"><span class="bottom">(305) 389-3224</span></a>
               </h4>
             </div>
           </section>

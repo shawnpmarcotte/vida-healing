@@ -15,18 +15,16 @@ const Mission = () => (
 
     <div id="main">
       <section id="two" className="spotlights">
-        <section>
-          <img className="image" className="fade-in-right" src={mission3} alt="Applied Behavior Analysis" />
+        <section className="fade-in-right">
+          <img className="image" src={mission3} alt="Applied Behavior Analysis" />
           <div className="content">
-            <div className="fade-in-right">
+            <div>
               <h2 className="pagesmain">
                 It is our goal
                 to have a significant impact on the lives of our clients and
                 their families. We aspire to create the optimal healing
                 environment for those we serve in the office or their homes
               </h2>
-              <ul className="actions">
-              </ul>
             </div>
           </div>
         </section>
