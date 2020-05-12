@@ -6,23 +6,23 @@ const AutismResources = (props) => (
     <nav id="menu">
         <div className="inner">
             <ul className="links">
-                <li><Link onClick={props.toggleMenu} to="/">Home</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/coresymptoms">Core Symptoms of Autism</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/autismfacts">Autism | Facts and Stats</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/signsofautism">The Signs of Autism</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/autismcauses">Autism | Causes</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/autismadults">Autism In Adults</Link></li>
-                <li><Link onClick={props.toggleMenu} to="/associatedmedical">Associated Medical Info</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/">Home</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/coresymptoms">Core Symptoms of Autism</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/autismfacts">Autism | Facts and Stats</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/signsofautism">The Signs of Autism</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/autismcauses">Autism | Causes</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/autismadults">Autism In Adults</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/associatedmedical">Associated Medical Info</Link></li>
             </ul>
             <ul className="actions">
-                <li><Link className="button next scrolly" onClick={props.toggleMenu} to="/contact">Contact</Link></li>
+                <li><Link className="button next scrolly" onClick={props.onToggleAutismMenu} to="/contact">Contact</Link></li>
             </ul>
         </div>
-        <a className="close" onClick={props.toggleMenu} href="javascript:;">Close</a>
+        <a className="close" onClick={props.onToggleAutismMenu} href="javascript:;">Close</a>
     </nav>
 )
 AutismResources.propTypes = {
-    toggleMenu: PropTypes.func,
+    onToggleAutismMenu: PropTypes.func,
 }
 
 export default AutismResources

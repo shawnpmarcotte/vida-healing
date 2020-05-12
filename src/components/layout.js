@@ -12,9 +12,11 @@ class Layout extends React.Component {
         super(props)
         this.state = {
             isMenuVisible: false,
+            isAutismResourcesVisible: false,
             loading: 'is-loading'
         }
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
+        this.handleToggleAutismResources = this.handleToggleAutismResources.bind(this)
     }
 
     componentDidMount() {
@@ -31,23 +33,28 @@ class Layout extends React.Component {
 
     handleToggleMenu() {
         this.setState({
-            isMenuVisible: !this.state.isMenuVisible
+            isMenuVisible: !this.state.isMenuVisible,
         })
     }
 
+    handleToggleAutismResources() {
+        this.setState({
+            isAutismResourcesVisible: !this.state.isAutismResourcesVisible,
+        })
+    }
     render() {
         const { children } = this.props
 
         return (
-            <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+            <div className={`body ${this.state.loading} ${this.state.isMenuVisible || this.state.isAutismResourcesVisible ? 'is-menu-visible' : 'is-autism-resources-visible'}`}>
                 <div id="wrapper">
-                    <Header onToggleMenu={this.handleToggleMenu} toggleMenu={this.handleToggleMenu} />
+                    <Header onToggleMenu={this.handleToggleMenu} onToggleAutismMenu={this.handleToggleAutismResources} />
                     {children}
                     <Contact />
                     <Footer />
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
-                <AutismResources toggleMenu={this.handleToggleMenu} />
+                <AutismResources onToggleAutismMenu={this.handleToggleAutismResources} />
             </div>
         )
     }
