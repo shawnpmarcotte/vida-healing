@@ -180,3 +180,21 @@ body.is-ie {
     }
   }
 }
+
+.body.is-autism-resources-visible {
+  // #wrapper {
+  // 	@include vendor('filter', 'blur(0.5em)');
+  // }
+
+  #menu {
+    @include vendor('pointer-events', 'auto');
+    opacity: 1;
+    visibility: visible;
+
+    .inner {
+      @include vendor('transform', 'none');
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

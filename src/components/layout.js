@@ -35,29 +35,32 @@ class Layout extends React.Component {
         this.setState({
             isMenuVisible: !this.state.isMenuVisible,
         })
+        console.log('test1')
     }
 
     handleToggleAutismResources() {
         this.setState({
             isAutismResourcesVisible: !this.state.isAutismResourcesVisible,
         })
+        console.log('test2')
     }
     render() {
         const { children } = this.props
 
         return (
-            <div className={`body ${this.state.loading} ${this.state.isMenuVisible || this.state.isAutismResourcesVisible ? 'is-menu-visible' : 'is-autism-resources-visible'}`}>
+            <div className={`body ${this.state.loading} ${this.state.isAutismResourcesVisible ? 'is-autism-resources-visible' : ''} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} onToggleAutismMenu={this.handleToggleAutismResources} />
                     {children}
                     <Contact />
                     <Footer />
                 </div>
-                <Menu onToggleMenu={this.handleToggleMenu} />
-                <AutismResources onToggleAutismMenu={this.handleToggleAutismResources} />
+                {this.state.isMenuVisible && <Menu onToggleMenu={this.handleToggleMenu} />}
+                {this.state.isAutismResourcesVisible && <AutismResources onToggleAutismMenu={this.handleToggleAutismResources} />}
             </div>
         )
     }
 }
 
 export default Layout
+
