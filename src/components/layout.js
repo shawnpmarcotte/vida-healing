@@ -25,7 +25,7 @@ class Layout extends React.Component {
         }, 100);
     }
 
-    componentWillUnmount() {
+    UNSAFE_componentWillUnmount() {
         if (this.timeoutId) {
             clearTimeout(this.timeoutId);
         }
