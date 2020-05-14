@@ -16,12 +16,12 @@ const Generic = () => (
         <div id="main" className="fade-in-right">
             <section id="one">
                 <div className="inner">
-                    <span className="image main"><img src={factsandstats7} alt="Associated Autism Medical Information" /></span>
                     <h3 className="pagesmain">Autism affects the entire body and can change the body as well</h3>
                     <h3 className="pagesmain">Over 50% of kids with autism have sleeping problems</h3>
                     <h3 className="pagesmain">Up to 40% of autistic kids and teens have suffered from anxiety disorders</h3>
                     <h3 className="pagesmain">Up to about 25% of adults with autism suffer from depression</h3>
                     <h3 className="pagesmain">Kids that have autism are up to 8 times more likely to suffer from chronic and long-term gastrointestinal problems and disorders</h3>
+                    <span className="image main"><img src={factsandstats7} alt="Associated Autism Medical Information" /></span>
                     <h3 className="pagesmain">Up to 1/3 of kids with autism also have epilepsy/seizure disorders</h3>
                     <h3 className="pagesmain">Up to 35% of adults with autism have schizophrenia. Schizophrenia affects about 1.1 % of the population</h3>
                     <h3 className="pagesmain">Health issues linked to autism extend across an individual's entire life. Nearly 1/3 of kids ages 2-5 with autism have obesity problems. To compare, less than 25% of kids age 2-5 in the overall public are obese</h3>
