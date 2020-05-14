@@ -7,9 +7,9 @@ const Banner = props => (
         <h1>Applied Behavior Analysis</h1>
       </header>
       <div className="content">
-        <h4>
+        <h3>
           It is vital for you as the parent or caregiver to know what early signs of autism are and to familiarize yourself with the developmental milestones the child needs to be reaching at particular ages and stages of childhood
-        </h4>
+        </h3>
         <ul className="actions">
           <li>
             <a href="#one" className="button next scrolly">
