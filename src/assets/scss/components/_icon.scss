@@ -18,10 +18,10 @@
 		&.alt {
 			&:before {
 				//////////// ICON BG COLOR /////////// 
-				background-color: _palette(accent9);
+				background-color: _palette(fg);
 				border-radius: 100%;
 				//////////// ICON TEXT COLOR /////////// 
-				color: _palette(accent4);
+				color: _palette(accent9);
 				display: inline-block;
 				height: 2em;
 				line-height: 2em;
@@ -45,9 +45,9 @@
 			&:hover {
 				&:before {
 					//////////// ICON ON HOVER BG COLOR /////////// 
-					background-color: _palette(accent4);
+					background-color: _palette(bg);
 					//////////// ICON ON HOVER TEXT COLOR /////////// 
-					color: _palette(accent9);
+					color: _palette(fg);
 				}
 			}
 
