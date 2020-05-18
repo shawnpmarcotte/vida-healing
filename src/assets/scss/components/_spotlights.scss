@@ -17,7 +17,7 @@
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			//////////// TILE BG COLOR ///////////
-			background-color: desaturate(lighten(_palette(accent4), 2), 1);
+			background-color: desaturate(lighten(_palette(accent1), 2), 1);
 
 			> .image {
 				background-position: center center;
@@ -34,7 +34,7 @@
 				}
 
 				&:before {
-					background: transparentize(_palette(accent9), 0.1);
+					background: transparentize(_palette(accent1), 0.1);
 					content: '';
 					display: block;
 					height: 100%;

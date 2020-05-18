@@ -141,7 +141,7 @@ const Contact = props => {
               <span className="icon alt fa-phone"></span>
               <h3>PHONE</h3>
               <h4>
-                <a href="tel:[305-562-4279]"><span class="bottom">(305) 389-3224</span></a>
+                <a href="tel:[305-562-4279]"><span className="bottom">(305) 389-3224</span></a>
               </h4>
             </div>
           </section>

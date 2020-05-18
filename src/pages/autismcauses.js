@@ -73,11 +73,9 @@ const AutismCauses = () => (
             <div id="main" className="alt">
                 <div className="inner">
                     <header>
-                        <h5>
-                            <h3 className="signsblock">
-                                The information listed above is not meant to diagnose autism for you or a loved one
+                        <h3 className="signsblock">
+                            The information listed above is not meant to diagnose autism for you or a loved one
                             </h3>
-                        </h5>
                         <div className="pulsate-fwd">
                             <h2>Please Contact Us At Vida Healing Today To Learn How We can Help</h2>
                         </div>
