@@ -17,7 +17,7 @@
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			//////////// TILE BG COLOR ///////////
-			background-color: desaturate(lighten(_palette(accent4), 2), 1);
+			background-color: desaturate(lighten(_palette(accent3), 2), 1);
 
 			> .image {
 				background-position: center center;
