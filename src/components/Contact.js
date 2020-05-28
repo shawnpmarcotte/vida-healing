@@ -148,16 +148,7 @@ const Contact = props => {
           <section>
             <div className="contact-method">
               <span className="icon alt fa-home"></span>
-              <h3>ADDRESS</h3>
-              <h4>
-                <span>
-                  2701 W. Oakland Park Blvd Suite 410-9
-                  <br />
-                  Oakland Park, FL 33311
-                  <br />
-                  United States of America
-                </span>
-              </h4>
+              <h3>We have offices in South Florida and the Tampa Bay Area</h3>
             </div>
             <section>
               <footer id="footer">

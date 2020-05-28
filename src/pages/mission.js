@@ -23,7 +23,7 @@ const Mission = () => (
                 It is our goal
                 to have a significant impact on the lives of our clients and
                 their families. We aspire to create the optimal healing
-                environment for those we serve in the office or their homes
+                environment for those we serve in our community
               </h2>
             </div>
           </div>
