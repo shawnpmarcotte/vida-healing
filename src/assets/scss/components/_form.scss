@@ -79,7 +79,7 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(accent11); ///FORM INPUT BLOCK FONT COLOR 
+		background: _palette(accent9); ///FORM INPUT BLOCK FONT COLOR 
 		border: none;
 		border-radius: 0;
 		color: inherit;
