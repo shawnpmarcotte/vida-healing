@@ -38,13 +38,12 @@ const CoreSymptoms = props => (
                     <img className="image" src={autismthree} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner">
-                            <h2 className="signsheader">COMMUNICATION ISSUES - Symptoms:</h2>
+                            <h4 className="signsheader">Communication Issues:</h4>
                             <ul className="actions">
                                 <h4 className="pagesmain">Speaking and verbal language (1/3 of autism cases cannot speak)</h4>
-                                <h4 className="pagesmain">Euphemisms and things not meant to be taken literally</h4>
+                                <h4 className="pagesmain">Euphemisms/things not meant to be taken literally</h4>
                                 <h4 className="pagesmain">Physical or hand gestures / lack of eye contact</h4>
-                                <h4 className="pagesmain">Making expressions with your face</h4>
-                                <h4 className="pagesmain">The tone of one's voice</h4>
+                                <h4 className="pagesmain">Making facial expressions/controlling voice tone</h4>
                             </ul>
                         </div>
                     </div>
@@ -53,13 +52,12 @@ const CoreSymptoms = props => (
                     <img className="image" src={coresymptomsthree} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner">
-                            <h2 className="signsheader">Additional Social Challenges May Include:</h2>
+                            <h4 className="signsheader">Additional Social Challenges May Include:</h4>
                             <ul className="actions">
-                                <h4 className="pagesmain">Ability to express emotions/recognizing emotions and intention of others</h4>
+                                <h4 className="pagesmain">Ability to express or recognize emotions</h4>
                                 <h4 className="pagesmain">Feelings of being overwhelmed in social situations</h4>
-                                <h4 className="pagesmain">The ability to take turns properly in social situations</h4>
-                                <h4 className="pagesmain">Maintaining proper personal space in social situations</h4>
-                                <h4 className="pagesmain">Repetitive and restrictive behaviors </h4>
+                                <h4 className="pagesmain">Taking turns properly in social situations</h4>
+                                <h4 className="pagesmain">Maintaining proper personal space</h4>
                             </ul>
                         </div>
                     </div>
@@ -68,11 +66,11 @@ const CoreSymptoms = props => (
                     <img className="image" src={aboutcover} alt="Autism Symptoms" />
                     <div className="content">
                         <div className="inner">
-                            <h2 className="signsheader">Repetitive Behaviors May Include:</h2>
+                            <h4 className="signsheader">Repetitive Behaviors May Include:</h4>
                             <ul className="actions">
-                                <h4 className="pagesmain">Repetitive movements like rocking motions or shaking sticks etc.</h4>
-                                <h4 className="pagesmain">Ritualistic behaviors: lining up objects, touching items in a set order</h4>
-                                <h4 className="pagesmain">Obsessive interest in a few (often niche and specialized) topics </h4>
+                                <h4 className="pagesmain">Repetitive movements: rocking, shaking sticks etc.</h4>
+                                <h4 className="pagesmain">Ritualistic behaviors, ex. lining up objects</h4>
+                                <h4 className="pagesmain">Obsessive interest in a few (often specialized) topics </h4>
                                 <h4 className="pagesmain">Need for a steady routine (ex. the same clothes, the same schedule, etc.)</h4>
                             </ul>
                         </div>
