@@ -9,7 +9,7 @@ const AutismResources = (props) => (
                 <li><Link onClick={props.onToggleAutismMenu} to="/">Home</Link></li>
                 <li><Link onClick={props.onToggleAutismMenu} to="/coresymptoms">Core Symptoms of Autism</Link></li>
                 <li><Link onClick={props.onToggleAutismMenu} to="/autismfacts">Autism | Facts and Stats</Link></li>
-                <li><Link onClick={props.onToggleAutismMenu} to="/signsofautism">The Signs of Autism</Link></li>
+                <li><Link onClick={props.onToggleAutismMenu} to="/Signsofautism">The Signs of Autism</Link></li>
                 <li><Link onClick={props.onToggleAutismMenu} to="/autismcauses">Autism | Causes</Link></li>
                 <li><Link onClick={props.onToggleAutismMenu} to="/autismadults">Autism In Adults</Link></li>
                 <li><Link onClick={props.onToggleAutismMenu} to="/associatedmedical">Associated Medical Info</Link></li>
@@ -18,7 +18,7 @@ const AutismResources = (props) => (
                 <li><Link className="button next scrolly" onClick={props.onToggleAutismMenu} to="/contact">Contact</Link></li>
             </ul>
         </div>
-        <a className="close" onClick={props.onToggleAutismMenu} href="" >Close</a>
+        <a className="close" onClick={props.onToggleAutismMenu} href="AutismResources:;" >Close</a>
     </nav>
 )
 AutismResources.propTypes = {
