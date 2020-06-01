@@ -39,7 +39,7 @@
 
 		////// CLEAR BUTTON ONCLICK COLOR ////////
 		&:hover, &:active {
-			box-shadow: inset 0 0 0 2px _palette(accent1);
+			box-shadow: inset 0 0 0 2px _palette(bg);
 			color: _palette(accent4);
 		}
 

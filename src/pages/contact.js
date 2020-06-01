@@ -1,6 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import BannerContact from '../components/BannerContact'
+
 
 import contact from '../assets/images/contact.jpg'
 
@@ -10,6 +12,7 @@ const Family = () => (
             <title>Contact</title>
             <meta name="Applied Behavior Analysis" content="Applied Behavior Analysis" />
         </Helmet>
+        <BannerContact />
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
