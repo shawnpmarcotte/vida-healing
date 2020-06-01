@@ -18,7 +18,7 @@ const AutismFacts = () => (
             <section id="one" className="fade-in-right">
                 <div className="inner">
                     <header className="major">
-                        <h1>Autism: Facts and Statistics</h1>
+                        <h2>Autism: Facts and Statistics</h2>
                     </header>
                     <span className="image main"><img src={factsandstats} alt="Autism: Facts and Statistics" /></span>
                     <h1 className="signsblock">The Prevalence of Autism</h1>
