@@ -35,14 +35,14 @@ const SignsOfAutism = props => (
                     <img className="image" src={autismtwo} alt="Signs of Autism" />
                     <div className="content">
                         <div className="inner">
-                            <h2 className="signsheader">BY SIX MONTHS</h2>
+                            <h3 className="signsheader">BY SIX MONTHS</h3>
                             <ul className="actions">
-                                <h3 className="pagesmaintwo">Limited smiling/eye contact/joyful and engaging expressions</h3>
-                                <h2 className="signsheader">BY NINE MONTHS</h2>
-                                <h3 className="pagesmaintwo">Little to no smiling, sharing expressions, or happy expressions</h3>
-                                <h3 className="pagesmaintwo">Little to no attempts to talk/babbling</h3>
-                                <h3 className="pagesmaintwo">Little to no hand gestures with others</h3>
-                                <h3 className="pagesmaintwo">Little to no reaction to their name being said</h3>
+                                <h4 className="pagesmaintwo">Limited smiling/eye contact/joyful and engaging expressions</h4>
+                                <h4 className="signsheader">BY NINE MONTHS</h4>
+                                <h4 className="pagesmaintwo">Little to no smiling, sharing expressions, or happy expressions</h4>
+                                <h4 className="pagesmaintwo">Little to no attempts to talk/babbling</h4>
+                                <h4 className="pagesmaintwo">Little to no hand gestures with others</h4>
+                                <h4 className="pagesmaintwo">Little to no reaction to their name being said</h4>
                             </ul>
                         </div>
                     </div>
@@ -51,13 +51,13 @@ const SignsOfAutism = props => (
                     <img className="image" src={autismthree} alt="Signs of Autism" />
                     <div className="content">
                         <div className="inner">
-                            <h2 className="signsheader">BY TWELVE MONTHS</h2>
+                            <h3 className="signsheader">BY TWELVE MONTHS</h3>
                             <ul className="actions">
-                                <h3 className="pagesmaintwo">Little to no attempts to talk/babbling</h3>
-                                <h3 className="pagesmaintwo">Little to no hand gestures with others, such as waving and pointing</h3>
-                                <h3 className="pagesmaintwo">Little to no reaction to their name being said</h3>
-                                <h2 className="signsheader">BY SIXTEEN MONTHS</h2>
-                                <h3 className="pagesmaintwo">Few to no spoken words</h3>
+                                <h4 className="pagesmaintwo">Little to no attempts to talk/babbling</h4>
+                                <h4 className="pagesmaintwo">Little to no hand gestures with others, such as waving and pointing</h4>
+                                <h4 className="pagesmaintwo">Little to no reaction to their name being said</h4>
+                                <h3 className="signsheader">BY SIXTEEN MONTHS</h3>
+                                <h4 className="pagesmaintwo">Few to no spoken words</h4>
                             </ul>
                         </div>
                     </div>
@@ -66,13 +66,13 @@ const SignsOfAutism = props => (
                     <img className="image" src={autismfour} alt="Signs of Autism" />
                     <div className="content">
                         <div className="inner">
-                            <h2 className="signsheader">BY TWENTY-FOUR MONTHS</h2>
+                            <h3 className="signsheader">BY TWENTY-FOUR MONTHS</h3>
                             <ul className="actions">
-                                <h3 className="pagesmaintwo">Having trouble understanding others' feelings</h3>
-                                <h3 className="pagesmaintwo">Stalled development of language</h3>
-                                <h3 className="pagesmaintwo">Repeating certain words repeatedly (echolalia)</h3>
-                                <h3 className="pagesmaintwo">A restriction of interests </h3>
-                                <h3 className="pagesmaintwo">Repetitious actions and behaviors (like rocking and flapping)</h3>
+                                <h4 className="pagesmaintwo">Having trouble understanding others' feelings</h4>
+                                <h4 className="pagesmaintwo">Stalled development of language</h4>
+                                <h4 className="pagesmaintwo">Repeating certain words repeatedly (echolalia)</h4>
+                                <h4 className="pagesmaintwo">A restriction of interests </h4>
+                                <h4 className="pagesmaintwo">Repetitious actions and behaviors (like rocking and flapping)</h4>
                             </ul>
                         </div>
                     </div>
