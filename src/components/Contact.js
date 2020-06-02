@@ -5,7 +5,13 @@ const Contact = props => {
     <section id="contact">
       <div className="inner">
         <section>
-          <form method="post" action="#">
+          <form
+            name="contact"
+            method="post"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
+            <input type="hidden" name="bot-field" />
             {/************************************
              * NAME
              *************************************/}
