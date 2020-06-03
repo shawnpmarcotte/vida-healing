@@ -51,11 +51,9 @@ const Contact = props => {
               <h4>MESSAGE</h4>
               <textarea name="message" id="message" rows="6" value="message" />
             </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-            </ul>
+            <button className="actions">
+              <input type="submit" className="special" />
+            </button>
           </form>
 
           {/*************************************** 
