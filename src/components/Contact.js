@@ -13,7 +13,7 @@ const Contact = props => {
 
             <div className="field half first">
               <h4>NAME</h4>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" value="name" />
             </div>
 
             {/************************************
@@ -22,7 +22,7 @@ const Contact = props => {
 
             <div className="field half">
               <h4>EMAIL</h4>
-              <input type="text" name="email" id="email" />
+              <input type="text" name="email" id="email" value="email" />
             </div>
 
             {/************************************
@@ -31,7 +31,7 @@ const Contact = props => {
 
             <div className="field half first">
               <h4>SUBJECT</h4>
-              <input type="text" name="subject" id="subject" />
+              <input type="text" name="subject" id="subject" value="subject" />
             </div>
 
             {/************************************
@@ -40,7 +40,7 @@ const Contact = props => {
 
             <div className="field half">
               <h4>PHONE NUMBER</h4>
-              <input type="text" name="number" id="number" />
+              <input type="text" name="number" id="number" value="number" />
             </div>
 
             {/************************************
@@ -49,7 +49,7 @@ const Contact = props => {
 
             <div className="field">
               <h4>MESSAGE</h4>
-              <textarea name="message" id="message" rows="6" />
+              <textarea name="message" id="message" rows="6" value="message" />
             </div>
             <ul className="actions">
               <li>
