@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.21.22",
     "gatsby-cli": "^2.12.40",
     "gatsby-plugin-manifest": "^2.4.2",
