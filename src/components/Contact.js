@@ -5,14 +5,14 @@ const Contact = props => {
     <section id="contact">
       <div className="inner">
         <section>
-          <form method="post" netlify-honeypot="bot-field" data-netlify="true">
-            <input type="hidden" name="bot-field" />
+          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
             {/************************************
              * NAME
              *************************************/}
 
             <div className="field half first">
-              <h4 htmlFor="name">NAME</h4>
+              <h4>NAME</h4>
               <input type="text" name="name" id="name" />
             </div>
 
@@ -21,7 +21,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field half">
-              <h4 htmlFor="email">EMAIL</h4>
+              <h4>EMAIL</h4>
               <input type="text" name="email" id="email" />
             </div>
 
@@ -30,7 +30,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field half first">
-              <h4 htmlFor="subject">SUBJECT</h4>
+              <h4>SUBJECT</h4>
               <input type="text" name="subject" id="subject" />
             </div>
 
@@ -39,7 +39,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field half">
-              <h4 htmlFor="number">PHONE NUMBER</h4>
+              <h4>PHONE NUMBER</h4>
               <input type="text" name="number" id="number" />
             </div>
 
@@ -48,7 +48,7 @@ const Contact = props => {
              *************************************/}
 
             <div className="field">
-              <h4 htmlFor="message">MESSAGE</h4>
+              <h4>MESSAGE</h4>
               <textarea name="message" id="message" rows="6" />
             </div>
             <ul className="actions">
