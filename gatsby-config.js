@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
 
     {
+      resolve: `gatsby-plugin-styled-components`,
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "GatsbyJS",
