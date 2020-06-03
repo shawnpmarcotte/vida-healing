@@ -5,55 +5,32 @@ const Contact = props => {
     <section id="contact">
       <div className="inner">
         <section>
-          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
             <input type="hidden" name="form-name" value="contact" />
-            {/************************************
-             * NAME
-             *************************************/}
-
-            <div className="field half first">
-              <h4>NAME</h4>
-              <input type="text" name="name" id="name" />
-            </div>
-
-            {/************************************
-             * EMAIL
-             *************************************/}
-
-            <div className="field half">
-              <h4>EMAIL</h4>
-              <input type="text" name="email" id="email" />
-            </div>
-
-            {/************************************
-             * SUBJECT
-             *************************************/}
-
-            <div className="field half first">
-              <h4>SUBJECT</h4>
-              <input type="text" name="subject" id="subject" />
-            </div>
-
-            {/************************************
-             * PHONE NUMBER
-             *************************************/}
-
-            <div className="field half">
-              <h4>PHONE NUMBER</h4>
-              <input type="text" name="number" id="number" />
-            </div>
-
-            {/************************************
-             * MESSAGE
-             *************************************/}
-
-            <div className="field">
-              <h4>MESSAGE</h4>
-              <textarea name="message" id="message" rows="6" />
-            </div>
-            <button type="submit" className="actions">
-              Send Message
-            </button>
+            <p>
+              <label>
+                Your Name: <input type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Your Email: <input type="email" name="email" />
+              </label>
+            </p>
+            <p>
+              <textarea
+                name="message"
+                placeholder="message me here.."
+              ></textarea>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
           </form>
 
           {/*************************************** 
