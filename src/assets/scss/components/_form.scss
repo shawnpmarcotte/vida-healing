@@ -89,7 +89,7 @@ textarea {
   text-decoration: none;
   width: 100%;
   resize: vertical;
-  opacity: 100%;
+  opacity: .5;
 
   &:invalid {
     box-shadow: none;
@@ -145,7 +145,7 @@ input[type='radio'] {
   display: block;
   float: left;
   margin-right: -2em;
-  opacity: 0;
+  opacity: .5;
   width: 1em;
   z-index: -1;
 
@@ -207,25 +207,25 @@ input[type='radio'] {
 
 ::-webkit-input-placeholder {
   color: _palette(fg-bold) !important;
-  opacity: 1;
+  opacity: .5;
 }
 
 :-moz-placeholder {
   color: _palette(fg-bold) !important;
-  opacity: 1;
+  opacity: .5;
 }
 
 ::-moz-placeholder {
   color: _palette(fg-bold) !important;
-  opacity: 1;
+  opacity: .5;
 }
 
 :-ms-input-placeholder {
   color: _palette(fg-bold) !important;
-  opacity: 1;
+  opacity: .5;
 }
 
 .formerize-placeholder {
   color: _palette(fg-bold) !important;
-  opacity: 1;
+  opacity: .5;
 }

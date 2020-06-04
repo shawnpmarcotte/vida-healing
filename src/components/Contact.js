@@ -12,22 +12,24 @@ const Contact = props => {
             data-netlify-honeypot="bot-field"
           >
             <input type="hidden" name="form-name" value="contact" />
-            <p>
+            <h3>
               <label>
-                Your Name: <input type="text" name="name" />
+                Name: <input type="text" name="name" />
               </label>
-            </p>
-            <p>
+            </h3>
+            <h3>
               <label>
-                Your Email: <input type="email" name="email" />
+                Email: <input type="email" name="email" />
               </label>
-            </p>
-            <p>
-              <textarea
-                name="message"
-                placeholder="message me here.."
-              ></textarea>
-            </p>
+            </h3>
+            <h3>
+              <label>Message:
+                <textarea
+                  name="message"
+                  placeholder="Tell Us How We Can Help!"
+                ></textarea>
+              </label>
+            </h3>
             <p>
               <button type="submit">Send</button>
             </p>
